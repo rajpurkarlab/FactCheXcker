@@ -1,0 +1,3802 @@
+{
+    "patient64620_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5686344504356384,
+                "pred": [
+                    307.0,
+                    243.5
+                ]
+            },
+            "1": {
+                "confidence": 0.23615311086177826,
+                "pred": [
+                    323.0,
+                    117.0
+                ]
+            }
+        }
+    },
+    "patient64678_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6352745890617371,
+                "pred": [
+                    328.0,
+                    195.5
+                ]
+            },
+            "1": {
+                "confidence": 0.2168291062116623,
+                "pred": [
+                    326.0,
+                    186.5
+                ]
+            }
+        }
+    },
+    "patient64680_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5433283448219299,
+                "pred": [
+                    290.0,
+                    209.0
+                ]
+            },
+            "1": {
+                "confidence": 0.6717134118080139,
+                "pred": [
+                    310.0,
+                    79.0
+                ]
+            }
+        }
+    },
+    "patient64592_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.713855504989624,
+                "pred": [
+                    306.0,
+                    269.0
+                ]
+            },
+            "1": {
+                "confidence": 0.2960924208164215,
+                "pred": [
+                    309.0,
+                    166.5
+                ]
+            }
+        }
+    },
+    "patient64729_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.4041012227535248,
+                "pred": [
+                    362.5,
+                    294.0
+                ]
+            },
+            "1": {
+                "confidence": 0.3092542886734009,
+                "pred": [
+                    358.0,
+                    140.0
+                ]
+            }
+        }
+    },
+    "patient64545_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6048529148101807,
+                "pred": [
+                    328.5,
+                    260.0
+                ]
+            },
+            "1": {
+                "confidence": 0.24559670686721802,
+                "pred": [
+                    327.0,
+                    214.5
+                ]
+            }
+        }
+    },
+    "patient64643_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5778533220291138,
+                "pred": [
+                    262.5,
+                    201.5
+                ]
+            },
+            "1": {
+                "confidence": 0.49200576543807983,
+                "pred": [
+                    257.0,
+                    157.5
+                ]
+            }
+        }
+    },
+    "patient64661_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7626771330833435,
+                "pred": [
+                    333.5,
+                    308.0
+                ]
+            },
+            "1": {
+                "confidence": 0.6821084022521973,
+                "pred": [
+                    335.5,
+                    238.0
+                ]
+            }
+        }
+    },
+    "patient64604_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6849684715270996,
+                "pred": [
+                    316.0,
+                    218.5
+                ]
+            },
+            "1": {
+                "confidence": 0.4114155173301697,
+                "pred": [
+                    311.5,
+                    207.0
+                ]
+            }
+        }
+    },
+    "patient64548_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5575816035270691,
+                "pred": [
+                    315.5,
+                    205.0
+                ]
+            },
+            "1": {
+                "confidence": 0.2182505875825882,
+                "pred": [
+                    312.5,
+                    201.0
+                ]
+            }
+        }
+    },
+    "patient64610_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.425946444272995,
+                "pred": [
+                    322.5,
+                    256.0
+                ]
+            },
+            "1": {
+                "confidence": 0.32839465141296387,
+                "pred": [
+                    336.0,
+                    131.5
+                ]
+            }
+        }
+    },
+    "patient64702_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7921401858329773,
+                "pred": [
+                    313.0,
+                    291.5
+                ]
+            },
+            "1": {
+                "confidence": 0.36733025312423706,
+                "pred": [
+                    311.5,
+                    209.5
+                ]
+            }
+        }
+    },
+    "patient64708_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5606294870376587,
+                "pred": [
+                    325.5,
+                    285.0
+                ]
+            },
+            "1": {
+                "confidence": 0.3746137022972107,
+                "pred": [
+                    340.0,
+                    138.5
+                ]
+            }
+        }
+    },
+    "patient64688_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5766181945800781,
+                "pred": [
+                    339.5,
+                    226.5
+                ]
+            },
+            "1": {
+                "confidence": 0.5788775086402893,
+                "pred": [
+                    337.0,
+                    143.0
+                ]
+            }
+        }
+    },
+    "patient64675_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7132590413093567,
+                "pred": [
+                    322.5,
+                    324.0
+                ]
+            },
+            "1": {
+                "confidence": 0.26114392280578613,
+                "pred": [
+                    331.5,
+                    241.5
+                ]
+            }
+        }
+    },
+    "patient64580_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.4357794523239136,
+                "pred": [
+                    286.5,
+                    305.5
+                ]
+            },
+            "1": {
+                "confidence": 0.1537424772977829,
+                "pred": [
+                    283.0,
+                    263.5
+                ]
+            }
+        }
+    },
+    "patient64573_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.4049191474914551,
+                "pred": [
+                    269.5,
+                    354.0
+                ]
+            },
+            "1": {
+                "confidence": 0.6780181527137756,
+                "pred": [
+                    262.5,
+                    195.0
+                ]
+            }
+        }
+    },
+    "patient64595_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6521053314208984,
+                "pred": [
+                    299.0,
+                    148.0
+                ]
+            },
+            "1": {
+                "confidence": 0.3494177758693695,
+                "pred": [
+                    305.5,
+                    84.0
+                ]
+            }
+        }
+    },
+    "patient64655_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.44276919960975647,
+                "pred": [
+                    373.0,
+                    119.0
+                ]
+            },
+            "1": {
+                "confidence": 0.4779430627822876,
+                "pred": [
+                    373.0,
+                    74.0
+                ]
+            }
+        }
+    },
+    "patient64565_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.43849292397499084,
+                "pred": [
+                    334.0,
+                    260.0
+                ]
+            },
+            "1": {
+                "confidence": 0.26320314407348633,
+                "pred": [
+                    331.5,
+                    173.0
+                ]
+            }
+        }
+    },
+    "patient64612_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5512325763702393,
+                "pred": [
+                    345.0,
+                    221.0
+                ]
+            },
+            "1": {
+                "confidence": 0.2888542711734772,
+                "pred": [
+                    354.5,
+                    141.5
+                ]
+            }
+        }
+    },
+    "patient64700_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7315349578857422,
+                "pred": [
+                    317.0,
+                    257.5
+                ]
+            },
+            "1": {
+                "confidence": 0.2926909327507019,
+                "pred": [
+                    312.5,
+                    214.5
+                ]
+            }
+        }
+    },
+    "patient64682_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.3560015857219696,
+                "pred": [
+                    307.0,
+                    230.5
+                ]
+            },
+            "1": {
+                "confidence": 0.36143508553504944,
+                "pred": [
+                    372.5,
+                    457.5
+                ]
+            }
+        }
+    },
+    "patient64683_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5030373334884644,
+                "pred": [
+                    311.5,
+                    278.0
+                ]
+            },
+            "1": {
+                "confidence": 0.35099565982818604,
+                "pred": [
+                    292.0,
+                    202.0
+                ]
+            }
+        }
+    },
+    "patient64556_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6429361701011658,
+                "pred": [
+                    306.5,
+                    291.5
+                ]
+            },
+            "1": {
+                "confidence": 0.20633506774902344,
+                "pred": [
+                    310.0,
+                    163.0
+                ]
+            }
+        }
+    },
+    "patient64602_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5931694507598877,
+                "pred": [
+                    338.0,
+                    260.5
+                ]
+            },
+            "1": {
+                "confidence": 0.4134995639324188,
+                "pred": [
+                    341.5,
+                    186.0
+                ]
+            }
+        }
+    },
+    "patient64589_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5737557411193848,
+                "pred": [
+                    283.5,
+                    209.0
+                ]
+            },
+            "1": {
+                "confidence": 0.43350669741630554,
+                "pred": [
+                    269.5,
+                    170.5
+                ]
+            }
+        }
+    },
+    "patient64724_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5304906368255615,
+                "pred": [
+                    292.0,
+                    277.0
+                ]
+            },
+            "1": {
+                "confidence": 0.19282840192317963,
+                "pred": [
+                    293.0,
+                    131.5
+                ]
+            }
+        }
+    },
+    "patient64635_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6019172668457031,
+                "pred": [
+                    319.5,
+                    223.5
+                ]
+            },
+            "1": {
+                "confidence": 0.3806975483894348,
+                "pred": [
+                    315.0,
+                    213.0
+                ]
+            }
+        }
+    },
+    "patient64698_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6554573774337769,
+                "pred": [
+                    349.0,
+                    226.5
+                ]
+            },
+            "1": {
+                "confidence": 0.2606951892375946,
+                "pred": [
+                    341.0,
+                    28.5
+                ]
+            }
+        }
+    },
+    "patient64551_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7218109369277954,
+                "pred": [
+                    307.5,
+                    219.5
+                ]
+            },
+            "1": {
+                "confidence": 0.24383707344532013,
+                "pred": [
+                    307.5,
+                    186.5
+                ]
+            }
+        }
+    },
+    "patient64587_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5666109919548035,
+                "pred": [
+                    301.5,
+                    284.0
+                ]
+            },
+            "1": {
+                "confidence": 0.2446146160364151,
+                "pred": [
+                    309.0,
+                    155.0
+                ]
+            }
+        }
+    },
+    "patient64613_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6918091773986816,
+                "pred": [
+                    309.5,
+                    258.5
+                ]
+            },
+            "1": {
+                "confidence": 0.431606262922287,
+                "pred": [
+                    312.0,
+                    163.5
+                ]
+            }
+        }
+    },
+    "patient64648_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7280877232551575,
+                "pred": [
+                    286.0,
+                    325.5
+                ]
+            },
+            "1": {
+                "confidence": 0.3163846731185913,
+                "pred": [
+                    277.5,
+                    257.0
+                ]
+            }
+        }
+    },
+    "patient64640_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.518387496471405,
+                "pred": [
+                    333.5,
+                    305.5
+                ]
+            },
+            "1": {
+                "confidence": 0.17930538952350616,
+                "pred": [
+                    341.5,
+                    188.0
+                ]
+            }
+        }
+    },
+    "patient64543_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.4481244683265686,
+                "pred": [
+                    263.0,
+                    318.5
+                ]
+            },
+            "1": {
+                "confidence": 0.20670047402381897,
+                "pred": [
+                    262.0,
+                    227.0
+                ]
+            }
+        }
+    },
+    "patient64639_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7611324787139893,
+                "pred": [
+                    359.5,
+                    294.0
+                ]
+            },
+            "1": {
+                "confidence": 0.6308121085166931,
+                "pred": [
+                    371.0,
+                    210.5
+                ]
+            }
+        }
+    },
+    "patient64623_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.47287991642951965,
+                "pred": [
+                    275.5,
+                    315.0
+                ]
+            },
+            "1": {
+                "confidence": 0.37526482343673706,
+                "pred": [
+                    259.5,
+                    226.5
+                ]
+            }
+        }
+    },
+    "patient64705_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5646955966949463,
+                "pred": [
+                    315.5,
+                    218.5
+                ]
+            },
+            "1": {
+                "confidence": 0.34317100048065186,
+                "pred": [
+                    318.5,
+                    91.0
+                ]
+            }
+        }
+    },
+    "patient64681_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6561139822006226,
+                "pred": [
+                    289.5,
+                    260.5
+                ]
+            },
+            "1": {
+                "confidence": 0.5579217672348022,
+                "pred": [
+                    292.0,
+                    146.5
+                ]
+            }
+        }
+    },
+    "patient64563_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7052528262138367,
+                "pred": [
+                    330.5,
+                    322.0
+                ]
+            },
+            "1": {
+                "confidence": 0.5838045477867126,
+                "pred": [
+                    324.0,
+                    229.5
+                ]
+            }
+        }
+    },
+    "patient64605_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.770877480506897,
+                "pred": [
+                    282.0,
+                    298.5
+                ]
+            },
+            "1": {
+                "confidence": 0.2998315393924713,
+                "pred": [
+                    305.0,
+                    98.0
+                ]
+            }
+        }
+    },
+    "patient64559_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7524102330207825,
+                "pred": [
+                    302.0,
+                    277.0
+                ]
+            },
+            "1": {
+                "confidence": 0.36302056908607483,
+                "pred": [
+                    292.5,
+                    238.0
+                ]
+            }
+        }
+    },
+    "patient64582_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6042048931121826,
+                "pred": [
+                    316.0,
+                    241.0
+                ]
+            },
+            "1": {
+                "confidence": 0.20695333182811737,
+                "pred": [
+                    321.0,
+                    131.5
+                ]
+            }
+        }
+    },
+    "patient64691_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6710858345031738,
+                "pred": [
+                    378.0,
+                    227.5
+                ]
+            },
+            "1": {
+                "confidence": 0.4174787998199463,
+                "pred": [
+                    377.5,
+                    170.5
+                ]
+            }
+        }
+    },
+    "patient64584_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6471511721611023,
+                "pred": [
+                    289.5,
+                    200.0
+                ]
+            },
+            "1": {
+                "confidence": 0.43384453654289246,
+                "pred": [
+                    280.0,
+                    190.5
+                ]
+            }
+        }
+    },
+    "patient64609_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6443610787391663,
+                "pred": [
+                    321.5,
+                    315.5
+                ]
+            },
+            "1": {
+                "confidence": 0.31088438630104065,
+                "pred": [
+                    322.0,
+                    234.5
+                ]
+            }
+        }
+    },
+    "patient64564_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6017729640007019,
+                "pred": [
+                    329.5,
+                    324.0
+                ]
+            },
+            "1": {
+                "confidence": 0.287615031003952,
+                "pred": [
+                    354.5,
+                    129.0
+                ]
+            }
+        }
+    },
+    "patient64719_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6569450497627258,
+                "pred": [
+                    313.5,
+                    275.0
+                ]
+            },
+            "1": {
+                "confidence": 0.4678975045681,
+                "pred": [
+                    321.0,
+                    155.0
+                ]
+            }
+        }
+    },
+    "patient64703_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5633187890052795,
+                "pred": [
+                    326.0,
+                    290.0
+                ]
+            },
+            "1": {
+                "confidence": 0.190425306558609,
+                "pred": [
+                    341.5,
+                    174.0
+                ]
+            }
+        }
+    },
+    "patient64664_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5540355443954468,
+                "pred": [
+                    295.0,
+                    294.5
+                ]
+            },
+            "1": {
+                "confidence": 0.5611881613731384,
+                "pred": [
+                    297.0,
+                    194.0
+                ]
+            }
+        }
+    },
+    "patient64670_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7062623500823975,
+                "pred": [
+                    331.0,
+                    310.5
+                ]
+            },
+            "1": {
+                "confidence": 0.5907155871391296,
+                "pred": [
+                    333.5,
+                    200.0
+                ]
+            }
+        }
+    },
+    "patient64566_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5816487669944763,
+                "pred": [
+                    322.5,
+                    279.0
+                ]
+            },
+            "1": {
+                "confidence": 0.3445435166358948,
+                "pred": [
+                    340.5,
+                    170.0
+                ]
+            }
+        }
+    },
+    "patient64616_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.4842013418674469,
+                "pred": [
+                    343.0,
+                    342.5
+                ]
+            },
+            "1": {
+                "confidence": 0.3292076885700226,
+                "pred": [
+                    315.5,
+                    283.5
+                ]
+            }
+        }
+    },
+    "patient64644_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6494058966636658,
+                "pred": [
+                    337.0,
+                    189.5
+                ]
+            },
+            "1": {
+                "confidence": 0.2612805962562561,
+                "pred": [
+                    330.5,
+                    140.0
+                ]
+            }
+        }
+    },
+    "patient64630_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.634442150592804,
+                "pred": [
+                    297.5,
+                    277.5
+                ]
+            },
+            "1": {
+                "confidence": 0.2813073992729187,
+                "pred": [
+                    308.5,
+                    71.5
+                ]
+            }
+        }
+    },
+    "patient64668_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6781466603279114,
+                "pred": [
+                    357.0,
+                    254.0
+                ]
+            },
+            "1": {
+                "confidence": 0.26462313532829285,
+                "pred": [
+                    356.5,
+                    163.5
+                ]
+            }
+        }
+    },
+    "patient64740_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.40669387578964233,
+                "pred": [
+                    344.5,
+                    163.5
+                ]
+            },
+            "1": {
+                "confidence": 0.4228094220161438,
+                "pred": [
+                    348.0,
+                    50.0
+                ]
+            }
+        }
+    },
+    "patient64542_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6029580235481262,
+                "pred": [
+                    323.5,
+                    297.0
+                ]
+            },
+            "1": {
+                "confidence": 0.2682163119316101,
+                "pred": [
+                    329.5,
+                    141.0
+                ]
+            }
+        }
+    },
+    "patient64546_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.4248526990413666,
+                "pred": [
+                    259.5,
+                    324.0
+                ]
+            },
+            "1": {
+                "confidence": 0.41377440094947815,
+                "pred": [
+                    260.5,
+                    242.5
+                ]
+            }
+        }
+    },
+    "patient64652_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.25221139192581177,
+                "pred": [
+                    237.5,
+                    452.0
+                ]
+            },
+            "1": {
+                "confidence": 0.12735427916049957,
+                "pred": [
+                    234.0,
+                    446.0
+                ]
+            }
+        }
+    },
+    "patient64697_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.45325520634651184,
+                "pred": [
+                    259.0,
+                    306.0
+                ]
+            },
+            "1": {
+                "confidence": 0.33387473225593567,
+                "pred": [
+                    248.5,
+                    244.0
+                ]
+            }
+        }
+    },
+    "patient64561_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.698861837387085,
+                "pred": [
+                    313.5,
+                    300.0
+                ]
+            },
+            "1": {
+                "confidence": 0.2450738102197647,
+                "pred": [
+                    317.0,
+                    219.0
+                ]
+            }
+        }
+    },
+    "patient64653_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6823259592056274,
+                "pred": [
+                    300.0,
+                    209.0
+                ]
+            },
+            "1": {
+                "confidence": 0.622386634349823,
+                "pred": [
+                    296.0,
+                    115.5
+                ]
+            }
+        }
+    },
+    "patient64615_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6503225564956665,
+                "pred": [
+                    308.5,
+                    262.5
+                ]
+            },
+            "1": {
+                "confidence": 0.4884362816810608,
+                "pred": [
+                    317.0,
+                    154.5
+                ]
+            }
+        }
+    },
+    "patient64660_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.4915522336959839,
+                "pred": [
+                    307.0,
+                    251.5
+                ]
+            },
+            "1": {
+                "confidence": 0.16561023890972137,
+                "pred": [
+                    306.5,
+                    204.0
+                ]
+            }
+        }
+    },
+    "patient64594_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6272216439247131,
+                "pred": [
+                    294.0,
+                    292.0
+                ]
+            },
+            "1": {
+                "confidence": 0.3409748077392578,
+                "pred": [
+                    294.0,
+                    188.0
+                ]
+            }
+        }
+    },
+    "patient64637_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7939388751983643,
+                "pred": [
+                    311.0,
+                    186.5
+                ]
+            },
+            "1": {
+                "confidence": 0.46784842014312744,
+                "pred": [
+                    315.5,
+                    91.0
+                ]
+            }
+        }
+    },
+    "patient64590_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.639129638671875,
+                "pred": [
+                    300.5,
+                    292.0
+                ]
+            },
+            "1": {
+                "confidence": 0.2308647185564041,
+                "pred": [
+                    301.0,
+                    227.0
+                ]
+            }
+        }
+    },
+    "patient64570_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.44237449765205383,
+                "pred": [
+                    327.0,
+                    261.5
+                ]
+            },
+            "1": {
+                "confidence": 0.37105125188827515,
+                "pred": [
+                    308.5,
+                    194.0
+                ]
+            }
+        }
+    },
+    "patient64641_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7701471447944641,
+                "pred": [
+                    343.0,
+                    197.0
+                ]
+            },
+            "1": {
+                "confidence": 0.3286178410053253,
+                "pred": [
+                    337.0,
+                    145.5
+                ]
+            }
+        }
+    },
+    "patient64600_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6689738035202026,
+                "pred": [
+                    336.0,
+                    253.0
+                ]
+            },
+            "1": {
+                "confidence": 0.37782028317451477,
+                "pred": [
+                    332.0,
+                    100.5
+                ]
+            }
+        }
+    },
+    "patient64730_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.4922063648700714,
+                "pred": [
+                    286.5,
+                    337.0
+                ]
+            },
+            "1": {
+                "confidence": 0.2956044375896454,
+                "pred": [
+                    292.5,
+                    195.0
+                ]
+            }
+        }
+    },
+    "patient64547_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6230278611183167,
+                "pred": [
+                    316.5,
+                    269.0
+                ]
+            },
+            "1": {
+                "confidence": 0.30274704098701477,
+                "pred": [
+                    312.0,
+                    257.5
+                ]
+            }
+        }
+    },
+    "patient64574_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6012253761291504,
+                "pred": [
+                    264.0,
+                    262.5
+                ]
+            },
+            "1": {
+                "confidence": 0.45762985944747925,
+                "pred": [
+                    244.0,
+                    162.0
+                ]
+            }
+        }
+    },
+    "patient64694_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.726967453956604,
+                "pred": [
+                    294.0,
+                    267.5
+                ]
+            },
+            "1": {
+                "confidence": 0.19889749586582184,
+                "pred": [
+                    292.0,
+                    258.5
+                ]
+            }
+        }
+    },
+    "patient64727_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.558525562286377,
+                "pred": [
+                    327.0,
+                    285.5
+                ]
+            },
+            "1": {
+                "confidence": 0.30803564190864563,
+                "pred": [
+                    334.0,
+                    177.0
+                ]
+            }
+        }
+    },
+    "patient64624_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6273947954177856,
+                "pred": [
+                    274.5,
+                    222.0
+                ]
+            },
+            "1": {
+                "confidence": 0.2193514108657837,
+                "pred": [
+                    271.0,
+                    163.5
+                ]
+            }
+        }
+    },
+    "patient64567_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6265257000923157,
+                "pred": [
+                    305.5,
+                    300.0
+                ]
+            },
+            "1": {
+                "confidence": 0.2952680289745331,
+                "pred": [
+                    293.5,
+                    260.0
+                ]
+            }
+        }
+    },
+    "patient64689_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5562950372695923,
+                "pred": [
+                    358.0,
+                    338.5
+                ]
+            },
+            "1": {
+                "confidence": 0.40631306171417236,
+                "pred": [
+                    356.0,
+                    267.5
+                ]
+            }
+        }
+    },
+    "patient64638_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7609681487083435,
+                "pred": [
+                    352.0,
+                    201.0
+                ]
+            },
+            "1": {
+                "confidence": 0.39869025349617004,
+                "pred": [
+                    363.0,
+                    117.0
+                ]
+            }
+        }
+    },
+    "patient64603_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7432300448417664,
+                "pred": [
+                    304.0,
+                    302.0
+                ]
+            },
+            "1": {
+                "confidence": 0.4630291163921356,
+                "pred": [
+                    302.5,
+                    206.0
+                ]
+            }
+        }
+    },
+    "patient64621_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7429912090301514,
+                "pred": [
+                    313.5,
+                    302.5
+                ]
+            },
+            "1": {
+                "confidence": 0.2897931635379791,
+                "pred": [
+                    317.0,
+                    226.0
+                ]
+            }
+        }
+    },
+    "patient64571_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5640121698379517,
+                "pred": [
+                    313.0,
+                    278.5
+                ]
+            },
+            "1": {
+                "confidence": 0.3288721442222595,
+                "pred": [
+                    316.0,
+                    109.0
+                ]
+            }
+        }
+    },
+    "patient64656_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.715692400932312,
+                "pred": [
+                    295.0,
+                    243.5
+                ]
+            },
+            "1": {
+                "confidence": 0.39959195256233215,
+                "pred": [
+                    293.0,
+                    105.5
+                ]
+            }
+        }
+    },
+    "patient64657_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.4424903988838196,
+                "pred": [
+                    299.5,
+                    294.0
+                ]
+            },
+            "1": {
+                "confidence": 0.4051479697227478,
+                "pred": [
+                    301.5,
+                    218.5
+                ]
+            }
+        }
+    },
+    "patient64713_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.68112713098526,
+                "pred": [
+                    276.5,
+                    262.0
+                ]
+            },
+            "1": {
+                "confidence": 0.5444990992546082,
+                "pred": [
+                    267.0,
+                    186.0
+                ]
+            }
+        }
+    },
+    "patient64608_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6068710088729858,
+                "pred": [
+                    300.0,
+                    237.0
+                ]
+            },
+            "1": {
+                "confidence": 0.3108069598674774,
+                "pred": [
+                    304.5,
+                    106.0
+                ]
+            }
+        }
+    },
+    "patient64597_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6268699765205383,
+                "pred": [
+                    327.5,
+                    231.0
+                ]
+            },
+            "1": {
+                "confidence": 0.6850463151931763,
+                "pred": [
+                    327.5,
+                    160.5
+                ]
+            }
+        }
+    },
+    "patient64728_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.8046961426734924,
+                "pred": [
+                    354.0,
+                    297.5
+                ]
+            },
+            "1": {
+                "confidence": 0.6608927249908447,
+                "pred": [
+                    352.5,
+                    254.5
+                ]
+            }
+        }
+    },
+    "patient64701_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6364526152610779,
+                "pred": [
+                    329.5,
+                    344.0
+                ]
+            },
+            "1": {
+                "confidence": 0.6220399737358093,
+                "pred": [
+                    330.0,
+                    261.0
+                ]
+            }
+        }
+    },
+    "patient64672_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6496925354003906,
+                "pred": [
+                    276.0,
+                    309.5
+                ]
+            },
+            "1": {
+                "confidence": 0.46210548281669617,
+                "pred": [
+                    273.0,
+                    234.5
+                ]
+            }
+        }
+    },
+    "patient64673_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5486019253730774,
+                "pred": [
+                    329.0,
+                    318.5
+                ]
+            },
+            "1": {
+                "confidence": 0.2724008560180664,
+                "pred": [
+                    357.5,
+                    181.0
+                ]
+            }
+        }
+    },
+    "patient64636_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6891774535179138,
+                "pred": [
+                    275.5,
+                    228.0
+                ]
+            },
+            "1": {
+                "confidence": 0.5683827996253967,
+                "pred": [
+                    254.0,
+                    141.0
+                ]
+            }
+        }
+    },
+    "patient64585_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6172778010368347,
+                "pred": [
+                    327.0,
+                    172.5
+                ]
+            },
+            "1": {
+                "confidence": 0.3158906102180481,
+                "pred": [
+                    318.0,
+                    60.5
+                ]
+            }
+        }
+    },
+    "patient64576_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.3719537854194641,
+                "pred": [
+                    305.5,
+                    274.5
+                ]
+            },
+            "1": {
+                "confidence": 0.37562838196754456,
+                "pred": [
+                    293.5,
+                    107.5
+                ]
+            }
+        }
+    },
+    "patient64553_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7616908550262451,
+                "pred": [
+                    326.0,
+                    252.0
+                ]
+            },
+            "1": {
+                "confidence": 0.2790190875530243,
+                "pred": [
+                    324.5,
+                    162.0
+                ]
+            }
+        }
+    },
+    "patient64667_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6243287920951843,
+                "pred": [
+                    262.0,
+                    216.0
+                ]
+            },
+            "1": {
+                "confidence": 0.4175155758857727,
+                "pred": [
+                    245.5,
+                    100.0
+                ]
+            }
+        }
+    },
+    "patient64669_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7780323624610901,
+                "pred": [
+                    335.5,
+                    254.0
+                ]
+            },
+            "1": {
+                "confidence": 0.41999250650405884,
+                "pred": [
+                    339.5,
+                    172.5
+                ]
+            }
+        }
+    },
+    "patient64666_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.4618943929672241,
+                "pred": [
+                    293.0,
+                    267.0
+                ]
+            },
+            "1": {
+                "confidence": 0.5580409169197083,
+                "pred": [
+                    280.5,
+                    269.0
+                ]
+            }
+        }
+    },
+    "patient64555_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6304146647453308,
+                "pred": [
+                    300.5,
+                    233.5
+                ]
+            },
+            "1": {
+                "confidence": 0.2046731412410736,
+                "pred": [
+                    309.0,
+                    83.5
+                ]
+            }
+        }
+    },
+    "patient64676_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.595872700214386,
+                "pred": [
+                    353.0,
+                    234.5
+                ]
+            },
+            "1": {
+                "confidence": 0.3724699914455414,
+                "pred": [
+                    369.0,
+                    138.0
+                ]
+            }
+        }
+    },
+    "patient64549_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6257662177085876,
+                "pred": [
+                    333.5,
+                    257.0
+                ]
+            },
+            "1": {
+                "confidence": 0.2556796967983246,
+                "pred": [
+                    330.0,
+                    252.5
+                ]
+            }
+        }
+    },
+    "patient64693_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7770556807518005,
+                "pred": [
+                    317.5,
+                    252.0
+                ]
+            },
+            "1": {
+                "confidence": 0.6503916382789612,
+                "pred": [
+                    311.5,
+                    148.5
+                ]
+            }
+        }
+    },
+    "patient64554_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.3987312912940979,
+                "pred": [
+                    278.0,
+                    259.0
+                ]
+            },
+            "1": {
+                "confidence": 0.3234955966472626,
+                "pred": [
+                    277.0,
+                    203.5
+                ]
+            }
+        }
+    },
+    "patient64712_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.8083794713020325,
+                "pred": [
+                    282.5,
+                    217.0
+                ]
+            },
+            "1": {
+                "confidence": 0.615161657333374,
+                "pred": [
+                    274.5,
+                    133.5
+                ]
+            }
+        }
+    },
+    "patient64674_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7575149536132812,
+                "pred": [
+                    350.5,
+                    224.5
+                ]
+            },
+            "1": {
+                "confidence": 0.6990824341773987,
+                "pred": [
+                    354.5,
+                    136.0
+                ]
+            }
+        }
+    },
+    "patient64634_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.648377537727356,
+                "pred": [
+                    296.0,
+                    316.0
+                ]
+            },
+            "1": {
+                "confidence": 0.34284281730651855,
+                "pred": [
+                    326.5,
+                    236.0
+                ]
+            }
+        }
+    },
+    "patient64709_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5749094486236572,
+                "pred": [
+                    288.0,
+                    236.0
+                ]
+            },
+            "1": {
+                "confidence": 0.22731386125087738,
+                "pred": [
+                    265.5,
+                    179.5
+                ]
+            }
+        }
+    },
+    "patient64663_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.8018845915794373,
+                "pred": [
+                    361.0,
+                    210.5
+                ]
+            },
+            "1": {
+                "confidence": 0.2593710720539093,
+                "pred": [
+                    357.5,
+                    195.0
+                ]
+            }
+        }
+    },
+    "patient64569_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7992156147956848,
+                "pred": [
+                    288.5,
+                    315.0
+                ]
+            },
+            "1": {
+                "confidence": 0.31446149945259094,
+                "pred": [
+                    308.5,
+                    213.0
+                ]
+            }
+        }
+    },
+    "patient64575_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5790373682975769,
+                "pred": [
+                    300.5,
+                    258.5
+                ]
+            },
+            "1": {
+                "confidence": 0.2289549708366394,
+                "pred": [
+                    317.0,
+                    143.5
+                ]
+            }
+        }
+    },
+    "patient64679_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6515847444534302,
+                "pred": [
+                    279.5,
+                    214.0
+                ]
+            },
+            "1": {
+                "confidence": 0.20395711064338684,
+                "pred": [
+                    272.0,
+                    201.5
+                ]
+            }
+        }
+    },
+    "patient64658_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.598898708820343,
+                "pred": [
+                    263.0,
+                    315.5
+                ]
+            },
+            "1": {
+                "confidence": 0.25707945227622986,
+                "pred": [
+                    254.0,
+                    267.5
+                ]
+            }
+        }
+    },
+    "patient64647_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.49718284606933594,
+                "pred": [
+                    296.5,
+                    274.5
+                ]
+            },
+            "1": {
+                "confidence": 0.36214688420295715,
+                "pred": [
+                    296.0,
+                    187.0
+                ]
+            }
+        }
+    },
+    "patient64718_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7040486931800842,
+                "pred": [
+                    282.5,
+                    350.0
+                ]
+            },
+            "1": {
+                "confidence": 0.405462384223938,
+                "pred": [
+                    179.5,
+                    51.0
+                ]
+            }
+        }
+    },
+    "patient64550_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.4421447813510895,
+                "pred": [
+                    312.5,
+                    294.5
+                ]
+            },
+            "1": {
+                "confidence": 0.18113842606544495,
+                "pred": [
+                    324.0,
+                    194.5
+                ]
+            }
+        }
+    },
+    "patient64607_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6427924633026123,
+                "pred": [
+                    335.0,
+                    169.0
+                ]
+            },
+            "1": {
+                "confidence": 0.20309750735759735,
+                "pred": [
+                    328.5,
+                    120.0
+                ]
+            }
+        }
+    },
+    "patient64633_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6977548003196716,
+                "pred": [
+                    265.5,
+                    195.5
+                ]
+            },
+            "1": {
+                "confidence": 0.39288005232810974,
+                "pred": [
+                    262.0,
+                    107.0
+                ]
+            }
+        }
+    },
+    "patient64586_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7157526612281799,
+                "pred": [
+                    310.0,
+                    307.5
+                ]
+            },
+            "1": {
+                "confidence": 0.28855568170547485,
+                "pred": [
+                    324.0,
+                    179.5
+                ]
+            }
+        }
+    },
+    "patient64611_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7227627038955688,
+                "pred": [
+                    281.0,
+                    218.5
+                ]
+            },
+            "1": {
+                "confidence": 0.3404885232448578,
+                "pred": [
+                    279.0,
+                    138.0
+                ]
+            }
+        }
+    },
+    "patient64601_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6717710494995117,
+                "pred": [
+                    335.5,
+                    277.0
+                ]
+            },
+            "1": {
+                "confidence": 0.2109386920928955,
+                "pred": [
+                    361.5,
+                    168.0
+                ]
+            }
+        }
+    },
+    "patient64721_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6421525478363037,
+                "pred": [
+                    317.0,
+                    219.0
+                ]
+            },
+            "1": {
+                "confidence": 0.23603376746177673,
+                "pred": [
+                    313.5,
+                    205.5
+                ]
+            }
+        }
+    },
+    "patient64706_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6605042219161987,
+                "pred": [
+                    290.5,
+                    210.5
+                ]
+            },
+            "1": {
+                "confidence": 0.22610676288604736,
+                "pred": [
+                    284.0,
+                    148.5
+                ]
+            }
+        }
+    },
+    "patient64560_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.545474648475647,
+                "pred": [
+                    327.5,
+                    293.0
+                ]
+            },
+            "1": {
+                "confidence": 0.2884024977684021,
+                "pred": [
+                    339.0,
+                    171.5
+                ]
+            }
+        }
+    },
+    "patient64572_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6805076003074646,
+                "pred": [
+                    355.5,
+                    155.5
+                ]
+            },
+            "1": {
+                "confidence": 0.361029714345932,
+                "pred": [
+                    347.5,
+                    65.5
+                ]
+            }
+        }
+    },
+    "patient64692_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6358987092971802,
+                "pred": [
+                    301.5,
+                    253.0
+                ]
+            },
+            "1": {
+                "confidence": 0.5629724264144897,
+                "pred": [
+                    299.0,
+                    163.5
+                ]
+            }
+        }
+    },
+    "patient64714_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6827114224433899,
+                "pred": [
+                    287.5,
+                    348.0
+                ]
+            },
+            "1": {
+                "confidence": 0.44903564453125,
+                "pred": [
+                    279.0,
+                    212.0
+                ]
+            }
+        }
+    },
+    "patient64646_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.4592859447002411,
+                "pred": [
+                    306.5,
+                    241.0
+                ]
+            },
+            "1": {
+                "confidence": 0.27572423219680786,
+                "pred": [
+                    314.0,
+                    132.0
+                ]
+            }
+        }
+    },
+    "patient64734_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.3571120798587799,
+                "pred": [
+                    312.0,
+                    290.0
+                ]
+            },
+            "1": {
+                "confidence": 0.3284189999103546,
+                "pred": [
+                    309.5,
+                    283.0
+                ]
+            }
+        }
+    },
+    "patient64645_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.40572407841682434,
+                "pred": [
+                    311.5,
+                    259.0
+                ]
+            },
+            "1": {
+                "confidence": 0.30408036708831787,
+                "pred": [
+                    278.0,
+                    259.5
+                ]
+            }
+        }
+    },
+    "patient64579_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.643274188041687,
+                "pred": [
+                    295.5,
+                    315.5
+                ]
+            },
+            "1": {
+                "confidence": 0.3427107334136963,
+                "pred": [
+                    365.0,
+                    44.5
+                ]
+            }
+        }
+    },
+    "patient64622_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7085426449775696,
+                "pred": [
+                    285.0,
+                    243.0
+                ]
+            },
+            "1": {
+                "confidence": 0.44389477372169495,
+                "pred": [
+                    274.0,
+                    132.0
+                ]
+            }
+        }
+    },
+    "patient64715_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6844650506973267,
+                "pred": [
+                    314.0,
+                    250.0
+                ]
+            },
+            "1": {
+                "confidence": 0.17118321359157562,
+                "pred": [
+                    313.5,
+                    154.5
+                ]
+            }
+        }
+    },
+    "patient64568_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5363552570343018,
+                "pred": [
+                    298.5,
+                    272.5
+                ]
+            },
+            "1": {
+                "confidence": 0.3907041847705841,
+                "pred": [
+                    309.0,
+                    173.0
+                ]
+            }
+        }
+    },
+    "patient64642_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5888891220092773,
+                "pred": [
+                    328.0,
+                    201.5
+                ]
+            },
+            "1": {
+                "confidence": 0.24880261719226837,
+                "pred": [
+                    326.0,
+                    192.5
+                ]
+            }
+        }
+    },
+    "patient64654_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6932729482650757,
+                "pred": [
+                    323.5,
+                    221.0
+                ]
+            },
+            "1": {
+                "confidence": 0.4797612428665161,
+                "pred": [
+                    323.5,
+                    148.0
+                ]
+            }
+        }
+    },
+    "patient64723_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7703015804290771,
+                "pred": [
+                    343.5,
+                    279.0
+                ]
+            },
+            "1": {
+                "confidence": 0.30487948656082153,
+                "pred": [
+                    363.5,
+                    90.5
+                ]
+            }
+        }
+    },
+    "patient64544_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6102097034454346,
+                "pred": [
+                    297.0,
+                    295.5
+                ]
+            },
+            "1": {
+                "confidence": 0.22523410618305206,
+                "pred": [
+                    294.0,
+                    280.0
+                ]
+            }
+        }
+    },
+    "patient64704_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7693637013435364,
+                "pred": [
+                    283.0,
+                    213.0
+                ]
+            },
+            "1": {
+                "confidence": 0.6329631805419922,
+                "pred": [
+                    274.0,
+                    70.5
+                ]
+            }
+        }
+    },
+    "patient64732_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.607526421546936,
+                "pred": [
+                    265.0,
+                    290.5
+                ]
+            },
+            "1": {
+                "confidence": 0.41049227118492126,
+                "pred": [
+                    261.5,
+                    261.5
+                ]
+            }
+        }
+    },
+    "patient64722_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5695456862449646,
+                "pred": [
+                    309.0,
+                    253.5
+                ]
+            },
+            "1": {
+                "confidence": 0.5426230430603027,
+                "pred": [
+                    267.0,
+                    181.5
+                ]
+            }
+        }
+    },
+    "patient64687_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6567868590354919,
+                "pred": [
+                    329.0,
+                    195.0
+                ]
+            },
+            "1": {
+                "confidence": 0.4747033417224884,
+                "pred": [
+                    317.0,
+                    132.0
+                ]
+            }
+        }
+    },
+    "patient64632_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.459174782037735,
+                "pred": [
+                    369.0,
+                    279.5
+                ]
+            },
+            "1": {
+                "confidence": 0.46426379680633545,
+                "pred": [
+                    367.0,
+                    266.0
+                ]
+            }
+        }
+    },
+    "patient64686_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.4755094647407532,
+                "pred": [
+                    296.0,
+                    276.0
+                ]
+            },
+            "1": {
+                "confidence": 0.3882884383201599,
+                "pred": [
+                    294.0,
+                    206.0
+                ]
+            }
+        }
+    },
+    "patient64606_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6481507420539856,
+                "pred": [
+                    289.5,
+                    298.0
+                ]
+            },
+            "1": {
+                "confidence": 0.16033200919628143,
+                "pred": [
+                    297.5,
+                    171.5
+                ]
+            }
+        }
+    },
+    "patient64739_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6141281723976135,
+                "pred": [
+                    268.0,
+                    292.5
+                ]
+            },
+            "1": {
+                "confidence": 0.2506839632987976,
+                "pred": [
+                    265.0,
+                    267.5
+                ]
+            }
+        }
+    },
+    "patient64631_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6513732075691223,
+                "pred": [
+                    317.5,
+                    244.5
+                ]
+            },
+            "1": {
+                "confidence": 0.3403032720088959,
+                "pred": [
+                    322.0,
+                    163.0
+                ]
+            }
+        }
+    },
+    "patient64557_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.45587098598480225,
+                "pred": [
+                    303.5,
+                    275.5
+                ]
+            },
+            "1": {
+                "confidence": 0.5282943248748779,
+                "pred": [
+                    303.0,
+                    176.5
+                ]
+            }
+        }
+    },
+    "patient64593_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6550269722938538,
+                "pred": [
+                    307.5,
+                    246.0
+                ]
+            },
+            "1": {
+                "confidence": 0.3181544840335846,
+                "pred": [
+                    316.5,
+                    145.5
+                ]
+            }
+        }
+    },
+    "patient64651_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.3916385769844055,
+                "pred": [
+                    324.0,
+                    262.5
+                ]
+            },
+            "1": {
+                "confidence": 0.36094626784324646,
+                "pred": [
+                    332.5,
+                    184.5
+                ]
+            }
+        }
+    },
+    "patient64591_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5132055282592773,
+                "pred": [
+                    273.0,
+                    278.5
+                ]
+            },
+            "1": {
+                "confidence": 0.5217210054397583,
+                "pred": [
+                    264.0,
+                    262.5
+                ]
+            }
+        }
+    },
+    "patient64617_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6623860597610474,
+                "pred": [
+                    370.5,
+                    212.0
+                ]
+            },
+            "1": {
+                "confidence": 0.4029330015182495,
+                "pred": [
+                    361.0,
+                    194.5
+                ]
+            }
+        }
+    },
+    "patient64696_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.39592093229293823,
+                "pred": [
+                    321.0,
+                    171.5
+                ]
+            },
+            "1": {
+                "confidence": 0.2909112572669983,
+                "pred": [
+                    338.0,
+                    92.5
+                ]
+            }
+        }
+    },
+    "patient64650_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.642837405204773,
+                "pred": [
+                    302.5,
+                    283.5
+                ]
+            },
+            "1": {
+                "confidence": 0.3964868187904358,
+                "pred": [
+                    300.0,
+                    225.0
+                ]
+            }
+        }
+    },
+    "patient64598_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5655508637428284,
+                "pred": [
+                    301.0,
+                    322.5
+                ]
+            },
+            "1": {
+                "confidence": 0.2506999373435974,
+                "pred": [
+                    307.0,
+                    172.0
+                ]
+            }
+        }
+    },
+    "patient64690_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.49134594202041626,
+                "pred": [
+                    311.5,
+                    246.0
+                ]
+            },
+            "1": {
+                "confidence": 0.2132885903120041,
+                "pred": [
+                    308.0,
+                    148.0
+                ]
+            }
+        }
+    },
+    "patient64737_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5704100728034973,
+                "pred": [
+                    326.5,
+                    323.0
+                ]
+            },
+            "1": {
+                "confidence": 0.2962537407875061,
+                "pred": [
+                    333.0,
+                    219.0
+                ]
+            }
+        }
+    },
+    "patient64599_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6622639894485474,
+                "pred": [
+                    324.5,
+                    283.0
+                ]
+            },
+            "1": {
+                "confidence": 0.2376139760017395,
+                "pred": [
+                    335.5,
+                    148.0
+                ]
+            }
+        }
+    },
+    "patient64736_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.4398964047431946,
+                "pred": [
+                    335.0,
+                    233.0
+                ]
+            },
+            "1": {
+                "confidence": 0.27724432945251465,
+                "pred": [
+                    343.0,
+                    117.5
+                ]
+            }
+        }
+    },
+    "patient64577_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.48924943804740906,
+                "pred": [
+                    271.0,
+                    306.0
+                ]
+            },
+            "1": {
+                "confidence": 0.29186829924583435,
+                "pred": [
+                    487.0,
+                    304.5
+                ]
+            }
+        }
+    },
+    "patient64659_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6638286113739014,
+                "pred": [
+                    330.0,
+                    282.5
+                ]
+            },
+            "1": {
+                "confidence": 0.4820493757724762,
+                "pred": [
+                    342.0,
+                    149.0
+                ]
+            }
+        }
+    },
+    "patient64677_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.36218953132629395,
+                "pred": [
+                    232.0,
+                    307.5
+                ]
+            },
+            "1": {
+                "confidence": 0.4033951461315155,
+                "pred": [
+                    469.0,
+                    366.0
+                ]
+            }
+        }
+    },
+    "patient64583_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5017129182815552,
+                "pred": [
+                    299.0,
+                    296.5
+                ]
+            },
+            "1": {
+                "confidence": 0.2270004153251648,
+                "pred": [
+                    300.5,
+                    170.0
+                ]
+            }
+        }
+    },
+    "patient64628_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6602308750152588,
+                "pred": [
+                    325.5,
+                    228.0
+                ]
+            },
+            "1": {
+                "confidence": 0.4344234764575958,
+                "pred": [
+                    323.0,
+                    172.5
+                ]
+            }
+        }
+    },
+    "patient64625_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6191864013671875,
+                "pred": [
+                    282.0,
+                    279.0
+                ]
+            },
+            "1": {
+                "confidence": 0.4145558178424835,
+                "pred": [
+                    296.0,
+                    171.5
+                ]
+            }
+        }
+    },
+    "patient64649_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6637916564941406,
+                "pred": [
+                    323.5,
+                    226.0
+                ]
+            },
+            "1": {
+                "confidence": 0.3558811843395233,
+                "pred": [
+                    316.5,
+                    179.0
+                ]
+            }
+        }
+    },
+    "patient64552_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.687708854675293,
+                "pred": [
+                    243.0,
+                    248.5
+                ]
+            },
+            "1": {
+                "confidence": 0.41894909739494324,
+                "pred": [
+                    235.5,
+                    187.5
+                ]
+            }
+        }
+    },
+    "patient64618_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6936612725257874,
+                "pred": [
+                    329.5,
+                    275.5
+                ]
+            },
+            "1": {
+                "confidence": 0.5631301999092102,
+                "pred": [
+                    325.5,
+                    209.0
+                ]
+            }
+        }
+    },
+    "patient64699_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6196316480636597,
+                "pred": [
+                    346.0,
+                    265.5
+                ]
+            },
+            "1": {
+                "confidence": 0.41206255555152893,
+                "pred": [
+                    332.5,
+                    174.5
+                ]
+            }
+        }
+    },
+    "patient64662_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5523274540901184,
+                "pred": [
+                    281.0,
+                    234.0
+                ]
+            },
+            "1": {
+                "confidence": 0.3546326458454132,
+                "pred": [
+                    265.5,
+                    219.5
+                ]
+            }
+        }
+    },
+    "patient64738_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.46223726868629456,
+                "pred": [
+                    225.0,
+                    216.5
+                ]
+            },
+            "1": {
+                "confidence": 0.2882205843925476,
+                "pred": [
+                    216.5,
+                    196.0
+                ]
+            }
+        }
+    },
+    "patient64684_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.649852991104126,
+                "pred": [
+                    321.5,
+                    261.0
+                ]
+            },
+            "1": {
+                "confidence": 0.3929789960384369,
+                "pred": [
+                    318.5,
+                    163.0
+                ]
+            }
+        }
+    },
+    "patient64581_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.588478684425354,
+                "pred": [
+                    294.0,
+                    324.0
+                ]
+            },
+            "1": {
+                "confidence": 0.36357393860816956,
+                "pred": [
+                    291.5,
+                    42.5
+                ]
+            }
+        }
+    },
+    "patient64717_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.48816296458244324,
+                "pred": [
+                    267.0,
+                    285.0
+                ]
+            },
+            "1": {
+                "confidence": 0.4166681468486786,
+                "pred": [
+                    285.5,
+                    108.0
+                ]
+            }
+        }
+    },
+    "patient64733_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6315010190010071,
+                "pred": [
+                    307.0,
+                    219.0
+                ]
+            },
+            "1": {
+                "confidence": 0.26468396186828613,
+                "pred": [
+                    300.5,
+                    41.0
+                ]
+            }
+        }
+    },
+    "patient64735_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6761393547058105,
+                "pred": [
+                    321.0,
+                    219.0
+                ]
+            },
+            "1": {
+                "confidence": 0.2768668830394745,
+                "pred": [
+                    313.0,
+                    198.5
+                ]
+            }
+        }
+    },
+    "patient64726_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7098436951637268,
+                "pred": [
+                    329.5,
+                    251.5
+                ]
+            },
+            "1": {
+                "confidence": 0.270582377910614,
+                "pred": [
+                    319.0,
+                    209.0
+                ]
+            }
+        }
+    },
+    "patient64720_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.4905789792537689,
+                "pred": [
+                    293.5,
+                    187.0
+                ]
+            },
+            "1": {
+                "confidence": 0.6777336597442627,
+                "pred": [
+                    295.5,
+                    122.0
+                ]
+            }
+        }
+    },
+    "patient64541_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.55174320936203,
+                "pred": [
+                    329.0,
+                    315.0
+                ]
+            },
+            "1": {
+                "confidence": 0.4653228223323822,
+                "pred": [
+                    325.0,
+                    187.0
+                ]
+            }
+        }
+    },
+    "patient64671_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6661040782928467,
+                "pred": [
+                    290.0,
+                    233.5
+                ]
+            },
+            "1": {
+                "confidence": 0.40001407265663147,
+                "pred": [
+                    299.5,
+                    175.5
+                ]
+            }
+        }
+    },
+    "patient64629_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5452501177787781,
+                "pred": [
+                    292.5,
+                    275.5
+                ]
+            },
+            "1": {
+                "confidence": 0.18816979229450226,
+                "pred": [
+                    288.0,
+                    269.5
+                ]
+            }
+        }
+    },
+    "patient64695_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6488832235336304,
+                "pred": [
+                    248.0,
+                    258.0
+                ]
+            },
+            "1": {
+                "confidence": 0.7019076943397522,
+                "pred": [
+                    253.5,
+                    169.5
+                ]
+            }
+        }
+    },
+    "patient64685_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.37942051887512207,
+                "pred": [
+                    343.0,
+                    227.5
+                ]
+            },
+            "1": {
+                "confidence": 0.19302968680858612,
+                "pred": [
+                    339.5,
+                    143.0
+                ]
+            }
+        }
+    },
+    "patient64716_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.43185722827911377,
+                "pred": [
+                    339.0,
+                    150.5
+                ]
+            },
+            "1": {
+                "confidence": 0.45249366760253906,
+                "pred": [
+                    347.0,
+                    96.5
+                ]
+            }
+        }
+    },
+    "patient64558_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.4686564803123474,
+                "pred": [
+                    301.5,
+                    241.5
+                ]
+            },
+            "1": {
+                "confidence": 0.30073925852775574,
+                "pred": [
+                    318.0,
+                    124.0
+                ]
+            }
+        }
+    },
+    "patient64596_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6470434665679932,
+                "pred": [
+                    238.0,
+                    242.5
+                ]
+            },
+            "1": {
+                "confidence": 0.2156543880701065,
+                "pred": [
+                    230.5,
+                    172.5
+                ]
+            }
+        }
+    },
+    "patient64614_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6627938151359558,
+                "pred": [
+                    293.5,
+                    285.0
+                ]
+            },
+            "1": {
+                "confidence": 0.29148364067077637,
+                "pred": [
+                    293.5,
+                    202.5
+                ]
+            }
+        }
+    },
+    "patient64711_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.660742998123169,
+                "pred": [
+                    291.0,
+                    277.5
+                ]
+            },
+            "1": {
+                "confidence": 0.5423828959465027,
+                "pred": [
+                    352.0,
+                    42.5
+                ]
+            }
+        }
+    },
+    "patient64578_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6442863345146179,
+                "pred": [
+                    263.5,
+                    250.5
+                ]
+            },
+            "1": {
+                "confidence": 0.3452518582344055,
+                "pred": [
+                    261.5,
+                    176.5
+                ]
+            }
+        }
+    },
+    "patient64707_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.30204376578330994,
+                "pred": [
+                    329.5,
+                    252.0
+                ]
+            },
+            "1": {
+                "confidence": 0.31966936588287354,
+                "pred": [
+                    331.0,
+                    196.5
+                ]
+            }
+        }
+    },
+    "patient64725_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.5889859199523926,
+                "pred": [
+                    275.5,
+                    253.0
+                ]
+            },
+            "1": {
+                "confidence": 0.375930517911911,
+                "pred": [
+                    292.5,
+                    136.5
+                ]
+            }
+        }
+    },
+    "patient64588_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.6909474730491638,
+                "pred": [
+                    308.5,
+                    229.5
+                ]
+            },
+            "1": {
+                "confidence": 0.27512326836586,
+                "pred": [
+                    310.0,
+                    156.0
+                ]
+            }
+        }
+    },
+    "patient64627_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.507122278213501,
+                "pred": [
+                    331.0,
+                    258.5
+                ]
+            },
+            "1": {
+                "confidence": 0.3273336887359619,
+                "pred": [
+                    332.5,
+                    172.0
+                ]
+            }
+        }
+    },
+    "patient64626_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.7036342024803162,
+                "pred": [
+                    324.5,
+                    234.0
+                ]
+            },
+            "1": {
+                "confidence": 0.26058429479599,
+                "pred": [
+                    339.0,
+                    77.0
+                ]
+            }
+        }
+    },
+    "patient64562_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.3542328476905823,
+                "pred": [
+                    330.5,
+                    299.0
+                ]
+            },
+            "1": {
+                "confidence": 0.21060970425605774,
+                "pred": [
+                    325.5,
+                    185.5
+                ]
+            }
+        }
+    },
+    "patient64710_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.34344497323036194,
+                "pred": [
+                    301.0,
+                    251.0
+                ]
+            },
+            "1": {
+                "confidence": 0.25654536485671997,
+                "pred": [
+                    300.5,
+                    246.0
+                ]
+            }
+        }
+    },
+    "patient64731_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.696281373500824,
+                "pred": [
+                    340.5,
+                    242.5
+                ]
+            },
+            "1": {
+                "confidence": 0.45626935362815857,
+                "pred": [
+                    344.5,
+                    163.0
+                ]
+            }
+        }
+    },
+    "patient64619_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.8152080178260803,
+                "pred": [
+                    321.5,
+                    283.5
+                ]
+            },
+            "1": {
+                "confidence": 0.5412272214889526,
+                "pred": [
+                    323.0,
+                    217.0
+                ]
+            }
+        }
+    },
+    "patient64665_study1": {
+        "resized_dim": 640,
+        "predictions": {
+            "0": {
+                "confidence": 0.626279890537262,
+                "pred": [
+                    316.0,
+                    227.0
+                ]
+            },
+            "1": {
+                "confidence": 0.644156277179718,
+                "pred": [
+                    303.0,
+                    174.5
+                ]
+            }
+        }
+    }
+}

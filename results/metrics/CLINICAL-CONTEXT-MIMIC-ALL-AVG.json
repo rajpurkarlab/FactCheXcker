@@ -1,0 +1,86 @@
+{
+    "all": {
+        "precision": 0.64,
+        "F1": 0.53,
+        "recall": 0.51,
+        "MAE": 0.82,
+        "placement_precision": 0.94
+    },
+    "indication:respiratory": {
+        "precision": 0.67,
+        "F1": 0.54,
+        "recall": 0.52,
+        "MAE": 0.95,
+        "placement_precision": 0.84
+    },
+    "indication:intubation": {
+        "precision": 0.74,
+        "F1": 0.59,
+        "recall": 0.55,
+        "MAE": 0.65,
+        "placement_precision": 0.83
+    },
+    "indication:other": {
+        "precision": 0.59,
+        "F1": 0.5,
+        "recall": 0.49,
+        "MAE": 0.87,
+        "placement_precision": 0.95
+    },
+    "comparison:true": {
+        "precision": 0.72,
+        "F1": 0.56,
+        "recall": 0.52,
+        "MAE": 0.73,
+        "placement_precision": 0.76
+    },
+    "comparison:false": {
+        "precision": 0.6,
+        "F1": 0.52,
+        "recall": 0.51,
+        "MAE": 0.78,
+        "placement_precision": 0.94
+    },
+    "gender:F": {
+        "precision": 0.62,
+        "F1": 0.53,
+        "recall": 0.53,
+        "MAE": 0.64,
+        "placement_precision": 0.96
+    },
+    "gender:M": {
+        "precision": 0.62,
+        "F1": 0.53,
+        "recall": 0.52,
+        "MAE": 0.72,
+        "placement_precision": 0.82
+    },
+    "gender:unknown": {
+        "precision": 0.78,
+        "F1": 0.55,
+        "recall": 0.47,
+        "MAE": 1.15,
+        "placement_precision": 0.73
+    },
+    "age:0-59": {
+        "precision": 0.66,
+        "F1": 0.54,
+        "recall": 0.52,
+        "MAE": 0.6,
+        "placement_precision": 0.95
+    },
+    "age:60+": {
+        "precision": 0.57,
+        "F1": 0.51,
+        "recall": 0.52,
+        "MAE": 0.9,
+        "placement_precision": 0.89
+    },
+    "age:unknown": {
+        "precision": 0.78,
+        "F1": 0.55,
+        "recall": 0.47,
+        "MAE": 1.15,
+        "placement_precision": 0.73
+    }
+}

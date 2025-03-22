@@ -1,0 +1,20 @@
+
+    \begin{table}[htbp]
+    \centering
+    \small
+    \caption{Performance for the tasks of ETT Presence, Measurement, and Placement using the updated reports stratified by clinical context.}
+    \setlength{\tabcolsep}{2pt}  % Reduce column spacing
+    \begin{tabular}{lcccccccccccc}
+    \toprule
+    & \multicolumn{3}{c}{Gender} & \multicolumn{3}{c}{Age} & \multicolumn{2}{c}{Comparison} & \multicolumn{3}{c}{Indication} & All \\
+    & Female & Male & Unknown & 0-59 & 60+ & Unknown & True & False & Respiration & Intubation & Other & All \\
+    \midrule
+    Presence Precision & 0.62 & 0.62 & 0.78 & 0.66 & 0.57 & 0.78 & 0.72 & 0.60 & 0.67 & 0.74 & 0.59 & 0.64 \\
+Measurement MAE & 0.64 & 0.72 & 1.15 & 0.60 & 0.90 & 1.15 & 0.73 & 0.78 & 0.95 & 0.65 & 0.87 & 0.82 \\
+Placement Precision & 0.96 & 0.82 & 0.73 & 0.95 & 0.89 & 0.73 & 0.76 & 0.94 & 0.84 & 0.83 & 0.95 & 0.94 \\
+
+    \bottomrule
+    \end{tabular}
+    \label{tab:ett_metrics_stratified}
+    \end{table}
+    

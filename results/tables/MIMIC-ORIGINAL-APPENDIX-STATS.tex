@@ -1,0 +1,28 @@
+
+    \begin{table*}[htbp]
+        \centering
+        \small
+        \caption{Performance statistics for the tasks of ETT Presence, Measurement, and Placement using the [KEY] reports.}
+        \begin{tabular}{lcccccccccc}
+        \toprule
+        & \multicolumn{4}{c}{ETT Presence} & \multicolumn{2}{c}{ETT Measurement} & \multicolumn{4}{c}{ETT Placement} \\
+        \cmidrule(lr){2-5}\cmidrule(lr){6-7}\cmidrule(lr){8-11}
+        Model & Precision & Recall & F1 & BACC & MAE & MSE & Precision & Recall & F1 & BACC \\
+        \midrule
+    CheXagent & 0.70 & 0.36 & 0.48 & 0.67 & 1.98 & 9.44 & 0.85 & 1.00 & 0.92 & 0.50 \\
+CheXpertPlus & 0.64 & 0.76 & 0.69 & 0.86 & 1.44 & 3.47 & 0.90 & 0.67 & 0.77 & 0.70 \\
+Cvt2distilgpt2 & 0.71 & 0.53 & 0.60 & 0.75 & 3.82 & 101.58 & 0.73 & 0.91 & 0.81 & 0.48 \\
+GPT4V & 0.20 & 0.22 & 0.21 & 0.57 & 2.35 & 7.35 & 1.00 & 0.50 & 0.67 & 0.50 \\
+LLM-CXR & 0.08 & 0.53 & 0.13 & 0.49 & 2.41 & 10.38 & 0.74 & 0.50 & 0.60 & 0.46 \\
+MAIRA-2 & 0.63 & 0.82 & 0.71 & 0.89 & 1.43 & 3.91 & 0.76 & 0.97 & 0.85 & 0.50 \\
+MedVersa & 0.73 & 0.72 & 0.72 & 0.85 & 1.07 & 2.29 & 0.84 & 0.94 & 0.89 & 0.60 \\
+RGRG & 0.50 & 0.84 & 0.63 & 0.88 & 1.58 & 5.44 & 0.77 & 0.94 & 0.85 & 0.50 \\
+RaDialog & 0.67 & 0.70 & 0.69 & 0.84 & 0.99 & 1.54 & 0.81 & 0.91 & 0.85 & 0.60 \\
+RadFM & 0.28 & 0.05 & 0.08 & 0.52 & 0.65 & 0.64 & 1.00 & 1.00 & 1.00 & 1.00 \\
+VLCI & 0.25 & 0.12 & 0.16 & 0.54 & 3.50 & 58.02 & 0.80 & 0.89 & 0.84 & 0.44 \\
+
+        \bottomrule
+        \end{tabular}
+        \label{tab:ett_metrics_KEY}
+    \end{table*}
+    

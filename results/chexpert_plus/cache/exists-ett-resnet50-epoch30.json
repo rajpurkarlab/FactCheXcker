@@ -1,0 +1,1802 @@
+{
+    "patient64620_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.01295118685811758,
+            "ET_present": -4.353038311004639,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64678_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.0004589696181938052,
+            "ET_present": -7.686837673187256,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64680_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -7.600569248199463,
+            "ET_present": -0.0005003153928555548,
+            "prediction": "ET_present",
+            "ground_truth": "ET_present"
+        }
+    },
+    "patient64592_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -7.390948667307384e-06,
+            "ET_present": -11.814905166625977,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64729_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -9.529525756835938,
+            "ET_present": -7.271502545336261e-05,
+            "prediction": "ET_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64545_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.1920928244535389e-07,
+            "ET_present": -15.645401000976562,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64643_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -11.261153221130371,
+            "ET_present": -1.2874520507466514e-05,
+            "prediction": "ET_present",
+            "ground_truth": "ET_present"
+        }
+    },
+    "patient64661_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -10.64698600769043,
+            "ET_present": -2.372236667724792e-05,
+            "prediction": "ET_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64604_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -8.344646857949556e-07,
+            "ET_present": -14.015711784362793,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64548_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -3.576278118089249e-07,
+            "ET_present": -14.7613525390625,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64610_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -2.3841855067985307e-07,
+            "ET_present": -15.060775756835938,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64702_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -6.556489552167477e-06,
+            "ET_present": -11.94005298614502,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64708_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.966933996300213e-05,
+            "ET_present": -10.839098930358887,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64688_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -8.738177299499512,
+            "ET_present": -0.00016032364510465413,
+            "prediction": "ET_present",
+            "ground_truth": "ET_present"
+        }
+    },
+    "patient64675_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.3589766240329482e-05,
+            "ET_present": -11.202762603759766,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64580_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.00402046600356698,
+            "ET_present": -5.518353462219238,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64573_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -8.115717887878418,
+            "ET_present": -0.00029881304362788796,
+            "prediction": "ET_present",
+            "ground_truth": "ET_present"
+        }
+    },
+    "patient64595_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -17.955345153808594,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64655_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.02063520811498165,
+            "ET_present": -3.8910582065582275,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64565_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -16.652345657348633,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64612_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.4305104514278355e-06,
+            "ET_present": -13.468741416931152,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64700_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -4.5060096454108134e-05,
+            "ET_present": -10.006653785705566,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64682_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -3.019848108291626,
+            "ET_present": -0.05004001408815384,
+            "prediction": "ET_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64683_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -5.960462772236497e-07,
+            "ET_present": -14.436226844787598,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64556_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -19.10910415649414,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64602_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.156323378381785e-05,
+            "ET_present": -11.363117218017578,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64589_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.1920928244535389e-07,
+            "ET_present": -16.356525421142578,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64724_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -17.003768920898438,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64635_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.00031513971043750644,
+            "ET_present": -8.062469482421875,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64698_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.0011464934796094894,
+            "ET_present": -6.7715840339660645,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64551_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -9.775113539944869e-06,
+            "ET_present": -11.53787612915039,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64587_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.0006105228094384074,
+            "ET_present": -7.401589393615723,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64613_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -4.434487345861271e-05,
+            "ET_present": -10.024404525756836,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64648_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.4305104514278355e-06,
+            "ET_present": -13.471938133239746,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64640_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -3.5523738915799186e-05,
+            "ET_present": -10.245797157287598,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64543_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -20.133228302001953,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64639_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -11.598020553588867,
+            "ET_present": -9.179073458653875e-06,
+            "prediction": "ET_present",
+            "ground_truth": "ET_present"
+        }
+    },
+    "patient64623_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -5.149528980255127,
+            "ET_present": -0.005819046404212713,
+            "prediction": "ET_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64705_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -2.3841855067985307e-07,
+            "ET_present": -15.346555709838867,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64681_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -7.1415886878967285,
+            "ET_present": -0.0007918321643956006,
+            "prediction": "ET_present",
+            "ground_truth": "ET_present"
+        }
+    },
+    "patient64563_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -2.861018856492592e-06,
+            "ET_present": -12.768280982971191,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64605_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.4543427823809907e-05,
+            "ET_present": -11.138489723205566,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64559_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -17.65230941772461,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64582_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -4.529942543740617e-06,
+            "ET_present": -12.31702709197998,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64691_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.001258653705008328,
+            "ET_present": -6.67831563949585,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64584_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -16.672109603881836,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64609_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.8429539203643799,
+            "ET_present": -0.17238979041576385,
+            "prediction": "ET_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64564_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -18.162357330322266,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64719_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -4.5796918869018555,
+            "ET_present": -0.010311070829629898,
+            "prediction": "ET_present",
+            "ground_truth": "ET_present"
+        }
+    },
+    "patient64703_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.03469021990895271,
+            "ET_present": -3.3785929679870605,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64664_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.3177928626537323,
+            "ET_present": -1.3010472059249878,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64670_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -5.498915672302246,
+            "ET_present": -0.0040996563620865345,
+            "prediction": "ET_present",
+            "ground_truth": "ET_present"
+        }
+    },
+    "patient64566_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -16.861373901367188,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64616_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -19.542884826660156,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64644_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.1920928244535389e-07,
+            "ET_present": -16.134334564208984,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64630_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -5.960462772236497e-07,
+            "ET_present": -14.388834953308105,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64668_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -2.3841855067985307e-07,
+            "ET_present": -15.390825271606445,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64740_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.001212100381962955,
+            "ET_present": -6.715985298156738,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64542_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -3.576278118089249e-07,
+            "ET_present": -14.936362266540527,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64546_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.5497195136049413e-06,
+            "ET_present": -13.41176986694336,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64652_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -17.553939819335938,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64697_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -7.679213523864746,
+            "ET_present": -0.0004624251159839332,
+            "prediction": "ET_present",
+            "ground_truth": "ET_present"
+        }
+    },
+    "patient64561_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -17.29233741760254,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64653_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -7.151671886444092,
+            "ET_present": -0.0007838514284230769,
+            "prediction": "ET_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64615_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -7.271740287251305e-06,
+            "ET_present": -11.835644721984863,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64660_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.4066597032069694e-05,
+            "ET_present": -11.175141334533691,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64594_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -17.158409118652344,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64637_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.9192511899746023e-05,
+            "ET_present": -10.858091354370117,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64590_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -18.374122619628906,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64570_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -4.410734163684538e-06,
+            "ET_present": -12.342143058776855,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64641_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.3969576954841614,
+            "ET_present": -1.1158475875854492,
+            "prediction": "not_present",
+            "ground_truth": "ET_present"
+        }
+    },
+    "patient64600_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.1920928244535389e-07,
+            "ET_present": -16.5047664642334,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64730_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.0002512616047170013,
+            "ET_present": -8.289200782775879,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64547_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -5.960446742392378e-06,
+            "ET_present": -12.030769348144531,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64574_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.6093124941107817e-05,
+            "ET_present": -11.035375595092773,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64694_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -7.152555099310121e-07,
+            "ET_present": -14.096735954284668,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64727_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.00037555795279331505,
+            "ET_present": -7.887235641479492,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64624_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.00012468514614738524,
+            "ET_present": -8.990145683288574,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64567_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -20.312259674072266,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64689_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.0010459910845384002,
+            "ET_present": -6.863324165344238,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64638_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.5020257706055418e-05,
+            "ET_present": -11.10421085357666,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64603_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -13.199239730834961,
+            "ET_present": -1.9073468138230965e-06,
+            "prediction": "ET_present",
+            "ground_truth": "ET_present"
+        }
+    },
+    "patient64621_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -4.887569048150908e-06,
+            "ET_present": -12.230792999267578,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64571_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -2.3841855067985307e-07,
+            "ET_present": -15.17770767211914,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64656_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.01723245158791542,
+            "ET_present": -4.069565296173096,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64657_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -8.318081855773926,
+            "ET_present": -0.0002441108226776123,
+            "prediction": "ET_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64713_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -3.576278118089249e-07,
+            "ET_present": -14.975473403930664,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64608_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -16.74219512939453,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64597_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -17.15668487548828,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64728_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -12.191084861755371,
+            "ET_present": -5.125986263010418e-06,
+            "prediction": "ET_present",
+            "ground_truth": "ET_present"
+        }
+    },
+    "patient64701_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -2.0352399349212646,
+            "ET_present": -0.14000849425792694,
+            "prediction": "ET_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64672_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -9.894321920000948e-06,
+            "ET_present": -11.525199890136719,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64673_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.1920928244535389e-07,
+            "ET_present": -16.480327606201172,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64636_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.2971811294555664,
+            "ET_present": -1.35832679271698,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64585_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.3470558769768104e-05,
+            "ET_present": -11.2119722366333,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64576_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -10.555819511413574,
+            "ET_present": -2.5987286790041253e-05,
+            "prediction": "ET_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64553_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.0728830375228426e-06,
+            "ET_present": -13.790865898132324,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64667_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -5.5370025634765625,
+            "ET_present": -0.003946137614548206,
+            "prediction": "ET_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64669_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -7.891343557275832e-05,
+            "ET_present": -9.447371482849121,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64666_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -4.817885398864746,
+            "ET_present": -0.008116712793707848,
+            "prediction": "ET_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64555_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.0728830375228426e-06,
+            "ET_present": -13.697915077209473,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64676_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -4.255681051290594e-05,
+            "ET_present": -10.065489768981934,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64549_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.1920922133867862e-06,
+            "ET_present": -13.613600730895996,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64693_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -11.958061218261719,
+            "ET_present": -6.437280717364047e-06,
+            "prediction": "ET_present",
+            "ground_truth": "ET_present"
+        }
+    },
+    "patient64554_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -17.0933837890625,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64712_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -16.605287551879883,
+            "ET_present": -1.1920928244535389e-07,
+            "prediction": "ET_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64674_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -8.405807495117188,
+            "ET_present": -0.0002236116270069033,
+            "prediction": "ET_present",
+            "ground_truth": "ET_present"
+        }
+    },
+    "patient64634_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -4.343420505523682,
+            "ET_present": -0.013077091425657272,
+            "prediction": "ET_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64709_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.1920928244535389e-07,
+            "ET_present": -15.917539596557617,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64663_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.00038366109947673976,
+            "ET_present": -7.865982532501221,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64569_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -26.282806396484375,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64575_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -7.152555099310121e-07,
+            "ET_present": -14.197678565979004,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64679_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.5497195136049413e-06,
+            "ET_present": -13.369691848754883,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64658_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -17.979713439941406,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64647_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.0004234609368722886,
+            "ET_present": -7.767210006713867,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64718_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.003415229730308056,
+            "ET_present": -5.681221961975098,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64550_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -18.294658660888672,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64607_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.0011177966371178627,
+            "ET_present": -6.796989440917969,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64633_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.218656063079834,
+            "ET_present": -0.35044753551483154,
+            "prediction": "ET_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64586_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -17.590660095214844,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64611_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.001211862312629819,
+            "ET_present": -6.71624231338501,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64601_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -18.18140411376953,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64721_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -19.221942901611328,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64706_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.1920928244535389e-07,
+            "ET_present": -16.010080337524414,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64560_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -8.344646857949556e-07,
+            "ET_present": -13.99439525604248,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64572_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.00016032364510465413,
+            "ET_present": -8.738338470458984,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64692_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -5.960462772236497e-07,
+            "ET_present": -14.435198783874512,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64714_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -10.306840896606445,
+            "ET_present": -3.3378044463461265e-05,
+            "prediction": "ET_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64646_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -4.6491513785440475e-06,
+            "ET_present": -12.282710075378418,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64734_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.0728830375228426e-06,
+            "ET_present": -13.799371719360352,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64645_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.9252716898918152,
+            "ET_present": -0.5048826932907104,
+            "prediction": "ET_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64579_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -2.3841855067985307e-07,
+            "ET_present": -15.031037330627441,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64622_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -2.444394588470459,
+            "ET_present": -0.09077703207731247,
+            "prediction": "ET_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64715_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -7.152555099310121e-07,
+            "ET_present": -14.121768951416016,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64568_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.00015043080202303827,
+            "ET_present": -8.802112579345703,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64642_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -2.3841855067985307e-07,
+            "ET_present": -15.314584732055664,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64654_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.00017093151109293103,
+            "ET_present": -8.674054145812988,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64723_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -17.93307113647461,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64544_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -3.576278118089249e-07,
+            "ET_present": -14.752985000610352,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64704_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -8.03691577911377,
+            "ET_present": -0.0003233625029679388,
+            "prediction": "ET_present",
+            "ground_truth": "ET_present"
+        }
+    },
+    "patient64732_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -20.395877838134766,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64722_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -3.1733407974243164,
+            "ET_present": -0.04276499152183533,
+            "prediction": "ET_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64687_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -10.044110298156738,
+            "ET_present": -4.339123915997334e-05,
+            "prediction": "ET_present",
+            "ground_truth": "ET_present"
+        }
+    },
+    "patient64632_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -10.421658515930176,
+            "ET_present": -2.9801878554280847e-05,
+            "prediction": "ET_present",
+            "ground_truth": "ET_present"
+        }
+    },
+    "patient64686_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -5.543078441405669e-05,
+            "ET_present": -9.801101684570312,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64606_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -17.005409240722656,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64739_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -5.960462772236497e-07,
+            "ET_present": -14.253874778747559,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64631_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -6.9141146923357155e-06,
+            "ET_present": -11.8808012008667,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64557_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -7.512746810913086,
+            "ET_present": -0.0005461869877763093,
+            "prediction": "ET_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64593_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -5.960462772236497e-07,
+            "ET_present": -14.272196769714355,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64651_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -5.960462772236497e-07,
+            "ET_present": -14.430591583251953,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64591_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -5.960462772236497e-07,
+            "ET_present": -14.315516471862793,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64617_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -2.50339189733495e-06,
+            "ET_present": -12.919286727905273,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64696_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.311301275563892e-06,
+            "ET_present": -13.540328025817871,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64650_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -20.986217498779297,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64598_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.1920928244535389e-07,
+            "ET_present": -16.48125457763672,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64690_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.00010489867418073118,
+            "ET_present": -9.16288948059082,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64737_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.1920928244535389e-07,
+            "ET_present": -16.35888671875,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64599_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -3.576278118089249e-07,
+            "ET_present": -14.928495407104492,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64736_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.1920928244535389e-07,
+            "ET_present": -15.931465148925781,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64577_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -2.3841855067985307e-07,
+            "ET_present": -15.43089485168457,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64659_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -14.290060997009277,
+            "ET_present": -5.960462772236497e-07,
+            "prediction": "ET_present",
+            "ground_truth": "ET_present"
+        }
+    },
+    "patient64677_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -2.3841855067985307e-07,
+            "ET_present": -15.304205894470215,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64583_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.1920928244535389e-07,
+            "ET_present": -15.753129959106445,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64628_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -3.576278118089249e-07,
+            "ET_present": -14.930713653564453,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64625_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -19.87909698486328,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64649_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -8.225102646974847e-05,
+            "ET_present": -9.406494140625,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64552_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -9.536738616588991e-07,
+            "ET_present": -13.873906135559082,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64618_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -3.6954811548639555e-06,
+            "ET_present": -12.517874717712402,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64699_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -6.23445157543756e-05,
+            "ET_present": -9.68254566192627,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64662_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.1920928244535389e-07,
+            "ET_present": -16.112438201904297,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64738_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.0013530300057027e-05,
+            "ET_present": -11.511087417602539,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64684_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -17.565916061401367,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64581_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -20.97252655029297,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64717_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.48604437708854675,
+            "ET_present": -0.9546535015106201,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64733_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -18.51428985595703,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64735_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.043279413133859634,
+            "ET_present": -3.161639451980591,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64726_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.728519782773219e-05,
+            "ET_present": -10.965583801269531,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64720_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -8.988347053527832,
+            "ET_present": -0.00012492353562265635,
+            "prediction": "ET_present",
+            "ground_truth": "ET_present"
+        }
+    },
+    "patient64541_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -17.669490814208984,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64671_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -2.94206166267395,
+            "ET_present": -0.05419948324561119,
+            "prediction": "ET_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64629_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.0006404255982488394,
+            "ET_present": -7.353710174560547,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64695_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -9.591412544250488,
+            "ET_present": -6.83045873302035e-05,
+            "prediction": "ET_present",
+            "ground_truth": "ET_present"
+        }
+    },
+    "patient64685_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -17.403942108154297,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64716_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.883488948806189e-05,
+            "ET_present": -10.880340576171875,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64558_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.00018988236843142658,
+            "ET_present": -8.569292068481445,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64596_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -1.1205610462639015e-05,
+            "ET_present": -11.403528213500977,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64614_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -17.92085838317871,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64711_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.00044252615771256387,
+            "ET_present": -7.723250865936279,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64578_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -4.768370445162873e-07,
+            "ET_present": -14.44491958618164,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64707_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -2.500603675842285,
+            "ET_present": -0.0855964943766594,
+            "prediction": "ET_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64725_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -8.4638240878121e-06,
+            "ET_present": -11.686429023742676,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64588_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -2.622600959512056e-06,
+            "ET_present": -12.855746269226074,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64627_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -4.23184028477408e-05,
+            "ET_present": -10.070287704467773,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64626_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -3.3378044463461265e-05,
+            "ET_present": -10.306126594543457,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64562_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": 0.0,
+            "ET_present": -17.062950134277344,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64710_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -0.00036149643710814416,
+            "ET_present": -7.9253106117248535,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64731_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -6.6756979322235566e-06,
+            "ET_present": -11.916834831237793,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64619_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -5.781483559985645e-05,
+            "ET_present": -9.75743579864502,
+            "prediction": "not_present",
+            "ground_truth": "not_present"
+        }
+    },
+    "patient64665_study1": {
+        "resized_dim": 512,
+        "predictions": {
+            "not_present": -13.202400207519531,
+            "ET_present": -1.7881377516459906e-06,
+            "prediction": "ET_present",
+            "ground_truth": "ET_present"
+        }
+    }
+}

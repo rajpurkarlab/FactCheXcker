@@ -1,0 +1,1608 @@
+[
+    {
+        "model": "CheXagent",
+        "num_total": 2288,
+        "num_ETT_present": {
+            "original": 94,
+            "updated": 87
+        },
+        "num_ETT_measurement": {
+            "original": 59,
+            "updated": 87
+        },
+        "num_ETT_correct": {
+            "original": 94,
+            "updated": 69
+        },
+        "num_ETT_incorrect": {
+            "original": 0,
+            "updated": 18
+        },
+        "TP": {
+            "original": 66,
+            "updated": 66
+        },
+        "FP": {
+            "original": 28,
+            "updated": 21
+        },
+        "TN": {
+            "original": 2078,
+            "updated": 2085
+        },
+        "FN": {
+            "original": 116,
+            "updated": 116
+        },
+        "accuracy": {
+            "original": 0.94,
+            "updated": 0.94
+        },
+        "balanced_accuracy": {
+            "original": 0.67,
+            "updated": 0.68
+        },
+        "F1": {
+            "original": 0.48,
+            "updated": 0.49
+        },
+        "precision": {
+            "original": 0.7,
+            "updated": 0.76
+        },
+        "recall": {
+            "original": 0.36,
+            "updated": 0.36
+        },
+        "roc_auc": {
+            "original": 0.67,
+            "updated": 0.68
+        },
+        "MAE": {
+            "original": 1.98,
+            "updated": 0.68
+        },
+        "MSE": {
+            "original": 9.44,
+            "updated": 0.93
+        },
+        "RMSE": {
+            "original": 3.07,
+            "updated": 0.96
+        },
+        "MAPE": {
+            "original": 0.38,
+            "updated": 0.16
+        },
+        "measurement_max_error": {
+            "original": 14.07,
+            "updated": 3.22
+        },
+        "measurement_min_error": {
+            "original": 0.07,
+            "updated": 0.02
+        },
+        "measurement_avg_error": {
+            "original": 1.98,
+            "updated": 0.68
+        },
+        "measurement_std_error": {
+            "original": 2.35,
+            "updated": 0.68
+        },
+        "measurement_t_test_t": {
+            "original": 2.79,
+            "updated": 0.55
+        },
+        "measurement_t_test_pvalue": {
+            "original": 0.01,
+            "updated": 0.59
+        },
+        "placement_accuracy": {
+            "original": 0.85,
+            "updated": 0.85
+        },
+        "placement_balanced_accuracy": {
+            "original": 0.5,
+            "updated": 0.66
+        },
+        "placement_precision": {
+            "original": 0.85,
+            "updated": 0.9
+        },
+        "placement_f1": {
+            "original": 0.92,
+            "updated": 0.91
+        },
+        "placement_rocauc": {},
+        "placement_recall": {
+            "original": 1.0,
+            "updated": 0.93
+        },
+        "num_measurement_overlap": 33,
+        "precision_MAE": {
+            "original": 2.83,
+            "updated": 0.89
+        },
+        "precision_MSE": {
+            "original": 13.49,
+            "updated": 1.22
+        },
+        "precision_RMSE": {
+            "original": 4.39,
+            "updated": 1.26
+        },
+        "MAE_f1": {
+            "original": 4.12,
+            "updated": 1.39
+        },
+        "MSE_f1": {
+            "original": 19.67,
+            "updated": 1.9
+        },
+        "RMSE_f1": {
+            "original": 6.4,
+            "updated": 1.96
+        }
+    },
+    {
+        "model": "CheXpertPlus",
+        "num_total": 2288,
+        "num_ETT_present": {
+            "original": 217,
+            "updated": 203
+        },
+        "num_ETT_measurement": {
+            "original": 111,
+            "updated": 203
+        },
+        "num_ETT_correct": {
+            "original": 166,
+            "updated": 150
+        },
+        "num_ETT_incorrect": {
+            "original": 51,
+            "updated": 53
+        },
+        "TP": {
+            "original": 138,
+            "updated": 138
+        },
+        "FP": {
+            "original": 79,
+            "updated": 65
+        },
+        "TN": {
+            "original": 2027,
+            "updated": 2041
+        },
+        "FN": {
+            "original": 44,
+            "updated": 44
+        },
+        "accuracy": {
+            "original": 0.95,
+            "updated": 0.95
+        },
+        "balanced_accuracy": {
+            "original": 0.86,
+            "updated": 0.86
+        },
+        "F1": {
+            "original": 0.69,
+            "updated": 0.72
+        },
+        "precision": {
+            "original": 0.64,
+            "updated": 0.68
+        },
+        "recall": {
+            "original": 0.76,
+            "updated": 0.76
+        },
+        "roc_auc": {
+            "original": 0.86,
+            "updated": 0.86
+        },
+        "MAE": {
+            "original": 1.44,
+            "updated": 0.66
+        },
+        "MSE": {
+            "original": 3.47,
+            "updated": 0.76
+        },
+        "RMSE": {
+            "original": 1.86,
+            "updated": 0.87
+        },
+        "MAPE": {
+            "original": 0.46,
+            "updated": 0.2
+        },
+        "measurement_max_error": {
+            "original": 6.98,
+            "updated": 2.85
+        },
+        "measurement_min_error": {
+            "original": 0.0,
+            "updated": 0.0
+        },
+        "measurement_avg_error": {
+            "original": 1.44,
+            "updated": 0.66
+        },
+        "measurement_std_error": {
+            "original": 1.19,
+            "updated": 0.57
+        },
+        "measurement_t_test_t": {
+            "original": 1.69,
+            "updated": -1.22
+        },
+        "measurement_t_test_pvalue": {
+            "original": 0.09,
+            "updated": 0.22
+        },
+        "placement_accuracy": {
+            "original": 0.68,
+            "updated": 0.86
+        },
+        "placement_balanced_accuracy": {
+            "original": 0.7,
+            "updated": 0.84
+        },
+        "placement_precision": {
+            "original": 0.9,
+            "updated": 0.94
+        },
+        "placement_f1": {
+            "original": 0.77,
+            "updated": 0.91
+        },
+        "placement_rocauc": {},
+        "placement_recall": {
+            "original": 0.67,
+            "updated": 0.88
+        },
+        "num_measurement_overlap": 72,
+        "precision_MAE": {
+            "original": 2.25,
+            "updated": 0.97
+        },
+        "precision_MSE": {
+            "original": 5.42,
+            "updated": 1.12
+        },
+        "precision_RMSE": {
+            "original": 2.91,
+            "updated": 1.28
+        },
+        "MAE_f1": {
+            "original": 2.09,
+            "updated": 0.92
+        },
+        "MSE_f1": {
+            "original": 5.03,
+            "updated": 1.06
+        },
+        "RMSE_f1": {
+            "original": 2.7,
+            "updated": 1.21
+        }
+    },
+    {
+        "model": "Cvt2distilgpt2",
+        "num_total": 2288,
+        "num_ETT_present": {
+            "original": 136,
+            "updated": 133
+        },
+        "num_ETT_measurement": {
+            "original": 117,
+            "updated": 133
+        },
+        "num_ETT_correct": {
+            "original": 129,
+            "updated": 99
+        },
+        "num_ETT_incorrect": {
+            "original": 7,
+            "updated": 34
+        },
+        "TP": {
+            "original": 96,
+            "updated": 96
+        },
+        "FP": {
+            "original": 40,
+            "updated": 37
+        },
+        "TN": {
+            "original": 2066,
+            "updated": 2069
+        },
+        "FN": {
+            "original": 86,
+            "updated": 86
+        },
+        "accuracy": {
+            "original": 0.94,
+            "updated": 0.95
+        },
+        "balanced_accuracy": {
+            "original": 0.75,
+            "updated": 0.75
+        },
+        "F1": {
+            "original": 0.6,
+            "updated": 0.61
+        },
+        "precision": {
+            "original": 0.71,
+            "updated": 0.72
+        },
+        "recall": {
+            "original": 0.53,
+            "updated": 0.53
+        },
+        "roc_auc": {
+            "original": 0.75,
+            "updated": 0.75
+        },
+        "MAE": {
+            "original": 3.82,
+            "updated": 0.89
+        },
+        "MSE": {
+            "original": 101.58,
+            "updated": 2.92
+        },
+        "RMSE": {
+            "original": 10.08,
+            "updated": 1.71
+        },
+        "MAPE": {
+            "original": 1.12,
+            "updated": 0.3
+        },
+        "measurement_max_error": {
+            "original": 50.7,
+            "updated": 12.15
+        },
+        "measurement_min_error": {
+            "original": 0.0,
+            "updated": 0.0
+        },
+        "measurement_avg_error": {
+            "original": 3.82,
+            "updated": 0.89
+        },
+        "measurement_std_error": {
+            "original": 9.33,
+            "updated": 1.46
+        },
+        "measurement_t_test_t": {
+            "original": -1.77,
+            "updated": -0.48
+        },
+        "measurement_t_test_pvalue": {
+            "original": 0.08,
+            "updated": 0.63
+        },
+        "placement_accuracy": {
+            "original": 0.68,
+            "updated": 0.78
+        },
+        "placement_balanced_accuracy": {
+            "original": 0.48,
+            "updated": 0.76
+        },
+        "placement_precision": {
+            "original": 0.73,
+            "updated": 0.88
+        },
+        "placement_f1": {
+            "original": 0.81,
+            "updated": 0.85
+        },
+        "placement_rocauc": {},
+        "placement_recall": {
+            "original": 0.91,
+            "updated": 0.82
+        },
+        "num_measurement_overlap": 88,
+        "precision_MAE": {
+            "original": 5.38,
+            "updated": 1.24
+        },
+        "precision_MSE": {
+            "original": 143.07,
+            "updated": 4.06
+        },
+        "precision_RMSE": {
+            "original": 14.2,
+            "updated": 2.38
+        },
+        "MAE_f1": {
+            "original": 6.37,
+            "updated": 1.46
+        },
+        "MSE_f1": {
+            "original": 169.3,
+            "updated": 4.79
+        },
+        "RMSE_f1": {
+            "original": 16.8,
+            "updated": 2.8
+        }
+    },
+    {
+        "model": "GPT4V",
+        "num_total": 2288,
+        "num_ETT_present": {
+            "original": 196,
+            "updated": 69
+        },
+        "num_ETT_measurement": {
+            "original": 17,
+            "updated": 69
+        },
+        "num_ETT_correct": {
+            "original": 190,
+            "updated": 49
+        },
+        "num_ETT_incorrect": {
+            "original": 6,
+            "updated": 20
+        },
+        "TP": {
+            "original": 40,
+            "updated": 40
+        },
+        "FP": {
+            "original": 156,
+            "updated": 29
+        },
+        "TN": {
+            "original": 1950,
+            "updated": 2077
+        },
+        "FN": {
+            "original": 142,
+            "updated": 142
+        },
+        "accuracy": {
+            "original": 0.87,
+            "updated": 0.93
+        },
+        "balanced_accuracy": {
+            "original": 0.57,
+            "updated": 0.6
+        },
+        "F1": {
+            "original": 0.21,
+            "updated": 0.32
+        },
+        "precision": {
+            "original": 0.2,
+            "updated": 0.58
+        },
+        "recall": {
+            "original": 0.22,
+            "updated": 0.22
+        },
+        "roc_auc": {
+            "original": 0.57,
+            "updated": 0.6
+        },
+        "MAE": {
+            "original": 2.35,
+            "updated": 0.39
+        },
+        "MSE": {
+            "original": 7.35,
+            "updated": 0.16
+        },
+        "RMSE": {
+            "original": 2.71,
+            "updated": 0.4
+        },
+        "MAPE": {
+            "original": 0.42,
+            "updated": 0.07
+        },
+        "measurement_max_error": {
+            "original": 3.7,
+            "updated": 0.47
+        },
+        "measurement_min_error": {
+            "original": 1.0,
+            "updated": 0.31
+        },
+        "measurement_avg_error": {
+            "original": 2.35,
+            "updated": 0.39
+        },
+        "measurement_std_error": {
+            "original": 1.35,
+            "updated": 0.08
+        },
+        "measurement_t_test_t": {
+            "original": 1.74,
+            "updated": -0.21
+        },
+        "measurement_t_test_pvalue": {
+            "original": 0.33,
+            "updated": 0.87
+        },
+        "placement_accuracy": {
+            "original": 0.5,
+            "updated": 1.0
+        },
+        "placement_balanced_accuracy": {
+            "original": 0.5,
+            "updated": 1.0
+        },
+        "placement_precision": {
+            "original": 1.0,
+            "updated": 1.0
+        },
+        "placement_f1": {
+            "original": 0.67,
+            "updated": 1.0
+        },
+        "placement_rocauc": {},
+        "placement_recall": {
+            "original": 0.5,
+            "updated": 1.0
+        },
+        "num_measurement_overlap": 2,
+        "precision_MAE": {
+            "original": 11.75,
+            "updated": 0.67
+        },
+        "precision_MSE": {
+            "original": 36.75,
+            "updated": 0.28
+        },
+        "precision_RMSE": {
+            "original": 13.55,
+            "updated": 0.69
+        },
+        "MAE_f1": {
+            "original": 11.19,
+            "updated": 1.22
+        },
+        "MSE_f1": {
+            "original": 35.0,
+            "updated": 0.5
+        },
+        "RMSE_f1": {
+            "original": 12.9,
+            "updated": 1.25
+        }
+    },
+    {
+        "model": "LLM-CXR",
+        "num_total": 2288,
+        "num_ETT_present": {
+            "original": 1278,
+            "updated": 168
+        },
+        "num_ETT_measurement": {
+            "original": 721,
+            "updated": 168
+        },
+        "num_ETT_correct": {
+            "original": 955,
+            "updated": 116
+        },
+        "num_ETT_incorrect": {
+            "original": 323,
+            "updated": 52
+        },
+        "TP": {
+            "original": 97,
+            "updated": 97
+        },
+        "FP": {
+            "original": 1181,
+            "updated": 71
+        },
+        "TN": {
+            "original": 925,
+            "updated": 2035
+        },
+        "FN": {
+            "original": 85,
+            "updated": 85
+        },
+        "accuracy": {
+            "original": 0.45,
+            "updated": 0.93
+        },
+        "balanced_accuracy": {
+            "original": 0.49,
+            "updated": 0.75
+        },
+        "F1": {
+            "original": 0.13,
+            "updated": 0.55
+        },
+        "precision": {
+            "original": 0.08,
+            "updated": 0.58
+        },
+        "recall": {
+            "original": 0.53,
+            "updated": 0.53
+        },
+        "roc_auc": {
+            "original": 0.49,
+            "updated": 0.75
+        },
+        "MAE": {
+            "original": 2.41,
+            "updated": 0.91
+        },
+        "MSE": {
+            "original": 10.38,
+            "updated": 1.95
+        },
+        "RMSE": {
+            "original": 3.22,
+            "updated": 1.4
+        },
+        "MAPE": {
+            "original": 0.7,
+            "updated": 0.28
+        },
+        "measurement_max_error": {
+            "original": 12.06,
+            "updated": 6.56
+        },
+        "measurement_min_error": {
+            "original": 0.0,
+            "updated": 0.02
+        },
+        "measurement_avg_error": {
+            "original": 2.41,
+            "updated": 0.91
+        },
+        "measurement_std_error": {
+            "original": 2.13,
+            "updated": 1.06
+        },
+        "measurement_t_test_t": {
+            "original": 1.66,
+            "updated": -0.5
+        },
+        "measurement_t_test_pvalue": {
+            "original": 0.1,
+            "updated": 0.62
+        },
+        "placement_accuracy": {
+            "original": 0.48,
+            "updated": 0.85
+        },
+        "placement_balanced_accuracy": {
+            "original": 0.46,
+            "updated": 0.87
+        },
+        "placement_precision": {
+            "original": 0.74,
+            "updated": 0.97
+        },
+        "placement_f1": {
+            "original": 0.6,
+            "updated": 0.89
+        },
+        "placement_rocauc": {},
+        "placement_recall": {
+            "original": 0.5,
+            "updated": 0.82
+        },
+        "num_measurement_overlap": 52,
+        "precision_MAE": {
+            "original": 30.12,
+            "updated": 1.57
+        },
+        "precision_MSE": {
+            "original": 129.75,
+            "updated": 3.36
+        },
+        "precision_RMSE": {
+            "original": 40.25,
+            "updated": 2.41
+        },
+        "MAE_f1": {
+            "original": 18.54,
+            "updated": 1.65
+        },
+        "MSE_f1": {
+            "original": 79.85,
+            "updated": 3.55
+        },
+        "RMSE_f1": {
+            "original": 24.77,
+            "updated": 2.55
+        }
+    },
+    {
+        "model": "MAIRA-2",
+        "num_total": 2288,
+        "num_ETT_present": {
+            "original": 235,
+            "updated": 219
+        },
+        "num_ETT_measurement": {
+            "original": 209,
+            "updated": 219
+        },
+        "num_ETT_correct": {
+            "original": 230,
+            "updated": 161
+        },
+        "num_ETT_incorrect": {
+            "original": 5,
+            "updated": 58
+        },
+        "TP": {
+            "original": 149,
+            "updated": 149
+        },
+        "FP": {
+            "original": 86,
+            "updated": 70
+        },
+        "TN": {
+            "original": 2020,
+            "updated": 2036
+        },
+        "FN": {
+            "original": 33,
+            "updated": 33
+        },
+        "accuracy": {
+            "original": 0.95,
+            "updated": 0.95
+        },
+        "balanced_accuracy": {
+            "original": 0.89,
+            "updated": 0.89
+        },
+        "F1": {
+            "original": 0.71,
+            "updated": 0.74
+        },
+        "precision": {
+            "original": 0.63,
+            "updated": 0.68
+        },
+        "recall": {
+            "original": 0.82,
+            "updated": 0.82
+        },
+        "roc_auc": {
+            "original": 0.89,
+            "updated": 0.89
+        },
+        "MAE": {
+            "original": 1.43,
+            "updated": 0.99
+        },
+        "MSE": {
+            "original": 3.91,
+            "updated": 3.05
+        },
+        "RMSE": {
+            "original": 1.98,
+            "updated": 1.75
+        },
+        "MAPE": {
+            "original": 0.49,
+            "updated": 0.3
+        },
+        "measurement_max_error": {
+            "original": 12.57,
+            "updated": 12.15
+        },
+        "measurement_min_error": {
+            "original": 0.0,
+            "updated": 0.0
+        },
+        "measurement_avg_error": {
+            "original": 1.43,
+            "updated": 0.99
+        },
+        "measurement_std_error": {
+            "original": 1.36,
+            "updated": 1.44
+        },
+        "measurement_t_test_t": {
+            "original": 0.65,
+            "updated": -0.03
+        },
+        "measurement_t_test_pvalue": {
+            "original": 0.52,
+            "updated": 0.98
+        },
+        "placement_accuracy": {
+            "original": 0.74,
+            "updated": 0.81
+        },
+        "placement_balanced_accuracy": {
+            "original": 0.5,
+            "updated": 0.8
+        },
+        "placement_precision": {
+            "original": 0.76,
+            "updated": 0.91
+        },
+        "placement_f1": {
+            "original": 0.85,
+            "updated": 0.87
+        },
+        "placement_rocauc": {},
+        "placement_recall": {
+            "original": 0.97,
+            "updated": 0.83
+        },
+        "num_measurement_overlap": 135,
+        "precision_MAE": {
+            "original": 2.27,
+            "updated": 1.46
+        },
+        "precision_MSE": {
+            "original": 6.21,
+            "updated": 4.49
+        },
+        "precision_RMSE": {
+            "original": 3.14,
+            "updated": 2.57
+        },
+        "MAE_f1": {
+            "original": 2.01,
+            "updated": 1.34
+        },
+        "MSE_f1": {
+            "original": 5.51,
+            "updated": 4.12
+        },
+        "RMSE_f1": {
+            "original": 2.79,
+            "updated": 2.36
+        }
+    },
+    {
+        "model": "MedVersa",
+        "num_total": 2288,
+        "num_ETT_present": {
+            "original": 180,
+            "updated": 164
+        },
+        "num_ETT_measurement": {
+            "original": 155,
+            "updated": 164
+        },
+        "num_ETT_correct": {
+            "original": 165,
+            "updated": 120
+        },
+        "num_ETT_incorrect": {
+            "original": 15,
+            "updated": 44
+        },
+        "TP": {
+            "original": 131,
+            "updated": 131
+        },
+        "FP": {
+            "original": 49,
+            "updated": 33
+        },
+        "TN": {
+            "original": 2057,
+            "updated": 2073
+        },
+        "FN": {
+            "original": 51,
+            "updated": 51
+        },
+        "accuracy": {
+            "original": 0.96,
+            "updated": 0.96
+        },
+        "balanced_accuracy": {
+            "original": 0.85,
+            "updated": 0.85
+        },
+        "F1": {
+            "original": 0.72,
+            "updated": 0.76
+        },
+        "precision": {
+            "original": 0.73,
+            "updated": 0.8
+        },
+        "recall": {
+            "original": 0.72,
+            "updated": 0.72
+        },
+        "roc_auc": {
+            "original": 0.85,
+            "updated": 0.85
+        },
+        "MAE": {
+            "original": 1.07,
+            "updated": 0.86
+        },
+        "MSE": {
+            "original": 2.29,
+            "updated": 1.98
+        },
+        "RMSE": {
+            "original": 1.51,
+            "updated": 1.41
+        },
+        "MAPE": {
+            "original": 0.39,
+            "updated": 0.24
+        },
+        "measurement_max_error": {
+            "original": 10.0,
+            "updated": 6.57
+        },
+        "measurement_min_error": {
+            "original": 0.0,
+            "updated": 0.0
+        },
+        "measurement_avg_error": {
+            "original": 1.07,
+            "updated": 0.86
+        },
+        "measurement_std_error": {
+            "original": 1.07,
+            "updated": 1.11
+        },
+        "measurement_t_test_t": {
+            "original": -0.06,
+            "updated": 0.04
+        },
+        "measurement_t_test_pvalue": {
+            "original": 0.96,
+            "updated": 0.96
+        },
+        "placement_accuracy": {
+            "original": 0.81,
+            "updated": 0.83
+        },
+        "placement_balanced_accuracy": {
+            "original": 0.6,
+            "updated": 0.81
+        },
+        "placement_precision": {
+            "original": 0.84,
+            "updated": 0.94
+        },
+        "placement_f1": {
+            "original": 0.89,
+            "updated": 0.89
+        },
+        "placement_rocauc": {},
+        "placement_recall": {
+            "original": 0.94,
+            "updated": 0.85
+        },
+        "num_measurement_overlap": 115,
+        "precision_MAE": {
+            "original": 1.47,
+            "updated": 1.08
+        },
+        "precision_MSE": {
+            "original": 3.14,
+            "updated": 2.47
+        },
+        "precision_RMSE": {
+            "original": 2.07,
+            "updated": 1.76
+        },
+        "MAE_f1": {
+            "original": 1.49,
+            "updated": 1.13
+        },
+        "MSE_f1": {
+            "original": 3.18,
+            "updated": 2.61
+        },
+        "RMSE_f1": {
+            "original": 2.1,
+            "updated": 1.86
+        }
+    },
+    {
+        "model": "RGRG",
+        "num_total": 2288,
+        "num_ETT_present": {
+            "original": 303,
+            "updated": 254
+        },
+        "num_ETT_measurement": {
+            "original": 173,
+            "updated": 254
+        },
+        "num_ETT_correct": {
+            "original": 292,
+            "updated": 200
+        },
+        "num_ETT_incorrect": {
+            "original": 11,
+            "updated": 54
+        },
+        "TP": {
+            "original": 152,
+            "updated": 152
+        },
+        "FP": {
+            "original": 151,
+            "updated": 102
+        },
+        "TN": {
+            "original": 1955,
+            "updated": 2004
+        },
+        "FN": {
+            "original": 30,
+            "updated": 30
+        },
+        "accuracy": {
+            "original": 0.92,
+            "updated": 0.94
+        },
+        "balanced_accuracy": {
+            "original": 0.88,
+            "updated": 0.89
+        },
+        "F1": {
+            "original": 0.63,
+            "updated": 0.7
+        },
+        "precision": {
+            "original": 0.5,
+            "updated": 0.6
+        },
+        "recall": {
+            "original": 0.84,
+            "updated": 0.84
+        },
+        "roc_auc": {
+            "original": 0.88,
+            "updated": 0.89
+        },
+        "MAE": {
+            "original": 1.58,
+            "updated": 0.76
+        },
+        "MSE": {
+            "original": 5.44,
+            "updated": 1.1
+        },
+        "RMSE": {
+            "original": 2.33,
+            "updated": 1.05
+        },
+        "MAPE": {
+            "original": 0.62,
+            "updated": 0.24
+        },
+        "measurement_max_error": {
+            "original": 13.07,
+            "updated": 4.43
+        },
+        "measurement_min_error": {
+            "original": 0.0,
+            "updated": 0.02
+        },
+        "measurement_avg_error": {
+            "original": 1.58,
+            "updated": 0.76
+        },
+        "measurement_std_error": {
+            "original": 1.72,
+            "updated": 0.73
+        },
+        "measurement_t_test_t": {
+            "original": 0.28,
+            "updated": -1.14
+        },
+        "measurement_t_test_pvalue": {
+            "original": 0.78,
+            "updated": 0.26
+        },
+        "placement_accuracy": {
+            "original": 0.74,
+            "updated": 0.89
+        },
+        "placement_balanced_accuracy": {
+            "original": 0.5,
+            "updated": 0.88
+        },
+        "placement_precision": {
+            "original": 0.77,
+            "updated": 0.96
+        },
+        "placement_f1": {
+            "original": 0.85,
+            "updated": 0.93
+        },
+        "placement_rocauc": {},
+        "placement_recall": {
+            "original": 0.94,
+            "updated": 0.9
+        },
+        "num_measurement_overlap": 93,
+        "precision_MAE": {
+            "original": 3.16,
+            "updated": 1.27
+        },
+        "precision_MSE": {
+            "original": 10.88,
+            "updated": 1.83
+        },
+        "precision_RMSE": {
+            "original": 4.66,
+            "updated": 1.75
+        },
+        "MAE_f1": {
+            "original": 2.51,
+            "updated": 1.09
+        },
+        "MSE_f1": {
+            "original": 8.63,
+            "updated": 1.57
+        },
+        "RMSE_f1": {
+            "original": 3.7,
+            "updated": 1.5
+        }
+    },
+    {
+        "model": "RaDialog",
+        "num_total": 2288,
+        "num_ETT_present": {
+            "original": 190,
+            "updated": 186
+        },
+        "num_ETT_measurement": {
+            "original": 187,
+            "updated": 186
+        },
+        "num_ETT_correct": {
+            "original": 163,
+            "updated": 138
+        },
+        "num_ETT_incorrect": {
+            "original": 27,
+            "updated": 48
+        },
+        "TP": {
+            "original": 128,
+            "updated": 128
+        },
+        "FP": {
+            "original": 62,
+            "updated": 58
+        },
+        "TN": {
+            "original": 2044,
+            "updated": 2048
+        },
+        "FN": {
+            "original": 54,
+            "updated": 54
+        },
+        "accuracy": {
+            "original": 0.95,
+            "updated": 0.95
+        },
+        "balanced_accuracy": {
+            "original": 0.84,
+            "updated": 0.84
+        },
+        "F1": {
+            "original": 0.69,
+            "updated": 0.7
+        },
+        "precision": {
+            "original": 0.67,
+            "updated": 0.69
+        },
+        "recall": {
+            "original": 0.7,
+            "updated": 0.7
+        },
+        "roc_auc": {
+            "original": 0.84,
+            "updated": 0.84
+        },
+        "MAE": {
+            "original": 0.99,
+            "updated": 0.86
+        },
+        "MSE": {
+            "original": 1.54,
+            "updated": 2.36
+        },
+        "RMSE": {
+            "original": 1.24,
+            "updated": 1.54
+        },
+        "MAPE": {
+            "original": 0.38,
+            "updated": 0.29
+        },
+        "measurement_max_error": {
+            "original": 3.16,
+            "updated": 12.15
+        },
+        "measurement_min_error": {
+            "original": 0.0,
+            "updated": 0.0
+        },
+        "measurement_avg_error": {
+            "original": 0.99,
+            "updated": 0.86
+        },
+        "measurement_std_error": {
+            "original": 0.75,
+            "updated": 1.28
+        },
+        "measurement_t_test_t": {
+            "original": -0.7,
+            "updated": -0.27
+        },
+        "measurement_t_test_pvalue": {
+            "original": 0.48,
+            "updated": 0.78
+        },
+        "placement_accuracy": {
+            "original": 0.76,
+            "updated": 0.83
+        },
+        "placement_balanced_accuracy": {
+            "original": 0.6,
+            "updated": 0.81
+        },
+        "placement_precision": {
+            "original": 0.81,
+            "updated": 0.92
+        },
+        "placement_f1": {
+            "original": 0.85,
+            "updated": 0.88
+        },
+        "placement_rocauc": {},
+        "placement_recall": {
+            "original": 0.91,
+            "updated": 0.84
+        },
+        "num_measurement_overlap": 126,
+        "precision_MAE": {
+            "original": 1.48,
+            "updated": 1.25
+        },
+        "precision_MSE": {
+            "original": 2.3,
+            "updated": 3.42
+        },
+        "precision_RMSE": {
+            "original": 1.85,
+            "updated": 2.23
+        },
+        "MAE_f1": {
+            "original": 1.43,
+            "updated": 1.23
+        },
+        "MSE_f1": {
+            "original": 2.23,
+            "updated": 3.37
+        },
+        "RMSE_f1": {
+            "original": 1.8,
+            "updated": 2.2
+        }
+    },
+    {
+        "model": "RadFM",
+        "num_total": 2288,
+        "num_ETT_present": {
+            "original": 32,
+            "updated": 19
+        },
+        "num_ETT_measurement": {
+            "original": 21,
+            "updated": 19
+        },
+        "num_ETT_correct": {
+            "original": 32,
+            "updated": 14
+        },
+        "num_ETT_incorrect": {
+            "original": 0,
+            "updated": 5
+        },
+        "TP": {
+            "original": 9,
+            "updated": 9
+        },
+        "FP": {
+            "original": 23,
+            "updated": 10
+        },
+        "TN": {
+            "original": 2083,
+            "updated": 2096
+        },
+        "FN": {
+            "original": 173,
+            "updated": 173
+        },
+        "accuracy": {
+            "original": 0.91,
+            "updated": 0.92
+        },
+        "balanced_accuracy": {
+            "original": 0.52,
+            "updated": 0.52
+        },
+        "F1": {
+            "original": 0.08,
+            "updated": 0.09
+        },
+        "precision": {
+            "original": 0.28,
+            "updated": 0.47
+        },
+        "recall": {
+            "original": 0.05,
+            "updated": 0.05
+        },
+        "roc_auc": {
+            "original": 0.52,
+            "updated": 0.52
+        },
+        "MAE": {
+            "original": 0.65,
+            "updated": 1.04
+        },
+        "MSE": {
+            "original": 0.64,
+            "updated": 3.49
+        },
+        "RMSE": {
+            "original": 0.8,
+            "updated": 1.87
+        },
+        "MAPE": {
+            "original": 0.13,
+            "updated": 0.23
+        },
+        "measurement_max_error": {
+            "original": 1.33,
+            "updated": 4.14
+        },
+        "measurement_min_error": {
+            "original": 0.0,
+            "updated": 0.19
+        },
+        "measurement_avg_error": {
+            "original": 0.65,
+            "updated": 1.04
+        },
+        "measurement_std_error": {
+            "original": 0.47,
+            "updated": 1.55
+        },
+        "measurement_t_test_t": {
+            "original": 2.76,
+            "updated": 1.04
+        },
+        "measurement_t_test_pvalue": {
+            "original": 0.05,
+            "updated": 0.36
+        },
+        "placement_accuracy": {
+            "original": 1.0,
+            "updated": 0.8
+        },
+        "placement_balanced_accuracy": {
+            "original": 1.0,
+            "updated": 0.8
+        },
+        "placement_precision": {
+            "original": 1.0,
+            "updated": 1.0
+        },
+        "placement_f1": {
+            "original": 1.0,
+            "updated": 0.89
+        },
+        "placement_rocauc": {},
+        "placement_recall": {
+            "original": 1.0,
+            "updated": 0.8
+        },
+        "num_measurement_overlap": 5,
+        "precision_MAE": {
+            "original": 2.32,
+            "updated": 2.21
+        },
+        "precision_MSE": {
+            "original": 2.29,
+            "updated": 7.43
+        },
+        "precision_RMSE": {
+            "original": 2.86,
+            "updated": 3.98
+        },
+        "MAE_f1": {
+            "original": 8.12,
+            "updated": 11.56
+        },
+        "MSE_f1": {
+            "original": 8.0,
+            "updated": 38.78
+        },
+        "RMSE_f1": {
+            "original": 10.0,
+            "updated": 20.78
+        }
+    },
+    {
+        "model": "VLCI",
+        "num_total": 2288,
+        "num_ETT_present": {
+            "original": 88,
+            "updated": 41
+        },
+        "num_ETT_measurement": {
+            "original": 83,
+            "updated": 41
+        },
+        "num_ETT_correct": {
+            "original": 85,
+            "updated": 33
+        },
+        "num_ETT_incorrect": {
+            "original": 3,
+            "updated": 8
+        },
+        "TP": {
+            "original": 22,
+            "updated": 22
+        },
+        "FP": {
+            "original": 66,
+            "updated": 19
+        },
+        "TN": {
+            "original": 2040,
+            "updated": 2087
+        },
+        "FN": {
+            "original": 160,
+            "updated": 160
+        },
+        "accuracy": {
+            "original": 0.9,
+            "updated": 0.92
+        },
+        "balanced_accuracy": {
+            "original": 0.54,
+            "updated": 0.56
+        },
+        "F1": {
+            "original": 0.16,
+            "updated": 0.2
+        },
+        "precision": {
+            "original": 0.25,
+            "updated": 0.54
+        },
+        "recall": {
+            "original": 0.12,
+            "updated": 0.12
+        },
+        "roc_auc": {
+            "original": 0.54,
+            "updated": 0.56
+        },
+        "MAE": {
+            "original": 3.5,
+            "updated": 0.98
+        },
+        "MSE": {
+            "original": 58.02,
+            "updated": 1.96
+        },
+        "RMSE": {
+            "original": 7.62,
+            "updated": 1.4
+        },
+        "MAPE": {
+            "original": 0.89,
+            "updated": 0.25
+        },
+        "measurement_max_error": {
+            "original": 29.38,
+            "updated": 3.22
+        },
+        "measurement_min_error": {
+            "original": 0.1,
+            "updated": 0.02
+        },
+        "measurement_avg_error": {
+            "original": 3.5,
+            "updated": 0.98
+        },
+        "measurement_std_error": {
+            "original": 6.77,
+            "updated": 1.0
+        },
+        "measurement_t_test_t": {
+            "original": -1.34,
+            "updated": 0.16
+        },
+        "measurement_t_test_pvalue": {
+            "original": 0.2,
+            "updated": 0.88
+        },
+        "placement_accuracy": {
+            "original": 0.73,
+            "updated": 0.73
+        },
+        "placement_balanced_accuracy": {
+            "original": 0.44,
+            "updated": 0.64
+        },
+        "placement_precision": {
+            "original": 0.8,
+            "updated": 0.88
+        },
+        "placement_f1": {
+            "original": 0.84,
+            "updated": 0.82
+        },
+        "placement_rocauc": {},
+        "placement_recall": {
+            "original": 0.89,
+            "updated": 0.78
+        },
+        "num_measurement_overlap": 22,
+        "precision_MAE": {
+            "original": 14.0,
+            "updated": 1.81
+        },
+        "precision_MSE": {
+            "original": 232.08,
+            "updated": 3.63
+        },
+        "precision_RMSE": {
+            "original": 30.48,
+            "updated": 2.59
+        },
+        "MAE_f1": {
+            "original": 21.88,
+            "updated": 4.9
+        },
+        "MSE_f1": {
+            "original": 362.62,
+            "updated": 9.8
+        },
+        "RMSE_f1": {
+            "original": 47.62,
+            "updated": 7.0
+        }
+    }
+]

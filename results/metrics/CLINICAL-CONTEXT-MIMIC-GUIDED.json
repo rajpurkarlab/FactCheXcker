@@ -1,0 +1,3588 @@
+{
+    "CheXagent": {
+        "all": {
+            "num_total": 2288,
+            "precision": {
+                "original": 0.7021276596,
+                "updated": 0.7586206897
+            },
+            "F1": {
+                "original": 0.4782608696,
+                "updated": 0.4907063197
+            },
+            "recall": {
+                "original": 0.3626373626,
+                "updated": 0.3626373626
+            },
+            "MAE": {
+                "original": 1.98,
+                "updated": 0.6809090909
+            },
+            "placement_precision": {
+                "original": 0.8484848485,
+                "updated": 0.8965517241
+            },
+            "MAE_f1": {
+                "original": 4.1399999997,
+                "updated": 1.3876101928
+            }
+        },
+        "indication:respiratory": {
+            "num_total": 236,
+            "precision": {
+                "original": 0.8,
+                "updated": 0.8
+            },
+            "F1": {
+                "original": 0.4444444444,
+                "updated": 0.4444444444
+            },
+            "recall": {
+                "original": 0.3076923077,
+                "updated": 0.3076923077
+            },
+            "MAE": {
+                "original": 1.625,
+                "updated": 1.215
+            },
+            "placement_precision": {
+                "original": 1.0,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 3.6562500004,
+                "updated": 2.7337500003
+            }
+        },
+        "indication:intubation": {
+            "num_total": 247,
+            "precision": {
+                "original": 0.8157894737,
+                "updated": 0.8378378378
+            },
+            "F1": {
+                "original": 0.5254237288,
+                "updated": 0.5299145299
+            },
+            "recall": {
+                "original": 0.3875,
+                "updated": 0.3875
+            },
+            "MAE": {
+                "original": 1.3392857143,
+                "updated": 0.5385714286
+            },
+            "placement_precision": {
+                "original": 0.8571428571,
+                "updated": 0.9230769231
+            },
+            "MAE_f1": {
+                "original": 2.5489631337,
+                "updated": 1.0163364056
+            }
+        },
+        "indication:other": {
+            "num_total": 1825,
+            "precision": {
+                "original": 0.6226415094,
+                "updated": 0.7021276596
+            },
+            "F1": {
+                "original": 0.4615384615,
+                "updated": 0.4817518248
+            },
+            "recall": {
+                "original": 0.3666666667,
+                "updated": 0.3666666667
+            },
+            "MAE": {
+                "original": 2.5494444444,
+                "updated": 0.6505555556
+            },
+            "placement_precision": {
+                "original": 0.8333333333,
+                "updated": 0.875
+            },
+            "MAE_f1": {
+                "original": 5.5237962967,
+                "updated": 1.350395623
+            }
+        },
+        "comparison:true": {
+            "num_total": 932,
+            "precision": {
+                "original": 0.8076923077,
+                "updated": 0.875
+            },
+            "F1": {
+                "original": 0.4565217391,
+                "updated": 0.4666666667
+            },
+            "recall": {
+                "original": 0.3181818182,
+                "updated": 0.3181818182
+            },
+            "MAE": {
+                "original": 2.77875,
+                "updated": 0.86875
+            },
+            "placement_precision": {
+                "original": 0.875,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 6.0867857147,
+                "updated": 1.8616071427
+            }
+        },
+        "comparison:false": {
+            "num_total": 1356,
+            "precision": {
+                "original": 0.6617647059,
+                "updated": 0.7142857143
+            },
+            "F1": {
+                "original": 0.4891304348,
+                "updated": 0.5027932961
+            },
+            "recall": {
+                "original": 0.3879310345,
+                "updated": 0.3879310345
+            },
+            "MAE": {
+                "original": 1.7244,
+                "updated": 0.6208
+            },
+            "placement_precision": {
+                "original": 0.84,
+                "updated": 0.8695652174
+            },
+            "MAE_f1": {
+                "original": 3.5254399999,
+                "updated": 1.2347022222
+            }
+        },
+        "gender:F": {
+            "num_total": 877,
+            "precision": {
+                "original": 0.6666666667,
+                "updated": 0.7142857143
+            },
+            "F1": {
+                "original": 0.4494382022,
+                "updated": 0.4597701149
+            },
+            "recall": {
+                "original": 0.3389830508,
+                "updated": 0.3389830508
+            },
+            "MAE": {
+                "original": 1.21375,
+                "updated": 0.42625
+            },
+            "placement_precision": {
+                "original": 0.875,
+                "updated": 0.875
+            },
+            "MAE_f1": {
+                "original": 2.7005937503,
+                "updated": 0.9270937501
+            }
+        },
+        "gender:M": {
+            "num_total": 1015,
+            "precision": {
+                "original": 0.6603773585,
+                "updated": 0.7291666667
+            },
+            "F1": {
+                "original": 0.4794520548,
+                "updated": 0.4964539007
+            },
+            "recall": {
+                "original": 0.376344086,
+                "updated": 0.376344086
+            },
+            "MAE": {
+                "original": 2.4065,
+                "updated": 0.71
+            },
+            "placement_precision": {
+                "original": 0.8,
+                "updated": 0.8823529412
+            },
+            "MAE_f1": {
+                "original": 5.0192714285,
+                "updated": 1.4301428572
+            }
+        },
+        "gender:unknown": {
+            "num_total": 396,
+            "precision": {
+                "original": 1.0,
+                "updated": 1.0
+            },
+            "F1": {
+                "original": 0.5365853659,
+                "updated": 0.5365853659
+            },
+            "recall": {
+                "original": 0.3666666667,
+                "updated": 0.3666666667
+            },
+            "MAE": {
+                "original": 1.5,
+                "updated": 0.972
+            },
+            "placement_precision": {
+                "original": 1.0,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 2.7954545452,
+                "updated": 1.8114545453
+            }
+        },
+        "age:0-59": {
+            "num_total": 1199,
+            "precision": {
+                "original": 0.641509434,
+                "updated": 0.7234042553
+            },
+            "F1": {
+                "original": 0.4657534247,
+                "updated": 0.4857142857
+            },
+            "recall": {
+                "original": 0.3655913978,
+                "updated": 0.3655913978
+            },
+            "MAE": {
+                "original": 1.6294444444,
+                "updated": 0.3933333333
+            },
+            "placement_precision": {
+                "original": 0.8888888889,
+                "updated": 0.8888888889
+            },
+            "MAE_f1": {
+                "original": 3.4985130715,
+                "updated": 0.8098039215
+            }
+        },
+        "age:60+": {
+            "num_total": 689,
+            "precision": {
+                "original": 0.7,
+                "updated": 0.724137931
+            },
+            "F1": {
+                "original": 0.4719101124,
+                "updated": 0.4772727273
+            },
+            "recall": {
+                "original": 0.3559322034,
+                "updated": 0.3559322034
+            },
+            "MAE": {
+                "original": 2.851,
+                "updated": 1.053
+            },
+            "placement_precision": {
+                "original": 0.7,
+                "updated": 0.8571428571
+            },
+            "MAE_f1": {
+                "original": 6.0414047614,
+                "updated": 2.2062857142
+            }
+        },
+        "age:unknown": {
+            "num_total": 400,
+            "precision": {
+                "original": 1.0,
+                "updated": 1.0
+            },
+            "F1": {
+                "original": 0.5365853659,
+                "updated": 0.5365853659
+            },
+            "recall": {
+                "original": 0.3666666667,
+                "updated": 0.3666666667
+            },
+            "MAE": {
+                "original": 1.5,
+                "updated": 0.972
+            },
+            "placement_precision": {
+                "original": 1.0,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 2.7954545452,
+                "updated": 1.8114545453
+            }
+        }
+    },
+    "CheXpertPlus": {
+        "all": {
+            "num_total": 2288,
+            "precision": {
+                "original": 0.6359447005,
+                "updated": 0.6798029557
+            },
+            "F1": {
+                "original": 0.6917293233,
+                "updated": 0.7168831169
+            },
+            "recall": {
+                "original": 0.7582417582,
+                "updated": 0.7582417582
+            },
+            "MAE": {
+                "original": 1.4381944444,
+                "updated": 0.6561111111
+            },
+            "placement_precision": {
+                "original": 0.9047619048,
+                "updated": 0.9433962264
+            },
+            "MAE_f1": {
+                "original": 2.0791289251,
+                "updated": 0.9152274557
+            }
+        },
+        "indication:respiratory": {
+            "num_total": 236,
+            "precision": {
+                "original": 0.6129032258,
+                "updated": 0.6333333333
+            },
+            "F1": {
+                "original": 0.6666666667,
+                "updated": 0.6785714286
+            },
+            "recall": {
+                "original": 0.7307692308,
+                "updated": 0.7307692308
+            },
+            "MAE": {
+                "original": 1.3683333333,
+                "updated": 0.9566666667
+            },
+            "placement_precision": {
+                "original": 0.75,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 2.0524999998,
+                "updated": 1.4098245614
+            }
+        },
+        "indication:intubation": {
+            "num_total": 247,
+            "precision": {
+                "original": 0.7386363636,
+                "updated": 0.7831325301
+            },
+            "F1": {
+                "original": 0.7738095238,
+                "updated": 0.7975460123
+            },
+            "recall": {
+                "original": 0.8125,
+                "updated": 0.8125
+            },
+            "MAE": {
+                "original": 1.259375,
+                "updated": 0.6796875
+            },
+            "placement_precision": {
+                "original": 0.9473684211,
+                "updated": 0.9166666667
+            },
+            "MAE_f1": {
+                "original": 1.6275,
+                "updated": 0.8522235577
+            }
+        },
+        "indication:other": {
+            "num_total": 1825,
+            "precision": {
+                "original": 0.5818181818,
+                "updated": 0.6274509804
+            },
+            "F1": {
+                "original": 0.64,
+                "updated": 0.6666666667
+            },
+            "recall": {
+                "original": 0.7111111111,
+                "updated": 0.7111111111
+            },
+            "MAE": {
+                "original": 1.6007894737,
+                "updated": 0.6544736842
+            },
+            "placement_precision": {
+                "original": 0.9047619048,
+                "updated": 0.9642857143
+            },
+            "MAE_f1": {
+                "original": 2.5012335527,
+                "updated": 0.9817105263
+            }
+        },
+        "comparison:true": {
+            "num_total": 932,
+            "precision": {
+                "original": 0.7313432836,
+                "updated": 0.7777777778
+            },
+            "F1": {
+                "original": 0.7368421053,
+                "updated": 0.7596899225
+            },
+            "recall": {
+                "original": 0.7424242424,
+                "updated": 0.7424242424
+            },
+            "MAE": {
+                "original": 1.2476923077,
+                "updated": 0.7046153846
+            },
+            "placement_precision": {
+                "original": 0.9411764706,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 1.6932967032,
+                "updated": 0.9275039246
+            }
+        },
+        "comparison:false": {
+            "num_total": 1356,
+            "precision": {
+                "original": 0.5933333333,
+                "updated": 0.6357142857
+            },
+            "F1": {
+                "original": 0.6691729323,
+                "updated": 0.6953125
+            },
+            "recall": {
+                "original": 0.7672413793,
+                "updated": 0.7672413793
+            },
+            "MAE": {
+                "original": 1.5458695652,
+                "updated": 0.6286956522
+            },
+            "placement_precision": {
+                "original": 0.88,
+                "updated": 0.90625
+            },
+            "MAE_f1": {
+                "original": 2.3101196874,
+                "updated": 0.9041914998
+            }
+        },
+        "gender:F": {
+            "num_total": 877,
+            "precision": {
+                "original": 0.6341463415,
+                "updated": 0.6842105263
+            },
+            "F1": {
+                "original": 0.7375886525,
+                "updated": 0.7703703704
+            },
+            "recall": {
+                "original": 0.8813559322,
+                "updated": 0.8813559322
+            },
+            "MAE": {
+                "original": 1.0810714286,
+                "updated": 0.7171428571
+            },
+            "placement_precision": {
+                "original": 0.9411764706,
+                "updated": 0.95
+            },
+            "MAE_f1": {
+                "original": 1.4656833791,
+                "updated": 0.9309065933
+            }
+        },
+        "gender:M": {
+            "num_total": 1015,
+            "precision": {
+                "original": 0.6071428571,
+                "updated": 0.641509434
+            },
+            "F1": {
+                "original": 0.6634146341,
+                "updated": 0.6834170854
+            },
+            "recall": {
+                "original": 0.7311827957,
+                "updated": 0.7311827957
+            },
+            "MAE": {
+                "original": 1.7688888889,
+                "updated": 0.5725
+            },
+            "placement_precision": {
+                "original": 0.9047619048,
+                "updated": 0.9285714286
+            },
+            "MAE_f1": {
+                "original": 2.6663398695,
+                "updated": 0.8377022059
+            }
+        },
+        "gender:unknown": {
+            "num_total": 396,
+            "precision": {
+                "original": 0.7826086957,
+                "updated": 0.8571428571
+            },
+            "F1": {
+                "original": 0.679245283,
+                "updated": 0.7058823529
+            },
+            "recall": {
+                "original": 0.6,
+                "updated": 0.6
+            },
+            "MAE": {
+                "original": 1.2,
+                "updated": 0.81875
+            },
+            "placement_precision": {
+                "original": 0.75,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 1.7666666667,
+                "updated": 1.1598958334
+            }
+        },
+        "age:0-59": {
+            "num_total": 1199,
+            "precision": {
+                "original": 0.7079646018,
+                "updated": 0.7339449541
+            },
+            "F1": {
+                "original": 0.7766990291,
+                "updated": 0.7920792079
+            },
+            "recall": {
+                "original": 0.8602150538,
+                "updated": 0.8602150538
+            },
+            "MAE": {
+                "original": 1.5337209302,
+                "updated": 0.5606976744
+            },
+            "placement_precision": {
+                "original": 0.9166666667,
+                "updated": 0.90625
+            },
+            "MAE_f1": {
+                "original": 1.9746656977,
+                "updated": 0.7078808139
+            }
+        },
+        "age:60+": {
+            "num_total": 689,
+            "precision": {
+                "original": 0.4938271605,
+                "updated": 0.5479452055
+            },
+            "F1": {
+                "original": 0.5714285714,
+                "updated": 0.6060606061
+            },
+            "recall": {
+                "original": 0.6779661017,
+                "updated": 0.6779661017
+            },
+            "MAE": {
+                "original": 1.3333333333,
+                "updated": 0.7895238095
+            },
+            "placement_precision": {
+                "original": 0.9285714286,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 2.3333333334,
+                "updated": 1.3027142856
+            }
+        },
+        "age:unknown": {
+            "num_total": 400,
+            "precision": {
+                "original": 0.7826086957,
+                "updated": 0.8571428571
+            },
+            "F1": {
+                "original": 0.679245283,
+                "updated": 0.7058823529
+            },
+            "recall": {
+                "original": 0.6,
+                "updated": 0.6
+            },
+            "MAE": {
+                "original": 1.2,
+                "updated": 0.81875
+            },
+            "placement_precision": {
+                "original": 0.75,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 1.7666666667,
+                "updated": 1.1598958334
+            }
+        }
+    },
+    "Cvt2distilgpt2": {
+        "all": {
+            "num_total": 2288,
+            "precision": {
+                "original": 0.7058823529,
+                "updated": 0.7218045113
+            },
+            "F1": {
+                "original": 0.6037735849,
+                "updated": 0.6095238095
+            },
+            "recall": {
+                "original": 0.5274725275,
+                "updated": 0.5274725275
+            },
+            "MAE": {
+                "original": 3.8178409091,
+                "updated": 0.8911363636
+            },
+            "placement_precision": {
+                "original": 0.7283950617,
+                "updated": 0.8833333333
+            },
+            "MAE_f1": {
+                "original": 6.3232990058,
+                "updated": 1.4620205966
+            }
+        },
+        "indication:respiratory": {
+            "num_total": 236,
+            "precision": {
+                "original": 0.75,
+                "updated": 0.75
+            },
+            "F1": {
+                "original": 0.652173913,
+                "updated": 0.652173913
+            },
+            "recall": {
+                "original": 0.5769230769,
+                "updated": 0.5769230769
+            },
+            "MAE": {
+                "original": 4.5633333333,
+                "updated": 0.9273333333
+            },
+            "placement_precision": {
+                "original": 0.6428571429,
+                "updated": 0.7777777778
+            },
+            "MAE_f1": {
+                "original": 6.9971111115,
+                "updated": 1.4219111112
+            }
+        },
+        "indication:intubation": {
+            "num_total": 247,
+            "precision": {
+                "original": 0.7818181818,
+                "updated": 0.7818181818
+            },
+            "F1": {
+                "original": 0.637037037,
+                "updated": 0.637037037
+            },
+            "recall": {
+                "original": 0.5375,
+                "updated": 0.5375
+            },
+            "MAE": {
+                "original": 4.6682051282,
+                "updated": 0.6779487179
+            },
+            "placement_precision": {
+                "original": 0.6571428571,
+                "updated": 0.84
+            },
+            "MAE_f1": {
+                "original": 7.3279964226,
+                "updated": 1.0642218247
+            }
+        },
+        "indication:other": {
+            "num_total": 1825,
+            "precision": {
+                "original": 0.661971831,
+                "updated": 0.6911764706
+            },
+            "F1": {
+                "original": 0.5838509317,
+                "updated": 0.5949367089
+            },
+            "recall": {
+                "original": 0.5222222222,
+                "updated": 0.5222222222
+            },
+            "MAE": {
+                "original": 3.3802325581,
+                "updated": 1.0881395349
+            },
+            "placement_precision": {
+                "original": 0.8,
+                "updated": 0.935483871
+            },
+            "MAE_f1": {
+                "original": 5.7895472535,
+                "updated": 1.8290004947
+            }
+        },
+        "comparison:true": {
+            "num_total": 932,
+            "precision": {
+                "original": 0.7272727273,
+                "updated": 0.7619047619
+            },
+            "F1": {
+                "original": 0.5818181818,
+                "updated": 0.5925925926
+            },
+            "recall": {
+                "original": 0.4848484848,
+                "updated": 0.4848484848
+            },
+            "MAE": {
+                "original": 7.3417241379,
+                "updated": 0.8510344828
+            },
+            "placement_precision": {
+                "original": 0.68,
+                "updated": 0.85
+            },
+            "MAE_f1": {
+                "original": 12.6185883624,
+                "updated": 1.4361206897
+            }
+        },
+        "comparison:false": {
+            "num_total": 1356,
+            "precision": {
+                "original": 0.6956521739,
+                "updated": 0.7032967033
+            },
+            "F1": {
+                "original": 0.6153846154,
+                "updated": 0.6183574879
+            },
+            "recall": {
+                "original": 0.5517241379,
+                "updated": 0.5517241379
+            },
+            "MAE": {
+                "original": 2.0857627119,
+                "updated": 0.9108474576
+            },
+            "placement_precision": {
+                "original": 0.75,
+                "updated": 0.9
+            },
+            "MAE_f1": {
+                "original": 3.3893644068,
+                "updated": 1.4730111229
+            }
+        },
+        "gender:F": {
+            "num_total": 877,
+            "precision": {
+                "original": 0.66,
+                "updated": 0.6875
+            },
+            "F1": {
+                "original": 0.6055045872,
+                "updated": 0.6168224299
+            },
+            "recall": {
+                "original": 0.5593220339,
+                "updated": 0.5593220339
+            },
+            "MAE": {
+                "original": 5.792,
+                "updated": 0.6833333333
+            },
+            "placement_precision": {
+                "original": 0.7307692308,
+                "updated": 0.9047619048
+            },
+            "MAE_f1": {
+                "original": 9.5655757569,
+                "updated": 1.1078282828
+            }
+        },
+        "gender:M": {
+            "num_total": 1015,
+            "precision": {
+                "original": 0.696969697,
+                "updated": 0.7076923077
+            },
+            "F1": {
+                "original": 0.5786163522,
+                "updated": 0.582278481
+            },
+            "recall": {
+                "original": 0.4946236559,
+                "updated": 0.4946236559
+            },
+            "MAE": {
+                "original": 2.9771428571,
+                "updated": 0.9297619048
+            },
+            "placement_precision": {
+                "original": 0.675,
+                "updated": 0.8333333333
+            },
+            "MAE_f1": {
+                "original": 5.145279503,
+                "updated": 1.5967650105
+            }
+        },
+        "gender:unknown": {
+            "num_total": 396,
+            "precision": {
+                "original": 0.85,
+                "updated": 0.85
+            },
+            "F1": {
+                "original": 0.68,
+                "updated": 0.68
+            },
+            "recall": {
+                "original": 0.5666666667,
+                "updated": 0.5666666667
+            },
+            "MAE": {
+                "original": 2.323125,
+                "updated": 1.179375
+            },
+            "placement_precision": {
+                "original": 0.8666666667,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 3.4163602941,
+                "updated": 1.734375
+            }
+        },
+        "age:0-59": {
+            "num_total": 1199,
+            "precision": {
+                "original": 0.7260273973,
+                "updated": 0.7464788732
+            },
+            "F1": {
+                "original": 0.6385542169,
+                "updated": 0.6463414634
+            },
+            "recall": {
+                "original": 0.5698924731,
+                "updated": 0.5698924731
+            },
+            "MAE": {
+                "original": 3.887755102,
+                "updated": 0.7910204082
+            },
+            "placement_precision": {
+                "original": 0.7777777778,
+                "updated": 0.8947368421
+            },
+            "MAE_f1": {
+                "original": 6.0883711972,
+                "updated": 1.2238428957
+            }
+        },
+        "age:60+": {
+            "num_total": 689,
+            "precision": {
+                "original": 0.6046511628,
+                "updated": 0.619047619
+            },
+            "F1": {
+                "original": 0.5098039216,
+                "updated": 0.5148514851
+            },
+            "recall": {
+                "original": 0.4406779661,
+                "updated": 0.4406779661
+            },
+            "MAE": {
+                "original": 4.7086956522,
+                "updated": 0.9039130435
+            },
+            "placement_precision": {
+                "original": 0.5238095238,
+                "updated": 0.7692307692
+            },
+            "MAE_f1": {
+                "original": 9.2362876249,
+                "updated": 1.7556772577
+            }
+        },
+        "age:unknown": {
+            "num_total": 400,
+            "precision": {
+                "original": 0.85,
+                "updated": 0.85
+            },
+            "F1": {
+                "original": 0.68,
+                "updated": 0.68
+            },
+            "recall": {
+                "original": 0.5666666667,
+                "updated": 0.5666666667
+            },
+            "MAE": {
+                "original": 2.323125,
+                "updated": 1.179375
+            },
+            "placement_precision": {
+                "original": 0.8666666667,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 3.4163602941,
+                "updated": 1.734375
+            }
+        }
+    },
+    "GPT4V": {
+        "all": {
+            "num_total": 2288,
+            "precision": {
+                "original": 0.2040816327,
+                "updated": 0.5797101449
+            },
+            "F1": {
+                "original": 0.2116402116,
+                "updated": 0.3187250996
+            },
+            "recall": {
+                "original": 0.2197802198,
+                "updated": 0.2197802198
+            },
+            "MAE": {
+                "original": 2.35,
+                "updated": 0.39
+            },
+            "placement_precision": {
+                "original": 1.0,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 11.1037500021,
+                "updated": 1.223625
+            }
+        },
+        "indication:respiratory": {
+            "num_total": 236,
+            "precision": {
+                "original": 0.2631578947,
+                "updated": 0.5
+            },
+            "F1": {
+                "original": 0.2222222222,
+                "updated": 0.2777777778
+            },
+            "recall": {
+                "original": 0.1923076923,
+                "updated": 0.1923076923
+            },
+            "MAE": {
+                "original": 0,
+                "updated": 0
+            },
+            "placement_precision": {
+                "original": 0.0,
+                "updated": 0.0
+            },
+            "MAE_f1": {
+                "original": 0.0,
+                "updated": 0.0
+            }
+        },
+        "indication:intubation": {
+            "num_total": 247,
+            "precision": {
+                "original": 0.4468085106,
+                "updated": 0.7
+            },
+            "F1": {
+                "original": 0.3307086614,
+                "updated": 0.3818181818
+            },
+            "recall": {
+                "original": 0.2625,
+                "updated": 0.2625
+            },
+            "MAE": {
+                "original": 0,
+                "updated": 0
+            },
+            "placement_precision": {
+                "original": 0.0,
+                "updated": 0.0
+            },
+            "MAE_f1": {
+                "original": 0.0,
+                "updated": 0.0
+            }
+        },
+        "indication:other": {
+            "num_total": 1825,
+            "precision": {
+                "original": 0.1313868613,
+                "updated": 0.5142857143
+            },
+            "F1": {
+                "original": 0.1585903084,
+                "updated": 0.288
+            },
+            "recall": {
+                "original": 0.2,
+                "updated": 0.2
+            },
+            "MAE": {
+                "original": 2.35,
+                "updated": 0.39
+            },
+            "placement_precision": {
+                "original": 1.0,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 14.8180555528,
+                "updated": 1.3541666667
+            }
+        },
+        "comparison:true": {
+            "num_total": 932,
+            "precision": {
+                "original": 0.2297297297,
+                "updated": 0.68
+            },
+            "F1": {
+                "original": 0.2428571429,
+                "updated": 0.3736263736
+            },
+            "recall": {
+                "original": 0.2575757576,
+                "updated": 0.2575757576
+            },
+            "MAE": {
+                "original": 0,
+                "updated": 0
+            },
+            "placement_precision": {
+                "original": 0.0,
+                "updated": 0.0
+            },
+            "MAE_f1": {
+                "original": 0.0,
+                "updated": 0.0
+            }
+        },
+        "comparison:false": {
+            "num_total": 1356,
+            "precision": {
+                "original": 0.1885245902,
+                "updated": 0.5227272727
+            },
+            "F1": {
+                "original": 0.1932773109,
+                "updated": 0.2875
+            },
+            "recall": {
+                "original": 0.1982758621,
+                "updated": 0.1982758621
+            },
+            "MAE": {
+                "original": 2.35,
+                "updated": 0.39
+            },
+            "placement_precision": {
+                "original": 1.0,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 12.1586956537,
+                "updated": 1.3565217391
+            }
+        },
+        "gender:F": {
+            "num_total": 877,
+            "precision": {
+                "original": 0.1686746988,
+                "updated": 0.4827586207
+            },
+            "F1": {
+                "original": 0.1971830986,
+                "updated": 0.3181818182
+            },
+            "recall": {
+                "original": 0.2372881356,
+                "updated": 0.2372881356
+            },
+            "MAE": {
+                "original": 2.35,
+                "updated": 0.39
+            },
+            "placement_precision": {
+                "original": 1.0,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 11.9178571423,
+                "updated": 1.2257142856
+            }
+        },
+        "gender:M": {
+            "num_total": 1015,
+            "precision": {
+                "original": 0.2065217391,
+                "updated": 0.625
+            },
+            "F1": {
+                "original": 0.2054054054,
+                "updated": 0.32
+            },
+            "recall": {
+                "original": 0.2043010753,
+                "updated": 0.2150537634
+            },
+            "MAE": {
+                "original": 0,
+                "updated": 0
+            },
+            "placement_precision": {
+                "original": 0.0,
+                "updated": 0.0
+            },
+            "MAE_f1": {
+                "original": 0.0,
+                "updated": 0.0
+            }
+        },
+        "gender:unknown": {
+            "num_total": 396,
+            "precision": {
+                "original": 0.3333333333,
+                "updated": 0.75
+            },
+            "F1": {
+                "original": 0.2745098039,
+                "updated": 0.3157894737
+            },
+            "recall": {
+                "original": 0.2333333333,
+                "updated": 0.2
+            },
+            "MAE": {
+                "original": 0,
+                "updated": 0
+            },
+            "placement_precision": {
+                "original": 0.0,
+                "updated": 0.0
+            },
+            "MAE_f1": {
+                "original": 0.0,
+                "updated": 0.0
+            }
+        },
+        "age:0-59": {
+            "num_total": 1199,
+            "precision": {
+                "original": 0.1730769231,
+                "updated": 0.5135135135
+            },
+            "F1": {
+                "original": 0.1827411168,
+                "updated": 0.2923076923
+            },
+            "recall": {
+                "original": 0.1935483871,
+                "updated": 0.2043010753
+            },
+            "MAE": {
+                "original": 3.7,
+                "updated": 0.31
+            },
+            "placement_precision": {
+                "original": 0.0,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 20.2472222168,
+                "updated": 1.0605263158
+            }
+        },
+        "age:60+": {
+            "num_total": 689,
+            "precision": {
+                "original": 0.2173913043,
+                "updated": 0.625
+            },
+            "F1": {
+                "original": 0.234375,
+                "updated": 0.3614457831
+            },
+            "recall": {
+                "original": 0.2542372881,
+                "updated": 0.2542372881
+            },
+            "MAE": {
+                "original": 1.0,
+                "updated": 0.47
+            },
+            "placement_precision": {
+                "original": 1.0,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 4.2666666667,
+                "updated": 1.3003333335
+            }
+        },
+        "age:unknown": {
+            "num_total": 400,
+            "precision": {
+                "original": 0.3043478261,
+                "updated": 0.75
+            },
+            "F1": {
+                "original": 0.2641509434,
+                "updated": 0.3157894737
+            },
+            "recall": {
+                "original": 0.2333333333,
+                "updated": 0.2
+            },
+            "MAE": {
+                "original": 0,
+                "updated": 0
+            },
+            "placement_precision": {
+                "original": 0.0,
+                "updated": 0.0
+            },
+            "MAE_f1": {
+                "original": 0.0,
+                "updated": 0.0
+            }
+        }
+    },
+    "LLM-CXR": {
+        "all": {
+            "num_total": 2288,
+            "precision": {
+                "original": 0.0758998435,
+                "updated": 0.5773809524
+            },
+            "F1": {
+                "original": 0.1328767123,
+                "updated": 0.5542857143
+            },
+            "recall": {
+                "original": 0.532967033,
+                "updated": 0.532967033
+            },
+            "MAE": {
+                "original": 2.4142307692,
+                "updated": 0.9082692308
+            },
+            "placement_precision": {
+                "original": 0.7407407407,
+                "updated": 0.9705882353
+            },
+            "MAE_f1": {
+                "original": 18.1689532154,
+                "updated": 1.6386300555
+            }
+        },
+        "indication:respiratory": {
+            "num_total": 236,
+            "precision": {
+                "original": 0.1217391304,
+                "updated": 0.6086956522
+            },
+            "F1": {
+                "original": 0.1985815603,
+                "updated": 0.5714285714
+            },
+            "recall": {
+                "original": 0.5384615385,
+                "updated": 0.5384615385
+            },
+            "MAE": {
+                "original": 1.63,
+                "updated": 0.6557142857
+            },
+            "placement_precision": {
+                "original": 0.75,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 8.208214285,
+                "updated": 1.1475
+            }
+        },
+        "indication:intubation": {
+            "num_total": 247,
+            "precision": {
+                "original": 0.3040540541,
+                "updated": 0.703125
+            },
+            "F1": {
+                "original": 0.3947368421,
+                "updated": 0.625
+            },
+            "recall": {
+                "original": 0.5625,
+                "updated": 0.5625
+            },
+            "MAE": {
+                "original": 1.9566666667,
+                "updated": 0.98625
+            },
+            "placement_precision": {
+                "original": 0.6428571429,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 4.956888889,
+                "updated": 1.578
+            }
+        },
+        "indication:other": {
+            "num_total": 1825,
+            "precision": {
+                "original": 0.0448780488,
+                "updated": 0.5111111111
+            },
+            "F1": {
+                "original": 0.0825112108,
+                "updated": 0.5111111111
+            },
+            "recall": {
+                "original": 0.5111111111,
+                "updated": 0.5111111111
+            },
+            "MAE": {
+                "original": 2.9428,
+                "updated": 0.8896
+            },
+            "placement_precision": {
+                "original": 0.8181818182,
+                "updated": 0.9375
+            },
+            "MAE_f1": {
+                "original": 35.6654565055,
+                "updated": 1.7405217392
+            }
+        },
+        "comparison:true": {
+            "num_total": 932,
+            "precision": {
+                "original": 0.0669291339,
+                "updated": 0.6071428571
+            },
+            "F1": {
+                "original": 0.118466899,
+                "updated": 0.5573770492
+            },
+            "recall": {
+                "original": 0.5151515152,
+                "updated": 0.5151515152
+            },
+            "MAE": {
+                "original": 1.9483333333,
+                "updated": 0.9158333333
+            },
+            "placement_precision": {
+                "original": 0.875,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 16.4462254836,
+                "updated": 1.643112745
+            }
+        },
+        "comparison:false": {
+            "num_total": 1356,
+            "precision": {
+                "original": 0.0818181818,
+                "updated": 0.5625
+            },
+            "F1": {
+                "original": 0.1422121896,
+                "updated": 0.5526315789
+            },
+            "recall": {
+                "original": 0.5431034483,
+                "updated": 0.5431034483
+            },
+            "MAE": {
+                "original": 2.554,
+                "updated": 0.906
+            },
+            "placement_precision": {
+                "original": 0.6842105263,
+                "updated": 0.9615384615
+            },
+            "MAE_f1": {
+                "original": 17.9590793671,
+                "updated": 1.6394285716
+            }
+        },
+        "gender:F": {
+            "num_total": 877,
+            "precision": {
+                "original": 0.0586956522,
+                "updated": 0.5094339623
+            },
+            "F1": {
+                "original": 0.1040462428,
+                "updated": 0.4821428571
+            },
+            "recall": {
+                "original": 0.4576271186,
+                "updated": 0.4576271186
+            },
+            "MAE": {
+                "original": 1.7857142857,
+                "updated": 0.7878571429
+            },
+            "placement_precision": {
+                "original": 0.8,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 17.1626984084,
+                "updated": 1.6340740743
+            }
+        },
+        "gender:M": {
+            "num_total": 1015,
+            "precision": {
+                "original": 0.0913793103,
+                "updated": 0.5760869565
+            },
+            "F1": {
+                "original": 0.1575037147,
+                "updated": 0.572972973
+            },
+            "recall": {
+                "original": 0.5698924731,
+                "updated": 0.5698924731
+            },
+            "MAE": {
+                "original": 2.4913333333,
+                "updated": 0.941
+            },
+            "placement_precision": {
+                "original": 0.7857142857,
+                "updated": 0.9545454545
+            },
+            "MAE_f1": {
+                "original": 15.817616353,
+                "updated": 1.6423113207
+            }
+        },
+        "gender:unknown": {
+            "num_total": 396,
+            "precision": {
+                "original": 0.0714285714,
+                "updated": 0.7391304348
+            },
+            "F1": {
+                "original": 0.1268656716,
+                "updated": 0.641509434
+            },
+            "recall": {
+                "original": 0.5666666667,
+                "updated": 0.5666666667
+            },
+            "MAE": {
+                "original": 3.225,
+                "updated": 0.99625
+            },
+            "placement_precision": {
+                "original": 0.3333333333,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 25.4205882437,
+                "updated": 1.5529779411
+            }
+        },
+        "age:0-59": {
+            "num_total": 1199,
+            "precision": {
+                "original": 0.0641221374,
+                "updated": 0.5454545455
+            },
+            "F1": {
+                "original": 0.1122994652,
+                "updated": 0.4941176471
+            },
+            "recall": {
+                "original": 0.4516129032,
+                "updated": 0.4516129032
+            },
+            "MAE": {
+                "original": 2.2970833333,
+                "updated": 0.7175
+            },
+            "placement_precision": {
+                "original": 0.9166666667,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 20.4549801658,
+                "updated": 1.4520833332
+            }
+        },
+        "age:60+": {
+            "num_total": 689,
+            "precision": {
+                "original": 0.0994764398,
+                "updated": 0.5588235294
+            },
+            "F1": {
+                "original": 0.1723356009,
+                "updated": 0.5984251969
+            },
+            "recall": {
+                "original": 0.6440677966,
+                "updated": 0.6440677966
+            },
+            "MAE": {
+                "original": 2.2305,
+                "updated": 1.102
+            },
+            "placement_precision": {
+                "original": 0.6666666667,
+                "updated": 0.9285714286
+            },
+            "MAE_f1": {
+                "original": 12.9427697374,
+                "updated": 1.8414999998
+            }
+        },
+        "age:unknown": {
+            "num_total": 400,
+            "precision": {
+                "original": 0.0705394191,
+                "updated": 0.7391304348
+            },
+            "F1": {
+                "original": 0.1254612546,
+                "updated": 0.641509434
+            },
+            "recall": {
+                "original": 0.5666666667,
+                "updated": 0.5666666667
+            },
+            "MAE": {
+                "original": 3.225,
+                "updated": 0.99625
+            },
+            "placement_precision": {
+                "original": 0.3333333333,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 25.7051470614,
+                "updated": 1.5529779411
+            }
+        }
+    },
+    "MAIRA-2": {
+        "all": {
+            "num_total": 2288,
+            "precision": {
+                "original": 0.6340425532,
+                "updated": 0.6803652968
+            },
+            "F1": {
+                "original": 0.7146282974,
+                "updated": 0.7431421446
+            },
+            "recall": {
+                "original": 0.8186813187,
+                "updated": 0.8186813187
+            },
+            "MAE": {
+                "original": 1.434,
+                "updated": 0.9877037037
+            },
+            "placement_precision": {
+                "original": 0.7557251908,
+                "updated": 0.9139784946
+            },
+            "MAE_f1": {
+                "original": 2.0066375838,
+                "updated": 1.3290912255
+            }
+        },
+        "indication:respiratory": {
+            "num_total": 236,
+            "precision": {
+                "original": 0.6666666667,
+                "updated": 0.7272727273
+            },
+            "F1": {
+                "original": 0.7741935484,
+                "updated": 0.813559322
+            },
+            "recall": {
+                "original": 0.9230769231,
+                "updated": 0.9230769231
+            },
+            "MAE": {
+                "original": 1.0791304348,
+                "updated": 1.0256521739
+            },
+            "placement_precision": {
+                "original": 0.6956521739,
+                "updated": 0.8
+            },
+            "MAE_f1": {
+                "original": 1.3938768116,
+                "updated": 1.2606974638
+            }
+        },
+        "indication:intubation": {
+            "num_total": 247,
+            "precision": {
+                "original": 0.8131868132,
+                "updated": 0.8314606742
+            },
+            "F1": {
+                "original": 0.865497076,
+                "updated": 0.875739645
+            },
+            "recall": {
+                "original": 0.925,
+                "updated": 0.925
+            },
+            "MAE": {
+                "original": 1.3372727273,
+                "updated": 0.8463636364
+            },
+            "placement_precision": {
+                "original": 0.746031746,
+                "updated": 0.9111111111
+            },
+            "MAE_f1": {
+                "original": 1.5450921377,
+                "updated": 0.966455774
+            }
+        },
+        "indication:other": {
+            "num_total": 1825,
+            "precision": {
+                "original": 0.5241935484,
+                "updated": 0.5803571429
+            },
+            "F1": {
+                "original": 0.6074766355,
+                "updated": 0.6435643564
+            },
+            "recall": {
+                "original": 0.7222222222,
+                "updated": 0.7222222222
+            },
+            "MAE": {
+                "original": 1.615,
+                "updated": 1.12
+            },
+            "placement_precision": {
+                "original": 0.7796610169,
+                "updated": 0.9523809524
+            },
+            "MAE_f1": {
+                "original": 2.6585384616,
+                "updated": 1.7403076924
+            }
+        },
+        "comparison:true": {
+            "num_total": 932,
+            "precision": {
+                "original": 0.7195121951,
+                "updated": 0.7763157895
+            },
+            "F1": {
+                "original": 0.7972972973,
+                "updated": 0.8309859155
+            },
+            "recall": {
+                "original": 0.8939393939,
+                "updated": 0.8939393939
+            },
+            "MAE": {
+                "original": 1.5051785714,
+                "updated": 0.9385714286
+            },
+            "placement_precision": {
+                "original": 0.7636363636,
+                "updated": 0.9285714286
+            },
+            "MAE_f1": {
+                "original": 1.8878510895,
+                "updated": 1.1294673124
+            }
+        },
+        "comparison:false": {
+            "num_total": 1356,
+            "precision": {
+                "original": 0.5882352941,
+                "updated": 0.6293706294
+            },
+            "F1": {
+                "original": 0.6691449814,
+                "updated": 0.694980695
+            },
+            "recall": {
+                "original": 0.775862069,
+                "updated": 0.775862069
+            },
+            "MAE": {
+                "original": 1.3835443038,
+                "updated": 1.0225316456
+            },
+            "placement_precision": {
+                "original": 0.75,
+                "updated": 0.9019607843
+            },
+            "MAE_f1": {
+                "original": 2.0676300985,
+                "updated": 1.4713094234
+            }
+        },
+        "gender:F": {
+            "num_total": 877,
+            "precision": {
+                "original": 0.6455696203,
+                "updated": 0.68
+            },
+            "F1": {
+                "original": 0.7391304348,
+                "updated": 0.7611940299
+            },
+            "recall": {
+                "original": 0.8644067797,
+                "updated": 0.8644067797
+            },
+            "MAE": {
+                "original": 1.2079166667,
+                "updated": 0.8333333333
+            },
+            "placement_precision": {
+                "original": 0.7173913043,
+                "updated": 0.9375
+            },
+            "MAE_f1": {
+                "original": 1.6342401961,
+                "updated": 1.0947712417
+            }
+        },
+        "gender:M": {
+            "num_total": 1015,
+            "precision": {
+                "original": 0.5873015873,
+                "updated": 0.6324786325
+            },
+            "F1": {
+                "original": 0.6757990868,
+                "updated": 0.7047619048
+            },
+            "recall": {
+                "original": 0.7956989247,
+                "updated": 0.7956989247
+            },
+            "MAE": {
+                "original": 1.596,
+                "updated": 1.0
+            },
+            "placement_precision": {
+                "original": 0.765625,
+                "updated": 0.8775510204
+            },
+            "MAE_f1": {
+                "original": 2.3616486485,
+                "updated": 1.4189189188
+            }
+        },
+        "gender:unknown": {
+            "num_total": 396,
+            "precision": {
+                "original": 0.8,
+                "updated": 0.8888888889
+            },
+            "F1": {
+                "original": 0.8,
+                "updated": 0.8421052632
+            },
+            "recall": {
+                "original": 0.8,
+                "updated": 0.8
+            },
+            "MAE": {
+                "original": 1.4486363636,
+                "updated": 1.2881818182
+            },
+            "placement_precision": {
+                "original": 0.8095238095,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 1.8107954545,
+                "updated": 1.529715909
+            }
+        },
+        "age:0-59": {
+            "num_total": 1199,
+            "precision": {
+                "original": 0.6440677966,
+                "updated": 0.6972477064
+            },
+            "F1": {
+                "original": 0.7203791469,
+                "updated": 0.7524752475
+            },
+            "recall": {
+                "original": 0.8172043011,
+                "updated": 0.8172043011
+            },
+            "MAE": {
+                "original": 1.4453623188,
+                "updated": 0.9073913043
+            },
+            "placement_precision": {
+                "original": 0.776119403,
+                "updated": 0.9230769231
+            },
+            "MAE_f1": {
+                "original": 2.0063911137,
+                "updated": 1.205875286
+            }
+        },
+        "age:60+": {
+            "num_total": 689,
+            "precision": {
+                "original": 0.5632183908,
+                "updated": 0.5903614458
+            },
+            "F1": {
+                "original": 0.6712328767,
+                "updated": 0.6901408451
+            },
+            "recall": {
+                "original": 0.8305084746,
+                "updated": 0.8305084746
+            },
+            "MAE": {
+                "original": 1.4088636364,
+                "updated": 0.9634090909
+            },
+            "placement_precision": {
+                "original": 0.6976744186,
+                "updated": 0.8620689655
+            },
+            "MAE_f1": {
+                "original": 2.0989192951,
+                "updated": 1.3959601112
+            }
+        },
+        "age:unknown": {
+            "num_total": 400,
+            "precision": {
+                "original": 0.8,
+                "updated": 0.8888888889
+            },
+            "F1": {
+                "original": 0.8,
+                "updated": 0.8421052632
+            },
+            "recall": {
+                "original": 0.8,
+                "updated": 0.8
+            },
+            "MAE": {
+                "original": 1.4486363636,
+                "updated": 1.2881818182
+            },
+            "placement_precision": {
+                "original": 0.8095238095,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 1.8107954545,
+                "updated": 1.529715909
+            }
+        }
+    },
+    "MedVersa": {
+        "all": {
+            "num_total": 2288,
+            "precision": {
+                "original": 0.7277777778,
+                "updated": 0.7987804878
+            },
+            "F1": {
+                "original": 0.7237569061,
+                "updated": 0.7572254335
+            },
+            "recall": {
+                "original": 0.7197802198,
+                "updated": 0.7197802198
+            },
+            "MAE": {
+                "original": 1.0697391304,
+                "updated": 0.8633043478
+            },
+            "placement_precision": {
+                "original": 0.8446601942,
+                "updated": 0.9404761905
+            },
+            "MAE_f1": {
+                "original": 1.4780365084,
+                "updated": 1.1400889479
+            }
+        },
+        "indication:respiratory": {
+            "num_total": 236,
+            "precision": {
+                "original": 0.6666666667,
+                "updated": 0.7368421053
+            },
+            "F1": {
+                "original": 0.5957446809,
+                "updated": 0.6222222222
+            },
+            "recall": {
+                "original": 0.5384615385,
+                "updated": 0.5384615385
+            },
+            "MAE": {
+                "original": 0.8015384615,
+                "updated": 0.9438461538
+            },
+            "placement_precision": {
+                "original": 0.9,
+                "updated": 0.8888888889
+            },
+            "MAE_f1": {
+                "original": 1.3454395603,
+                "updated": 1.5168956044
+            }
+        },
+        "indication:intubation": {
+            "num_total": 247,
+            "precision": {
+                "original": 0.8095238095,
+                "updated": 0.8607594937
+            },
+            "F1": {
+                "original": 0.8292682927,
+                "updated": 0.8553459119
+            },
+            "recall": {
+                "original": 0.85,
+                "updated": 0.85
+            },
+            "MAE": {
+                "original": 0.92625,
+                "updated": 0.78203125
+            },
+            "placement_precision": {
+                "original": 0.8245614035,
+                "updated": 0.9130434783
+            },
+            "MAE_f1": {
+                "original": 1.1169485294,
+                "updated": 0.914286535
+            }
+        },
+        "indication:other": {
+            "num_total": 1825,
+            "precision": {
+                "original": 0.6818181818,
+                "updated": 0.7594936709
+            },
+            "F1": {
+                "original": 0.6741573034,
+                "updated": 0.7100591716
+            },
+            "recall": {
+                "original": 0.6666666667,
+                "updated": 0.6666666667
+            },
+            "MAE": {
+                "original": 1.273877551,
+                "updated": 0.9375510204
+            },
+            "placement_precision": {
+                "original": 0.8666666667,
+                "updated": 0.972972973
+            },
+            "MAE_f1": {
+                "original": 1.8895850339,
+                "updated": 1.3203843537
+            }
+        },
+        "comparison:true": {
+            "num_total": 932,
+            "precision": {
+                "original": 0.7878787879,
+                "updated": 0.8524590164
+            },
+            "F1": {
+                "original": 0.7878787879,
+                "updated": 0.8188976378
+            },
+            "recall": {
+                "original": 0.7878787879,
+                "updated": 0.7878787879
+            },
+            "MAE": {
+                "original": 1.15,
+                "updated": 0.8797959184
+            },
+            "placement_precision": {
+                "original": 0.8095238095,
+                "updated": 0.9230769231
+            },
+            "MAE_f1": {
+                "original": 1.4596153846,
+                "updated": 1.0743661696
+            }
+        },
+        "comparison:false": {
+            "num_total": 1356,
+            "precision": {
+                "original": 0.6929824561,
+                "updated": 0.7669902913
+            },
+            "F1": {
+                "original": 0.6869565217,
+                "updated": 0.7214611872
+            },
+            "recall": {
+                "original": 0.6810344828,
+                "updated": 0.6810344828
+            },
+            "MAE": {
+                "original": 1.0101515152,
+                "updated": 0.8510606061
+            },
+            "placement_precision": {
+                "original": 0.868852459,
+                "updated": 0.9555555556
+            },
+            "MAE_f1": {
+                "original": 1.4704737247,
+                "updated": 1.1796346376
+            }
+        },
+        "gender:F": {
+            "num_total": 877,
+            "precision": {
+                "original": 0.65625,
+                "updated": 0.7118644068
+            },
+            "F1": {
+                "original": 0.6829268293,
+                "updated": 0.7118644068
+            },
+            "recall": {
+                "original": 0.7118644068,
+                "updated": 0.7118644068
+            },
+            "MAE": {
+                "original": 0.8833333333,
+                "updated": 0.7233333333
+            },
+            "placement_precision": {
+                "original": 0.8064516129,
+                "updated": 0.9642857143
+            },
+            "MAE_f1": {
+                "original": 1.2934523808,
+                "updated": 1.016111111
+            }
+        },
+        "gender:M": {
+            "num_total": 1015,
+            "precision": {
+                "original": 0.7692307692,
+                "updated": 0.843373494
+            },
+            "F1": {
+                "original": 0.7608695652,
+                "updated": 0.7954545455
+            },
+            "recall": {
+                "original": 0.752688172,
+                "updated": 0.752688172
+            },
+            "MAE": {
+                "original": 1.115,
+                "updated": 0.7832758621
+            },
+            "placement_precision": {
+                "original": 0.8392857143,
+                "updated": 0.9111111111
+            },
+            "MAE_f1": {
+                "original": 1.4654285715,
+                "updated": 0.9846896552
+            }
+        },
+        "gender:unknown": {
+            "num_total": 396,
+            "precision": {
+                "original": 0.76,
+                "updated": 0.8636363636
+            },
+            "F1": {
+                "original": 0.6909090909,
+                "updated": 0.7307692308
+            },
+            "recall": {
+                "original": 0.6333333333,
+                "updated": 0.6333333333
+            },
+            "MAE": {
+                "original": 1.3277777778,
+                "updated": 1.4244444444
+            },
+            "placement_precision": {
+                "original": 0.9375,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 1.9217836258,
+                "updated": 1.9492397659
+            }
+        },
+        "age:0-59": {
+            "num_total": 1199,
+            "precision": {
+                "original": 0.7340425532,
+                "updated": 0.7752808989
+            },
+            "F1": {
+                "original": 0.7379679144,
+                "updated": 0.7582417582
+            },
+            "recall": {
+                "original": 0.7419354839,
+                "updated": 0.7419354839
+            },
+            "MAE": {
+                "original": 1.0894915254,
+                "updated": 0.6859322034
+            },
+            "placement_precision": {
+                "original": 0.8301886792,
+                "updated": 0.9565217391
+            },
+            "MAE_f1": {
+                "original": 1.4763399657,
+                "updated": 0.9046352248
+            }
+        },
+        "age:60+": {
+            "num_total": 689,
+            "precision": {
+                "original": 0.7049180328,
+                "updated": 0.8113207547
+            },
+            "F1": {
+                "original": 0.7166666667,
+                "updated": 0.7678571429
+            },
+            "recall": {
+                "original": 0.7288135593,
+                "updated": 0.7288135593
+            },
+            "MAE": {
+                "original": 0.9168421053,
+                "updated": 0.8728947368
+            },
+            "placement_precision": {
+                "original": 0.8235294118,
+                "updated": 0.8888888889
+            },
+            "MAE_f1": {
+                "original": 1.2793145655,
+                "updated": 1.1367931455
+            }
+        },
+        "age:unknown": {
+            "num_total": 400,
+            "precision": {
+                "original": 0.76,
+                "updated": 0.8636363636
+            },
+            "F1": {
+                "original": 0.6909090909,
+                "updated": 0.7307692308
+            },
+            "recall": {
+                "original": 0.6333333333,
+                "updated": 0.6333333333
+            },
+            "MAE": {
+                "original": 1.3277777778,
+                "updated": 1.4244444444
+            },
+            "placement_precision": {
+                "original": 0.9375,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 1.9217836258,
+                "updated": 1.9492397659
+            }
+        }
+    },
+    "RGRG": {
+        "all": {
+            "num_total": 2288,
+            "precision": {
+                "original": 0.501650165,
+                "updated": 0.5984251969
+            },
+            "F1": {
+                "original": 0.6268041237,
+                "updated": 0.6972477064
+            },
+            "recall": {
+                "original": 0.8351648352,
+                "updated": 0.8351648352
+            },
+            "MAE": {
+                "original": 1.5801075269,
+                "updated": 0.7582795699
+            },
+            "placement_precision": {
+                "original": 0.7727272727,
+                "updated": 0.9558823529
+            },
+            "MAE_f1": {
+                "original": 2.5208952321,
+                "updated": 1.0875325411
+            }
+        },
+        "indication:respiratory": {
+            "num_total": 236,
+            "precision": {
+                "original": 0.5681818182,
+                "updated": 0.625
+            },
+            "F1": {
+                "original": 0.7142857143,
+                "updated": 0.7575757576
+            },
+            "recall": {
+                "original": 0.9615384615,
+                "updated": 0.9615384615
+            },
+            "MAE": {
+                "original": 1.5258823529,
+                "updated": 0.8976470588
+            },
+            "placement_precision": {
+                "original": 0.8125,
+                "updated": 0.9230769231
+            },
+            "MAE_f1": {
+                "original": 2.136235294,
+                "updated": 1.1848941176
+            }
+        },
+        "indication:intubation": {
+            "num_total": 247,
+            "precision": {
+                "original": 0.6979166667,
+                "updated": 0.7528089888
+            },
+            "F1": {
+                "original": 0.7613636364,
+                "updated": 0.7928994083
+            },
+            "recall": {
+                "original": 0.8375,
+                "updated": 0.8375
+            },
+            "MAE": {
+                "original": 1.4409756098,
+                "updated": 0.6709756098
+            },
+            "placement_precision": {
+                "original": 0.725,
+                "updated": 0.9655172414
+            },
+            "MAE_f1": {
+                "original": 1.8926246814,
+                "updated": 0.8462304332
+            }
+        },
+        "indication:other": {
+            "num_total": 1825,
+            "precision": {
+                "original": 0.4101123596,
+                "updated": 0.5214285714
+            },
+            "F1": {
+                "original": 0.5447761194,
+                "updated": 0.6347826087
+            },
+            "recall": {
+                "original": 0.8111111111,
+                "updated": 0.8111111111
+            },
+            "MAE": {
+                "original": 1.6984444444,
+                "updated": 0.7866666667
+            },
+            "placement_precision": {
+                "original": 0.7857142857,
+                "updated": 0.9393939394
+            },
+            "MAE_f1": {
+                "original": 3.1176925418,
+                "updated": 1.2392694064
+            }
+        },
+        "comparison:true": {
+            "num_total": 932,
+            "precision": {
+                "original": 0.6136363636,
+                "updated": 0.675
+            },
+            "F1": {
+                "original": 0.7012987013,
+                "updated": 0.7397260274
+            },
+            "recall": {
+                "original": 0.8181818182,
+                "updated": 0.8181818182
+            },
+            "MAE": {
+                "original": 1.7737142857,
+                "updated": 0.7708571429
+            },
+            "placement_precision": {
+                "original": 0.7352941176,
+                "updated": 0.9230769231
+            },
+            "MAE_f1": {
+                "original": 2.5291851852,
+                "updated": 1.0420846561
+            }
+        },
+        "comparison:false": {
+            "num_total": 1356,
+            "precision": {
+                "original": 0.4558139535,
+                "updated": 0.5632183908
+            },
+            "F1": {
+                "original": 0.5921450151,
+                "updated": 0.675862069
+            },
+            "recall": {
+                "original": 0.8448275862,
+                "updated": 0.8448275862
+            },
+            "MAE": {
+                "original": 1.4632758621,
+                "updated": 0.7506896552
+            },
+            "placement_precision": {
+                "original": 0.7962962963,
+                "updated": 0.9761904762
+            },
+            "MAE_f1": {
+                "original": 2.4711444406,
+                "updated": 1.1107142857
+            }
+        },
+        "gender:F": {
+            "num_total": 877,
+            "precision": {
+                "original": 0.4947368421,
+                "updated": 0.5731707317
+            },
+            "F1": {
+                "original": 0.6103896104,
+                "updated": 0.6666666667
+            },
+            "recall": {
+                "original": 0.7966101695,
+                "updated": 0.7966101695
+            },
+            "MAE": {
+                "original": 1.0786666667,
+                "updated": 0.579
+            },
+            "placement_precision": {
+                "original": 0.7666666667,
+                "updated": 0.9583333333
+            },
+            "MAE_f1": {
+                "original": 1.767177305,
+                "updated": 0.8685
+            }
+        },
+        "gender:M": {
+            "num_total": 1015,
+            "precision": {
+                "original": 0.485380117,
+                "updated": 0.5804195804
+            },
+            "F1": {
+                "original": 0.6287878788,
+                "updated": 0.7033898305
+            },
+            "recall": {
+                "original": 0.8924731183,
+                "updated": 0.8924731183
+            },
+            "MAE": {
+                "original": 1.9004347826,
+                "updated": 0.852826087
+            },
+            "placement_precision": {
+                "original": 0.7674418605,
+                "updated": 0.9393939394
+            },
+            "MAE_f1": {
+                "original": 3.0223782084,
+                "updated": 1.2124515454
+            }
+        },
+        "gender:unknown": {
+            "num_total": 396,
+            "precision": {
+                "original": 0.5945945946,
+                "updated": 0.7586206897
+            },
+            "F1": {
+                "original": 0.6567164179,
+                "updated": 0.7457627119
+            },
+            "recall": {
+                "original": 0.7333333333,
+                "updated": 0.7333333333
+            },
+            "MAE": {
+                "original": 1.5982352941,
+                "updated": 0.8188235294
+            },
+            "placement_precision": {
+                "original": 0.8,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 2.4336764706,
+                "updated": 1.0979679144
+            }
+        },
+        "age:0-59": {
+            "num_total": 1199,
+            "precision": {
+                "original": 0.5170068027,
+                "updated": 0.6229508197
+            },
+            "F1": {
+                "original": 0.6333333333,
+                "updated": 0.7069767442
+            },
+            "recall": {
+                "original": 0.8172043011,
+                "updated": 0.8172043011
+            },
+            "MAE": {
+                "original": 1.6073170732,
+                "updated": 0.6182926829
+            },
+            "placement_precision": {
+                "original": 0.7631578947,
+                "updated": 0.9375
+            },
+            "MAE_f1": {
+                "original": 2.5378690631,
+                "updated": 0.8745587291
+            }
+        },
+        "age:60+": {
+            "num_total": 689,
+            "precision": {
+                "original": 0.4537815126,
+                "updated": 0.5242718447
+            },
+            "F1": {
+                "original": 0.606741573,
+                "updated": 0.6666666667
+            },
+            "recall": {
+                "original": 0.9152542373,
+                "updated": 0.9152542373
+            },
+            "MAE": {
+                "original": 1.5394285714,
+                "updated": 0.8928571429
+            },
+            "placement_precision": {
+                "original": 0.7714285714,
+                "updated": 0.96
+            },
+            "MAE_f1": {
+                "original": 2.5372063493,
+                "updated": 1.3392857143
+            }
+        },
+        "age:unknown": {
+            "num_total": 400,
+            "precision": {
+                "original": 0.5945945946,
+                "updated": 0.7586206897
+            },
+            "F1": {
+                "original": 0.6567164179,
+                "updated": 0.7457627119
+            },
+            "recall": {
+                "original": 0.7333333333,
+                "updated": 0.7333333333
+            },
+            "MAE": {
+                "original": 1.5982352941,
+                "updated": 0.8188235294
+            },
+            "placement_precision": {
+                "original": 0.8,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 2.4336764706,
+                "updated": 1.0979679144
+            }
+        }
+    },
+    "RaDialog": {
+        "all": {
+            "num_total": 2288,
+            "precision": {
+                "original": 0.6736842105,
+                "updated": 0.688172043
+            },
+            "F1": {
+                "original": 0.688172043,
+                "updated": 0.6956521739
+            },
+            "recall": {
+                "original": 0.7032967033,
+                "updated": 0.7032967033
+            },
+            "MAE": {
+                "original": 0.9888888889,
+                "updated": 0.8568253968
+            },
+            "placement_precision": {
+                "original": 0.8055555556,
+                "updated": 0.9204545455
+            },
+            "MAE_f1": {
+                "original": 1.4369791667,
+                "updated": 1.2316865079
+            }
+        },
+        "indication:respiratory": {
+            "num_total": 236,
+            "precision": {
+                "original": 0.7142857143,
+                "updated": 0.7407407407
+            },
+            "F1": {
+                "original": 0.7407407407,
+                "updated": 0.7547169811
+            },
+            "recall": {
+                "original": 0.7692307692,
+                "updated": 0.7692307692
+            },
+            "MAE": {
+                "original": 0.917,
+                "updated": 1.074
+            },
+            "placement_precision": {
+                "original": 0.875,
+                "updated": 0.8461538462
+            },
+            "MAE_f1": {
+                "original": 1.2379500001,
+                "updated": 1.4230500001
+            }
+        },
+        "indication:intubation": {
+            "num_total": 247,
+            "precision": {
+                "original": 0.75,
+                "updated": 0.7702702703
+            },
+            "F1": {
+                "original": 0.7307692308,
+                "updated": 0.7402597403
+            },
+            "recall": {
+                "original": 0.7125,
+                "updated": 0.7125
+            },
+            "MAE": {
+                "original": 0.8758181818,
+                "updated": 0.7123636364
+            },
+            "placement_precision": {
+                "original": 0.7659574468,
+                "updated": 0.8947368421
+            },
+            "MAE_f1": {
+                "original": 1.1984880382,
+                "updated": 0.9623157895
+            }
+        },
+        "indication:other": {
+            "num_total": 1825,
+            "precision": {
+                "original": 0.6262626263,
+                "updated": 0.6326530612
+            },
+            "F1": {
+                "original": 0.6560846561,
+                "updated": 0.6595744681
+            },
+            "recall": {
+                "original": 0.6888888889,
+                "updated": 0.6888888889
+            },
+            "MAE": {
+                "original": 1.1209677419,
+                "updated": 0.9309677419
+            },
+            "placement_precision": {
+                "original": 0.8301886792,
+                "updated": 0.9545454545
+            },
+            "MAE_f1": {
+                "original": 1.7085718001,
+                "updated": 1.4114672216
+            }
+        },
+        "comparison:true": {
+            "num_total": 932,
+            "precision": {
+                "original": 0.7457627119,
+                "updated": 0.7857142857
+            },
+            "F1": {
+                "original": 0.704,
+                "updated": 0.7213114754
+            },
+            "recall": {
+                "original": 0.6666666667,
+                "updated": 0.6666666667
+            },
+            "MAE": {
+                "original": 1.0013953488,
+                "updated": 0.8053488372
+            },
+            "placement_precision": {
+                "original": 0.7894736842,
+                "updated": 0.9090909091
+            },
+            "MAE_f1": {
+                "original": 1.422436575,
+                "updated": 1.1165063425
+            }
+        },
+        "comparison:false": {
+            "num_total": 1356,
+            "precision": {
+                "original": 0.641221374,
+                "updated": 0.6461538462
+            },
+            "F1": {
+                "original": 0.6801619433,
+                "updated": 0.6829268293
+            },
+            "recall": {
+                "original": 0.724137931,
+                "updated": 0.724137931
+            },
+            "MAE": {
+                "original": 0.9824096386,
+                "updated": 0.8834939759
+            },
+            "placement_precision": {
+                "original": 0.8142857143,
+                "updated": 0.9272727273
+            },
+            "MAE_f1": {
+                "original": 1.4443760758,
+                "updated": 1.2936876075
+            }
+        },
+        "gender:F": {
+            "num_total": 877,
+            "precision": {
+                "original": 0.737704918,
+                "updated": 0.737704918
+            },
+            "F1": {
+                "original": 0.75,
+                "updated": 0.75
+            },
+            "recall": {
+                "original": 0.7627118644,
+                "updated": 0.7627118644
+            },
+            "MAE": {
+                "original": 0.8575555556,
+                "updated": 0.6775555556
+            },
+            "placement_precision": {
+                "original": 0.8,
+                "updated": 0.935483871
+            },
+            "MAE_f1": {
+                "original": 1.1434074075,
+                "updated": 0.9034074075
+            }
+        },
+        "gender:M": {
+            "num_total": 1015,
+            "precision": {
+                "original": 0.6095238095,
+                "updated": 0.6274509804
+            },
+            "F1": {
+                "original": 0.6464646465,
+                "updated": 0.6564102564
+            },
+            "recall": {
+                "original": 0.688172043,
+                "updated": 0.688172043
+            },
+            "MAE": {
+                "original": 1.019516129,
+                "updated": 0.9390322581
+            },
+            "placement_precision": {
+                "original": 0.7924528302,
+                "updated": 0.8936170213
+            },
+            "MAE_f1": {
+                "original": 1.577064012,
+                "updated": 1.4305569557
+            }
+        },
+        "gender:unknown": {
+            "num_total": 396,
+            "precision": {
+                "original": 0.7916666667,
+                "updated": 0.8260869565
+            },
+            "F1": {
+                "original": 0.7037037037,
+                "updated": 0.7169811321
+            },
+            "recall": {
+                "original": 0.6333333333,
+                "updated": 0.6333333333
+            },
+            "MAE": {
+                "original": 1.2,
+                "updated": 1.0131578947
+            },
+            "placement_precision": {
+                "original": 0.8666666667,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 1.7052631579,
+                "updated": 1.4130886426
+            }
+        },
+        "age:0-59": {
+            "num_total": 1199,
+            "precision": {
+                "original": 0.696969697,
+                "updated": 0.696969697
+            },
+            "F1": {
+                "original": 0.71875,
+                "updated": 0.71875
+            },
+            "recall": {
+                "original": 0.7419354839,
+                "updated": 0.7419354839
+            },
+            "MAE": {
+                "original": 0.9686567164,
+                "updated": 0.7795522388
+            },
+            "placement_precision": {
+                "original": 0.7966101695,
+                "updated": 0.92
+            },
+            "MAE_f1": {
+                "original": 1.3476963011,
+                "updated": 1.0845944192
+            }
+        },
+        "age:60+": {
+            "num_total": 689,
+            "precision": {
+                "original": 0.5970149254,
+                "updated": 0.625
+            },
+            "F1": {
+                "original": 0.6349206349,
+                "updated": 0.6504065041
+            },
+            "recall": {
+                "original": 0.6779661017,
+                "updated": 0.6779661017
+            },
+            "MAE": {
+                "original": 0.9225,
+                "updated": 0.912
+            },
+            "placement_precision": {
+                "original": 0.7941176471,
+                "updated": 0.8928571429
+            },
+            "MAE_f1": {
+                "original": 1.4529375,
+                "updated": 1.4021999999
+            }
+        },
+        "age:unknown": {
+            "num_total": 400,
+            "precision": {
+                "original": 0.7916666667,
+                "updated": 0.8260869565
+            },
+            "F1": {
+                "original": 0.7037037037,
+                "updated": 0.7169811321
+            },
+            "recall": {
+                "original": 0.6333333333,
+                "updated": 0.6333333333
+            },
+            "MAE": {
+                "original": 1.2,
+                "updated": 1.0131578947
+            },
+            "placement_precision": {
+                "original": 0.8666666667,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 1.7052631579,
+                "updated": 1.4130886426
+            }
+        }
+    },
+    "RadFM": {
+        "all": {
+            "num_total": 2288,
+            "precision": {
+                "original": 0.28125,
+                "updated": 0.4736842105
+            },
+            "F1": {
+                "original": 0.0841121495,
+                "updated": 0.0895522388
+            },
+            "recall": {
+                "original": 0.0494505495,
+                "updated": 0.0494505495
+            },
+            "MAE": {
+                "original": 0.646,
+                "updated": 1.044
+            },
+            "placement_precision": {
+                "original": 1.0,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 7.6802222252,
+                "updated": 11.6580000008
+            }
+        },
+        "indication:respiratory": {
+            "num_total": 236,
+            "precision": {
+                "original": 0.25,
+                "updated": 0.5
+            },
+            "F1": {
+                "original": 0.0666666667,
+                "updated": 0.0714285714
+            },
+            "recall": {
+                "original": 0.0384615385,
+                "updated": 0.0384615385
+            },
+            "MAE": {
+                "original": 1.33,
+                "updated": 0.31
+            },
+            "placement_precision": {
+                "original": 1.0,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 19.94999999,
+                "updated": 4.3400000017
+            }
+        },
+        "indication:intubation": {
+            "num_total": 247,
+            "precision": {
+                "original": 0.125,
+                "updated": 0.25
+            },
+            "F1": {
+                "original": 0.0227272727,
+                "updated": 0.0238095238
+            },
+            "recall": {
+                "original": 0.0125,
+                "updated": 0.0125
+            },
+            "MAE": {
+                "original": 0.4,
+                "updated": 0.26
+            },
+            "placement_precision": {
+                "original": 1.0,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 17.6000000211,
+                "updated": 10.9200000044
+            }
+        },
+        "indication:other": {
+            "num_total": 1825,
+            "precision": {
+                "original": 0.35,
+                "updated": 0.5384615385
+            },
+            "F1": {
+                "original": 0.1272727273,
+                "updated": 0.1359223301
+            },
+            "recall": {
+                "original": 0.0777777778,
+                "updated": 0.0777777778
+            },
+            "MAE": {
+                "original": 0.5,
+                "updated": 1.55
+            },
+            "placement_precision": {
+                "original": 1.0,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 3.9285714277,
+                "updated": 11.4035714283
+            }
+        },
+        "comparison:true": {
+            "num_total": 932,
+            "precision": {
+                "original": 0.1428571429,
+                "updated": 0.5
+            },
+            "F1": {
+                "original": 0.0273972603,
+                "updated": 0.0294117647
+            },
+            "recall": {
+                "original": 0.0151515152,
+                "updated": 0.0151515152
+            },
+            "MAE": {
+                "original": 0,
+                "updated": 0
+            },
+            "placement_precision": {
+                "original": 0.0,
+                "updated": 0.0
+            },
+            "MAE_f1": {
+                "original": 0.0,
+                "updated": 0.0
+            }
+        },
+        "comparison:false": {
+            "num_total": 1356,
+            "precision": {
+                "original": 0.32,
+                "updated": 0.4705882353
+            },
+            "F1": {
+                "original": 0.1134751773,
+                "updated": 0.1203007519
+            },
+            "recall": {
+                "original": 0.0689655172,
+                "updated": 0.0689655172
+            },
+            "MAE": {
+                "original": 0.646,
+                "updated": 1.044
+            },
+            "placement_precision": {
+                "original": 1.0,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 5.6928750002,
+                "updated": 8.6782499985
+            }
+        },
+        "gender:F": {
+            "num_total": 877,
+            "precision": {
+                "original": 0.3076923077,
+                "updated": 0.4444444444
+            },
+            "F1": {
+                "original": 0.1111111111,
+                "updated": 0.1176470588
+            },
+            "recall": {
+                "original": 0.0677966102,
+                "updated": 0.0677966102
+            },
+            "MAE": {
+                "original": 0.91,
+                "updated": 0.2966666667
+            },
+            "placement_precision": {
+                "original": 1.0,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 8.1900000008,
+                "updated": 2.5216666675
+            }
+        },
+        "gender:M": {
+            "num_total": 1015,
+            "precision": {
+                "original": 0.1538461538,
+                "updated": 0.2857142857
+            },
+            "F1": {
+                "original": 0.0377358491,
+                "updated": 0.04
+            },
+            "recall": {
+                "original": 0.0215053763,
+                "updated": 0.0215053763
+            },
+            "MAE": {
+                "original": 0.0,
+                "updated": 0.19
+            },
+            "placement_precision": {
+                "original": 1.0,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 0.0,
+                "updated": 4.75
+            }
+        },
+        "gender:unknown": {
+            "num_total": 396,
+            "precision": {
+                "original": 0.5,
+                "updated": 1.0
+            },
+            "F1": {
+                "original": 0.1666666667,
+                "updated": 0.1818181818
+            },
+            "recall": {
+                "original": 0.1,
+                "updated": 0.1
+            },
+            "MAE": {
+                "original": 0.5,
+                "updated": 4.14
+            },
+            "placement_precision": {
+                "original": 1.0,
+                "updated": 0.0
+            },
+            "MAE_f1": {
+                "original": 2.9999999994,
+                "updated": 22.7700000023
+            }
+        },
+        "age:0-59": {
+            "num_total": 1199,
+            "precision": {
+                "original": 0.3571428571,
+                "updated": 0.5555555556
+            },
+            "F1": {
+                "original": 0.0934579439,
+                "updated": 0.0980392157
+            },
+            "recall": {
+                "original": 0.0537634409,
+                "updated": 0.0537634409
+            },
+            "MAE": {
+                "original": 0.5766666667,
+                "updated": 0.2533333333
+            },
+            "placement_precision": {
+                "original": 1.0,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 6.1703333354,
+                "updated": 2.5839999993
+            }
+        },
+        "age:60+": {
+            "num_total": 689,
+            "precision": {
+                "original": 0.0833333333,
+                "updated": 0.1428571429
+            },
+            "F1": {
+                "original": 0.0281690141,
+                "updated": 0.0303030303
+            },
+            "recall": {
+                "original": 0.0169491525,
+                "updated": 0.0169491525
+            },
+            "MAE": {
+                "original": 1.0,
+                "updated": 0.32
+            },
+            "placement_precision": {
+                "original": 1.0,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 35.4999999805,
+                "updated": 10.5600000011
+            }
+        },
+        "age:unknown": {
+            "num_total": 400,
+            "precision": {
+                "original": 0.5,
+                "updated": 1.0
+            },
+            "F1": {
+                "original": 0.1666666667,
+                "updated": 0.1818181818
+            },
+            "recall": {
+                "original": 0.1,
+                "updated": 0.1
+            },
+            "MAE": {
+                "original": 0.5,
+                "updated": 4.14
+            },
+            "placement_precision": {
+                "original": 1.0,
+                "updated": 0.0
+            },
+            "MAE_f1": {
+                "original": 2.9999999994,
+                "updated": 22.7700000023
+            }
+        }
+    },
+    "VLCI": {
+        "all": {
+            "num_total": 2288,
+            "precision": {
+                "original": 0.25,
+                "updated": 0.5365853659
+            },
+            "F1": {
+                "original": 0.162962963,
+                "updated": 0.197309417
+            },
+            "recall": {
+                "original": 0.1208791209,
+                "updated": 0.1208791209
+            },
+            "MAE": {
+                "original": 3.4995454545,
+                "updated": 0.9777272727
+            },
+            "placement_precision": {
+                "original": 0.8,
+                "updated": 0.875
+            },
+            "MAE_f1": {
+                "original": 21.4744834659,
+                "updated": 4.9552995877
+            }
+        },
+        "indication:respiratory": {
+            "num_total": 236,
+            "precision": {
+                "original": 0.3636363636,
+                "updated": 0.8
+            },
+            "F1": {
+                "original": 0.2162162162,
+                "updated": 0.2580645161
+            },
+            "recall": {
+                "original": 0.1538461538,
+                "updated": 0.1538461538
+            },
+            "MAE": {
+                "original": 5.045,
+                "updated": 2.39
+            },
+            "placement_precision": {
+                "original": 1.0,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 23.3331250017,
+                "updated": 9.261250001
+            }
+        },
+        "indication:intubation": {
+            "num_total": 247,
+            "precision": {
+                "original": 0.5294117647,
+                "updated": 0.8181818182
+            },
+            "F1": {
+                "original": 0.1855670103,
+                "updated": 0.1978021978
+            },
+            "recall": {
+                "original": 0.1125,
+                "updated": 0.1125
+            },
+            "MAE": {
+                "original": 3.6233333333,
+                "updated": 1.0122222222
+            },
+            "placement_precision": {
+                "original": 0.625,
+                "updated": 0.8
+            },
+            "MAE_f1": {
+                "original": 19.5257407415,
+                "updated": 5.117345679
+            }
+        },
+        "indication:other": {
+            "num_total": 1825,
+            "precision": {
+                "original": 0.1639344262,
+                "updated": 0.3846153846
+            },
+            "F1": {
+                "original": 0.1324503311,
+                "updated": 0.1724137931
+            },
+            "recall": {
+                "original": 0.1111111111,
+                "updated": 0.1111111111
+            },
+            "MAE": {
+                "original": 4.291,
+                "updated": 0.569
+            },
+            "placement_precision": {
+                "original": 0.8888888889,
+                "updated": 0.9
+            },
+            "MAE_f1": {
+                "original": 32.3970500063,
+                "updated": 3.3002000001
+            }
+        },
+        "comparison:true": {
+            "num_total": 932,
+            "precision": {
+                "original": 0.3157894737,
+                "updated": 0.6666666667
+            },
+            "F1": {
+                "original": 0.2307692308,
+                "updated": 0.2857142857
+            },
+            "recall": {
+                "original": 0.1818181818,
+                "updated": 0.1818181818
+            },
+            "MAE": {
+                "original": 4.9708333333,
+                "updated": 1.3425
+            },
+            "placement_precision": {
+                "original": 0.8,
+                "updated": 0.8571428571
+            },
+            "MAE_f1": {
+                "original": 21.5402777748,
+                "updated": 4.6987500002
+            }
+        },
+        "comparison:false": {
+            "num_total": 1356,
+            "precision": {
+                "original": 0.2,
+                "updated": 0.4347826087
+            },
+            "F1": {
+                "original": 0.1204819277,
+                "updated": 0.1438848921
+            },
+            "recall": {
+                "original": 0.0862068966,
+                "updated": 0.0862068966
+            },
+            "MAE": {
+                "original": 1.734,
+                "updated": 0.54
+            },
+            "placement_precision": {
+                "original": 0.8,
+                "updated": 0.8888888889
+            },
+            "MAE_f1": {
+                "original": 14.3922000013,
+                "updated": 3.7529999996
+            }
+        },
+        "gender:F": {
+            "num_total": 877,
+            "precision": {
+                "original": 0.2592592593,
+                "updated": 0.5833333333
+            },
+            "F1": {
+                "original": 0.1627906977,
+                "updated": 0.1971830986
+            },
+            "recall": {
+                "original": 0.1186440678,
+                "updated": 0.1186440678
+            },
+            "MAE": {
+                "original": 3.7257142857,
+                "updated": 0.8714285714
+            },
+            "placement_precision": {
+                "original": 0.8333333333,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 22.8865306086,
+                "updated": 4.4193877548
+            }
+        },
+        "gender:M": {
+            "num_total": 1015,
+            "precision": {
+                "original": 0.2777777778,
+                "updated": 0.5357142857
+            },
+            "F1": {
+                "original": 0.2040816327,
+                "updated": 0.2479338843
+            },
+            "recall": {
+                "original": 0.1612903226,
+                "updated": 0.1612903226
+            },
+            "MAE": {
+                "original": 3.394,
+                "updated": 1.0273333333
+            },
+            "placement_precision": {
+                "original": 0.7857142857,
+                "updated": 0.8181818182
+            },
+            "MAE_f1": {
+                "original": 16.6305999962,
+                "updated": 4.1435777776
+            }
+        },
+        "gender:unknown": {
+            "num_total": 396,
+            "precision": {
+                "original": 0.0,
+                "updated": 0.0
+            },
+            "F1": {
+                "original": 0.0,
+                "updated": 0.0
+            },
+            "recall": {
+                "original": 0.0,
+                "updated": 0.0
+            },
+            "MAE": {
+                "original": 0,
+                "updated": 0
+            },
+            "placement_precision": {
+                "original": 0.0,
+                "updated": 0.0
+            },
+            "MAE_f1": {
+                "original": 0,
+                "updated": 0
+            }
+        },
+        "age:0-59": {
+            "num_total": 1199,
+            "precision": {
+                "original": 0.2549019608,
+                "updated": 0.619047619
+            },
+            "F1": {
+                "original": 0.1805555556,
+                "updated": 0.2280701754
+            },
+            "recall": {
+                "original": 0.1397849462,
+                "updated": 0.1397849462
+            },
+            "MAE": {
+                "original": 1.4484615385,
+                "updated": 0.53
+            },
+            "placement_precision": {
+                "original": 0.8461538462,
+                "updated": 1.0
+            },
+            "MAE_f1": {
+                "original": 8.0222485189,
+                "updated": 2.3238461542
+            }
+        },
+        "age:60+": {
+            "num_total": 689,
+            "precision": {
+                "original": 0.3,
+                "updated": 0.4736842105
+            },
+            "F1": {
+                "original": 0.202247191,
+                "updated": 0.2307692308
+            },
+            "recall": {
+                "original": 0.1525423729,
+                "updated": 0.1525423729
+            },
+            "MAE": {
+                "original": 6.4622222222,
+                "updated": 1.6244444444
+            },
+            "placement_precision": {
+                "original": 0.7142857143,
+                "updated": 0.6666666667
+            },
+            "MAE_f1": {
+                "original": 31.9520987671,
+                "updated": 7.0392592581
+            }
+        },
+        "age:unknown": {
+            "num_total": 400,
+            "precision": {
+                "original": 0.0,
+                "updated": 0.0
+            },
+            "F1": {
+                "original": 0.0,
+                "updated": 0.0
+            },
+            "recall": {
+                "original": 0.0,
+                "updated": 0.0
+            },
+            "MAE": {
+                "original": 0,
+                "updated": 0
+            },
+            "placement_precision": {
+                "original": 0.0,
+                "updated": 0.0
+            },
+            "MAE_f1": {
+                "original": 0,
+                "updated": 0
+            }
+        }
+    }
+}

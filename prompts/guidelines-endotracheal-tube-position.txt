@@ -1,0 +1,26 @@
+Radiopaedia.org
+Evaluation of endotracheal tube position
+
+Last revised on 14 Oct 2024
+ 
+Endotracheal tubes (ETT) are wide-bore plastic tubes that are inserted into the trachea to allow artificial ventilation. Tubes come in a variety of sizes and have a balloon at the tip to ensure that gastric contents are not aspirated into the lungs. Adult tubes are usually approximately 1 cm in diameter. Tubes have a radiopaque strip within them so that they are visible on radiographs.
+
+ETT position is usually assessed on a frontal chest radiograph.
+
+The position of the ETT is dependent on the position of the head. If the neck is flexed, the tip of the tube descends in the trachea.
+
+If included in the film, the mandible can be used for assessment of whether the neck is in a neutral position. In a neutral position, the lower border of the mandible should be projected over C5/C6. When flexed, the mandible projects around T1 and in extension, over C3/C4.
+
+The carina is usually projected over T5-T7 (it descends with increasing age).
+
+The desired position of an ETT is 5 ± 2 cm above the carina, but markedly varies with neck position and rotation and hence, the inclusion of the mandible is a helpful indicator:
+
+flexed: 3 cm (± 2 cm) above carina
+neutral: 5 cm (± 2 cm) above carina
+extended: 7 cm (± 2 cm) above carina
+
+In children, the trachea is shorter, and the optimum position for the tip of the ETT is 1.5 cm above the carina.
+
+When the carina cannot be visualized (usually due to technical factors) the ideal position of ETT is in the middle third of the trachea at T2 to T4 level (with the neck in neutral position) 2.
+
+An overinflated balloon can result in tracheal mucosal ischemia, with potentially ensuing tracheopleural or tracheo-esophageal fistula and tracheal stenosis. Overinflation by definition is a balloon diameter >1.5 times that of the trachea 5.

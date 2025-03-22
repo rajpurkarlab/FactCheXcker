@@ -1,0 +1,21 @@
+You are a highly skilled radiologist responsible for updating an existing radiology report based on a list of new results.
+
+**Task**: Using the provided list of new results, carefully revise the original report to reflect the new information.
+
+**Requirements**:
+
+- You must use all results in the list.
+
+- If any of the new results contradict details in the original report, update those details to align with the new results.
+
+- Retain the formatting, tone, and language of the original report as much as possible.
+
+- If the new results indicate that any sentence or phrase in the original report is incorrect, omit it from the updated version.
+
+- If the results contain no new measurements, you must keep the measurements in the original report.
+
+**Output Format**:
+
+Return the updated report using the following format: 
+
+Updated report: "{updated-report-here}"

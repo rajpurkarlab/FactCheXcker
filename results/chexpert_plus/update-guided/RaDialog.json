@@ -1,0 +1,1402 @@
+{
+    "patient64620_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64678_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64680_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64592_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64729_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64545_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64643_study1": {
+        "pipeline_raw": {
+            "ET_present": true,
+            "ET_measurement": 2.42,
+            "ET_placement": "incorrect"
+        }
+    },
+    "patient64661_study1": {
+        "pipeline_raw": {
+            "ET_present": true,
+            "ET_measurement": 3.54,
+            "ET_placement": "correct"
+        }
+    },
+    "patient64604_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64548_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64610_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64702_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64708_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64688_study1": {
+        "pipeline_raw": {
+            "ET_present": true,
+            "ET_measurement": 4.54,
+            "ET_placement": "correct"
+        }
+    },
+    "patient64675_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64580_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64573_study1": {
+        "pipeline_raw": {
+            "ET_present": true,
+            "ET_measurement": 8.66,
+            "ET_placement": "incorrect"
+        }
+    },
+    "patient64595_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64655_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64565_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64612_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64700_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64682_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64683_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64556_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64602_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64589_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64724_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64635_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64698_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64551_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64587_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64613_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64648_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64640_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64543_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64639_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64623_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64705_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64681_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64563_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64605_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64559_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64582_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64691_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64584_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64609_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64564_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64719_study1": {
+        "pipeline_raw": {
+            "ET_present": true,
+            "ET_measurement": 6.54,
+            "ET_placement": "correct"
+        }
+    },
+    "patient64703_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64664_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64670_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64566_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64616_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64644_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64630_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64668_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64740_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64542_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64546_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64652_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64697_study1": {
+        "pipeline_raw": {
+            "ET_present": true,
+            "ET_measurement": 3.44,
+            "ET_placement": "correct"
+        }
+    },
+    "patient64561_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64653_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64615_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64660_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64594_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64637_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64590_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64570_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64641_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64600_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64730_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64547_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64574_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64694_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64727_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64624_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64567_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64689_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64638_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64603_study1": {
+        "pipeline_raw": {
+            "ET_present": true,
+            "ET_measurement": 5.22,
+            "ET_placement": "correct"
+        }
+    },
+    "patient64621_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64571_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64656_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64657_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64713_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64608_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64597_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64728_study1": {
+        "pipeline_raw": {
+            "ET_present": true,
+            "ET_measurement": 2.34,
+            "ET_placement": "incorrect"
+        }
+    },
+    "patient64701_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64672_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64673_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64636_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64585_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64576_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64553_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64667_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64669_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64666_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64555_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64676_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64549_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64693_study1": {
+        "pipeline_raw": {
+            "ET_present": true,
+            "ET_measurement": 5.67,
+            "ET_placement": "correct"
+        }
+    },
+    "patient64554_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64712_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64674_study1": {
+        "pipeline_raw": {
+            "ET_present": true,
+            "ET_measurement": 4.82,
+            "ET_placement": "correct"
+        }
+    },
+    "patient64634_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64709_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64663_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64569_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64575_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64679_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64658_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64647_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64718_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64550_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64607_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64633_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64586_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64611_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64601_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64721_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64706_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64560_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64572_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64692_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64714_study1": {
+        "pipeline_raw": {
+            "ET_present": true,
+            "ET_measurement": 7.42,
+            "ET_placement": "incorrect"
+        }
+    },
+    "patient64646_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64734_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64645_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64579_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64622_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64715_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64568_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64642_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64654_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64723_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64544_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64704_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64732_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64722_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64687_study1": {
+        "pipeline_raw": {
+            "ET_present": true,
+            "ET_measurement": 3.52,
+            "ET_placement": "correct"
+        }
+    },
+    "patient64632_study1": {
+        "pipeline_raw": {
+            "ET_present": true,
+            "ET_measurement": 0.75,
+            "ET_placement": "incorrect"
+        }
+    },
+    "patient64686_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64606_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64739_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64631_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64557_study1": {
+        "pipeline_raw": {
+            "ET_present": true,
+            "ET_measurement": 5.38,
+            "ET_placement": "correct"
+        }
+    },
+    "patient64593_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64651_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64591_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64617_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64696_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64650_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64598_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64690_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64737_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64599_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64736_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64577_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64659_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64677_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64583_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64628_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64625_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64649_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64552_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64618_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64699_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64662_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64738_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64684_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64581_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64717_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64733_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64735_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64726_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64720_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64541_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64671_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64629_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64695_study1": {
+        "pipeline_raw": {
+            "ET_present": true,
+            "ET_measurement": 4.83,
+            "ET_placement": "correct"
+        }
+    },
+    "patient64685_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64716_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64558_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64596_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64614_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64711_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64578_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64707_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64725_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64588_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64627_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64626_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64562_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64710_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64731_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64619_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    },
+    "patient64665_study1": {
+        "pipeline_raw": {
+            "ET_present": false,
+            "ET_measurement": null,
+            "ET_placement": null
+        }
+    }
+}
