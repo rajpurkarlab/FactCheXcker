@@ -18,6 +18,7 @@ import wandb
 
 L2_FLAG_PRINTED = False
 
+
 class CarinaNetModel(ETTModel):
     def __init__(
         self,
@@ -29,38 +30,63 @@ class CarinaNetModel(ETTModel):
         super().__init__(update_method)
 
         if checkpoint is None:
-            model_path = os.path.join(CARINA_NET_OTS_MODEL_DIR, DEFAULT_MODEL_NAME) if model_path == "" else model_path
-            print(f"Loading checkpoint from {model_path} ...") 
-            checkpoint = torch.load(model_path) # GPU
-        
-        state_dict = checkpoint.state_dict() if isinstance(checkpoint, torch.nn.Module) else checkpoint
-        state_dict = state_dict['model_state_dict'] if 'model_state_dict' in state_dict else state_dict
-        
+            model_path = (
+                os.path.join(CARINA_NET_OTS_MODEL_DIR, DEFAULT_MODEL_NAME)
+                if model_path == ""
+                else model_path
+            )
+            print(f"Loading checkpoint from {model_path} ...")
+            if torch.cuda.is_available():
+                checkpoint = torch.load(model_path, weights_only=False)  # GPU
+            else:
+                checkpoint = torch.load(
+                    model_path, weights_only=False, map_location=torch.device("cpu")
+                )  # CPU
+
+        state_dict = (
+            checkpoint.state_dict()
+            if isinstance(checkpoint, torch.nn.Module)
+            else checkpoint
+        )
+        state_dict = (
+            state_dict["model_state_dict"]
+            if "model_state_dict" in state_dict
+            else state_dict
+        )
+
         # Have to reload the default CarinaNet model to get the model architecture
-        if CUDA_AVAILABLE:
-            model = torch.load(model_path).cuda().module # GPU
+        if torch.cuda.is_available():
+            model = torch.load(model_path, weights_only=False).cuda().module  # GPU
         else:
-            model = torch.load(model_path, map_location=torch.device("cpu")).module
-        
-        model.load_state_dict({k.replace('module.', ''): v for k, v in state_dict.items()})
-        model = torch.nn.DataParallel(model)                
+            model = torch.load(
+                model_path, weights_only=False, map_location=torch.device("cpu")
+            ).module
+
+        model.load_state_dict(
+            {k.replace("module.", ""): v for k, v in state_dict.items()}
+        )
+        model = torch.nn.DataParallel(model)
         print("Finished loading")
 
         # save the initial model weights
-        self.initial_model_weights = deepcopy(model.state_dict()) if initial_model_weights is None else initial_model_weights
+        self.initial_model_weights = (
+            deepcopy(model.state_dict())
+            if initial_model_weights is None
+            else initial_model_weights
+        )
 
         if update_method == EWC_UPDATE:
             # initiate the dictionary to store the fisher information matrix and optimal parameters
             self.fisher_dict = {}
             self.optparam_dict = {}
-        
+
         self.model = model
         self.optimizer = get_optimizer(self.model, LEARNING_RATE, WEIGHT_DECAY)
         self.scheduler = get_scheduler(self.optimizer, MAX_LR, PCT_START)
 
     def reset_optimizer(self) -> None:
         self.optimizer = get_optimizer(self.model, LEARNING_RATE, WEIGHT_DECAY)
-        
+
     def reset_scheduler(self) -> None:
         self.scheduler = get_scheduler(self.optimizer, MAX_LR, PCT_START)
 
@@ -106,10 +132,10 @@ class CarinaNetModel(ETTModel):
                     classification_loss, regression_loss = focal_loss
                 else:
                     classification_loss, regression_loss = -1, -1
-                    
+
                 predictions[image_id] = {
-                        CLASSIFICATION_LOSS: classification_loss,
-                        REGRESSION_LOSS: regression_loss,
+                    CLASSIFICATION_LOSS: classification_loss,
+                    REGRESSION_LOSS: regression_loss,
                 }
 
                 scores = scores.cpu().numpy()
@@ -121,7 +147,7 @@ class CarinaNetModel(ETTModel):
                         for c in np.unique(classifications)
                     ]
                 )  # Max detection of each class.
-                
+
                 for idx in idxs:
                     bbox = transformed_anchors[idx, :]
                     x1 = int(bbox[0])
@@ -137,7 +163,7 @@ class CarinaNetModel(ETTModel):
 
         return predictions
 
-    def get_loss(self, images, annotations, use_l2init = False):
+    def get_loss(self, images, annotations, use_l2init=False):
         """
         Helper function for the update functions. Return the loss in train mode
         on a batch of images and annotations.
@@ -161,7 +187,7 @@ class CarinaNetModel(ETTModel):
                 regression_loss = regression_loss.mean()
             except:
                 breakpoint()
-                
+
         loss = classification_loss + regression_loss
 
         if use_l2init:
@@ -171,10 +197,14 @@ class CarinaNetModel(ETTModel):
                 L2_FLAG_PRINTED = True
 
             # calculate the L2 regularization loss towards the initial model weights
-            L2_init_loss = [(v - self.initial_model_weights[k]) ** 2 for k, v in self.model.named_parameters() if v.requires_grad]
+            L2_init_loss = [
+                (v - self.initial_model_weights[k]) ** 2
+                for k, v in self.model.named_parameters()
+                if v.requires_grad
+            ]
             L2_init_loss = sum([l.sum() for l in L2_init_loss])
-            loss+= L2_init_loss * L2_INIT_LAMBDA
-            
+            loss += L2_init_loss * L2_INIT_LAMBDA
+
         if not WANDB_OFF:
             wandb.run.log(
                 {
@@ -184,11 +214,12 @@ class CarinaNetModel(ETTModel):
                 },
                 commit=False,
             )
-            
+
         return classification_loss, regression_loss, loss
 
     def naive_update(
-        self, images: torch.Tensor, 
+        self,
+        images: torch.Tensor,
         annotations: list[torch.Tensor],
         naive_update_dict: dict,
     ) -> None:
@@ -197,7 +228,9 @@ class CarinaNetModel(ETTModel):
         """
         self.optimizer.zero_grad()
 
-        classification_loss, regression_loss, loss = self.get_loss(images, annotations, naive_update_dict.get(HAS_L2INIT, False))
+        classification_loss, regression_loss, loss = self.get_loss(
+            images, annotations, naive_update_dict.get(HAS_L2INIT, False)
+        )
 
         if not WANDB_OFF:
             wandb.run.log(
@@ -231,9 +264,15 @@ class CarinaNetModel(ETTModel):
         """
         self.optimizer.zero_grad()
 
-        classification_loss, regression_loss, loss = self.get_loss(images, annotations, rehearsal_update_dict.get(HAS_L2INIT, False))
+        classification_loss, regression_loss, loss = self.get_loss(
+            images, annotations, rehearsal_update_dict.get(HAS_L2INIT, False)
+        )
 
-        prev_data = rehearsal_update_dict[PREV_DATA] if PREV_DATA in rehearsal_update_dict else []
+        prev_data = (
+            rehearsal_update_dict[PREV_DATA]
+            if PREV_DATA in rehearsal_update_dict
+            else []
+        )
         if len(prev_data) != 0:
             # Randomly sample from the previous images by generating random integers
             random_indices = random.sample(range(len(prev_data)), len(images))
@@ -244,7 +283,11 @@ class CarinaNetModel(ETTModel):
 
             # **accumulate** gradients on the data from the previous task
             addtional_classification_loss, addtional_regression_loss, addtional_loss = (
-                self.get_loss(prev_images, prev_annotations, rehearsal_update_dict.get(HAS_L2INIT, False))
+                self.get_loss(
+                    prev_images,
+                    prev_annotations,
+                    rehearsal_update_dict.get(HAS_L2INIT, False),
+                )
             )
 
             classification_loss += addtional_classification_loss
@@ -260,7 +303,6 @@ class CarinaNetModel(ETTModel):
                 },
                 commit=False,
             )
-
 
         loss.backward()
 
@@ -299,7 +341,9 @@ class CarinaNetModel(ETTModel):
             # accumulate gradient of the current task
             self.optimizer.zero_grad()
             for images, annotations in EWC_update_dict[CURR_DOMAIN_DATA]:
-                _, _, loss = self.get_loss(images, annotations, EWC_update_dict.get(HAS_L2INIT, False))
+                _, _, loss = self.get_loss(
+                    images, annotations, EWC_update_dict.get(HAS_L2INIT, False)
+                )
                 loss.backward()
 
             # Update Fisher diagonal for each weight for the current task
@@ -316,7 +360,9 @@ class CarinaNetModel(ETTModel):
 
         self.optimizer.zero_grad()
 
-        classification_loss, regression_loss, loss = self.get_loss(images, annotations, EWC_update_dict.get(HAS_L2INIT, False))
+        classification_loss, regression_loss, loss = self.get_loss(
+            images, annotations, EWC_update_dict.get(HAS_L2INIT, False)
+        )
 
         if EWC_update_dict[PREV_DOMAIN_NAME] in self.optparam_dict:
             prev_task_fisher_diag_dict = self.fisher_dict[
@@ -336,7 +382,7 @@ class CarinaNetModel(ETTModel):
             loss += EWC_loss
             if not WANDB_OFF:
                 wandb.run.log({"EWC_loss": EWC_loss.item()}, commit=False)
-        
+
         if not WANDB_OFF:
             wandb.run.log(
                 {

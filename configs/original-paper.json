@@ -1,0 +1,9 @@
+{
+    "find": {
+        "ett": "tools.find.find_ett_carinanet",
+        "carina": "tools.find.find_carina_carinanet"
+    },
+    "exists": {
+        "ett": "tools.exists.exists_ett_resnet"
+    }
+}
