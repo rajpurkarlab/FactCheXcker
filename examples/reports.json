@@ -1,0 +1,20 @@
+{
+    "id0001": {
+        "report": "The endotracheal tube is approximately 1.6 cm above the carina.",
+        "image_path": "examples/id0001.jpg",
+        "original_size": [3056, 2544],
+        "pixel_spacing": [0.139, 0.139]
+    },
+    "id0002": {
+        "report": "The ETT is 3.4 cm above the carina. No evidence of pneumothorax.",
+        "image_path": "examples/id0002.jpg",
+        "original_size": [2544, 2980],
+        "pixel_spacing": [0.139, 0.139]
+    },
+    "id0003": {
+        "report": "No pleural effusion. An ETT tube is positioned about 6 cm from the carina.",
+        "image_path": "examples/id0003.jpg",
+        "original_size": [2544, 3056],
+        "pixel_spacing": [0.139, 0.139]
+    }
+}
