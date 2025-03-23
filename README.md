@@ -20,10 +20,11 @@ The following command will pull and install the latest commit from this reposito
 git clone git+https://github.com/rajpurkarlab/FactCheXcker
 ```
 
-## 🗂️ Files
+## 🛠️ Tools
 
-- `src/api.py`: Contains the implementation of the medical-specific API presented in the paper.
-- `src/FactCheXcker.py`: Implements the Query Generator, Code Generator, and Report Updater modules.
+Please follow these steps to add, edit, and delete tools to be used in the FactCheXcker pipeline.
+
+The files `tools/find.py` and `tools/exists.py` contain implementations of the `find` and `exists` commands presented in the paper.
 
 ## ⌨️ Command-line usage
 
