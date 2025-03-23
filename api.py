@@ -1,3 +1,7 @@
+# ============================ #
+# IMPORTS                      #
+# ============================ #
+
 from typing import List, Tuple, Optional, Callable, Dict
 import h5py
 import torch
@@ -5,6 +9,12 @@ import math
 import re
 import importlib
 import json
+import matplotlib.pyplot as plt
+from PIL import Image
+
+# ============================ #
+# CXRModuleRegistry            #
+# ============================ #
 
 
 class CXRModuleRegistry:
@@ -44,6 +54,11 @@ class CXRModuleRegistry:
         return command_func
 
 
+# ============================ #
+# CXRObject                    #
+# ============================ #
+
+
 class CXRObject:
     """A Python class containing an image object with bounding box information.
 
@@ -55,6 +70,13 @@ class CXRObject:
         A tuple representing the bounding box in the format (left, lower, right, upper).
 
     The object is considered a point if left == right and lower == upper.
+
+    Methods
+    -------
+    is_point() -> bool
+        Returns true if the objects bounding box is a point.
+    get_center() -> Tuple[float, float]
+        Returns the center of the object's bounding box or the point if it's a single point.
     """
 
     def __init__(
@@ -82,7 +104,29 @@ class CXRObject:
             return center
 
 
+# ============================ #
+# CXRSegmentation              #
+# ============================ #
+
+
 class CXRSegmentation:
+    """A Python class containing an anatomical region.
+
+    Parameters
+    ----------
+    object_name : str
+        The object name.
+    segmentation_map : List[int, int]
+        A binary segmentation map of the anatomical region.
+
+    Methods
+    -------
+    get_pixel_width() -> float
+        Returns the widest pixel width of the segmentation
+    get_pixel_height() -> float
+        Returns the tallest pixel height of the segmentation
+    """
+
     def __init__(self, region_name, segmentation_map):
         self.region_name = region_name
         self.segmentation_map = segmentation_map
@@ -102,6 +146,11 @@ class CXRSegmentation:
         if len(indices) > 0:
             height = indices[-1].item() - indices[0].item()
         return height
+
+
+# ============================ #
+# CXRImage                     #
+# ============================ #
 
 
 class CXRImage:
@@ -170,6 +219,13 @@ class CXRImage:
         query = query.strip()
         return query
 
+    def point_to_bbox(
+        self, point: Tuple[float, float]
+    ) -> Tuple[float, float, float, float]:
+        """Convert a point to a bounding box with zero area (centered on the point)."""
+        x, y = point
+        return (x, y, x, y)
+
     def rescale_x(self, value: float, width: int) -> float:
         """Rescale predicted image value"""
         return value * (self.original_width / width)
@@ -185,8 +241,22 @@ class CXRImage:
     ) -> float:
         """Rescale predicted image value"""
         rescaled = (
-            self.rescale_x(point[0], self.original_width, curr_dim[0]),
-            self.rescale_y(point[1], self.original_height[1], curr_dim[1]),
+            self.rescale_x(point[0], curr_dim[0]),
+            self.rescale_y(point[1], curr_dim[1]),
+        )
+        return rescaled
+
+    def rescale_bbox(
+        self,
+        bbox: Tuple[float, float, float, float],
+        curr_dim: Tuple[float, float],
+    ) -> float:
+        """Rescale predicted image value"""
+        rescaled = (
+            self.rescale_x(bbox[0], curr_dim[0]),
+            self.rescale_y(bbox[1], curr_dim[1]),
+            self.rescale_x(bbox[2], curr_dim[0]),
+            self.rescale_y(bbox[3], curr_dim[1]),
         )
         return rescaled
 
@@ -264,7 +334,9 @@ class CXRImage:
         if find_func is None:
             print(f"[Warning] No 'find' function registered for '{object_name}'")
             return []
-        found_bboxes = find_func(self)  # Function should return a list of bbox tuples
+        found_bboxes = find_func(
+            self, object_name
+        )  # Function should return a list of bbox tuples
         return [CXRObject(object_name=object_name, bbox=bbox) for bbox in found_bboxes]
 
     def exists(self, object_name: str) -> bool:
@@ -281,7 +353,7 @@ class CXRImage:
         if exists_func is None:
             print(f"[Warning] No 'exists' function registered for '{object_name}'")
             return False
-        return exists_func(self)
+        return exists_func(self, object_name)
 
     def segment(self, region_name: str) -> CXRSegmentation:
         """Returns a segmentation map of the image based on the region specified.
@@ -335,3 +407,10 @@ class CXRImage:
     ) -> List[CXRObject]:
         """Returns all objects with their center within the region."""
         return [obj for obj in objects if self.within(obj, region)]
+
+    def display(self):
+        """Displays a Chest X-ray image"""
+        image = Image.open(self.image_path).convert("RGB")
+        fig, ax = plt.subplots(dpi=300)
+        plt.imshow(image)
+        plt.show()

@@ -9,6 +9,7 @@ from api import CXRImage
 from PIL import Image
 import torch
 import torchvision.transforms as transforms
+
 from models.CarinaNet.CarinaNetModel import CarinaNetModel
 
 # ============================ #
@@ -40,9 +41,9 @@ def get_carinanet_predictions(cxr_image, resized_dim):
     tensor_image = preprocess_image_carinanet(cxr_image.image_path, resized_dim)
     if torch.cuda.is_available():
         tensor_image = tensor_image.cuda()
-    input_image = tensor_image.unsqueeze(0)
     images_and_ids = [(tensor_image, cxr_image.rid)]
     predictions = model_carinanet.predict(images_and_ids)
+    # predictions = {cxr_image.rid: [(254.5, 182.0), (253.5, 124.5)]} # debug
     preds = {
         "carina": predictions[cxr_image.rid][0],
         "ett": predictions[cxr_image.rid][1],
@@ -50,19 +51,26 @@ def get_carinanet_predictions(cxr_image, resized_dim):
     return preds
 
 
-def find_ett_carinanet(cxr_image: CXRImage):
+def find_ett_carinanet(cxr_image: CXRImage, object_name: str):
     """Find the ETT location in an image."""
     resized_dim = 640
     preds = get_carinanet_predictions(cxr_image, resized_dim)
     point_prediction = preds["ett"]
+    print(point_prediction)
     rescaled = cxr_image.rescale_point(
         point_prediction,
-        (cxr_image.original_width, cxr_image.original_height),
         (resized_dim, resized_dim),
     )
     return [cxr_image.point_to_bbox(rescaled)]
 
 
-def find_carina_carinanet(cxr_image: CXRImage):
-    """Find the carina location in an image."""
-    return [[0.5, 1, 1.5, 2.0]]
+def find_carina_carinanet(cxr_image: CXRImage, object_name: str):
+    """Find the Carina location in an image."""
+    resized_dim = 640
+    preds = get_carinanet_predictions(cxr_image, resized_dim)
+    point_prediction = preds["carina"]
+    rescaled = cxr_image.rescale_point(
+        point_prediction,
+        (resized_dim, resized_dim),
+    )
+    return [cxr_image.point_to_bbox(rescaled)]

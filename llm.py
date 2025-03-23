@@ -1,9 +1,23 @@
+# ============================ #
+# IMPORTS                      #
+# ============================ #
+
 import openai
 from openai import AzureOpenAI
+from openai import OpenAI
 import os
 from constants import OPENAI_API_VERSION, OPENAI_AZURE_ENDPOINT, OPENAI_MODEL_NAME
 
-### OpenAI Client
+# ============================ #
+# LLM Client (uncomment/add)   #
+# ============================ #
+
+# Default OpenAI (uncomment if )
+# client = AzureOpenAI(
+#     api_key=os.getenv("OPENAI_API_KEY"),
+# )
+
+# Azure OpenAI
 client = AzureOpenAI(
     api_version=OPENAI_API_VERSION,
     api_key=os.getenv("AZURE_OPENAI_API_KEY"),

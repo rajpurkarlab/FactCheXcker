@@ -1,6 +1,15 @@
+# ============================ #
+# IMPORTS                      #
+# ============================ #
+
 from typing import List
-from helpers import load_prompt
+from helpers import load_prompt, load_json
 from llm import run_query
+from api import *
+
+# ============================ #
+# FactCheXcker                 #
+# ============================ #
 
 
 class FactCheXcker:
@@ -12,9 +21,22 @@ class FactCheXcker:
         Steps of the pipeline mapped to their corresponding driving prompt.
     """
 
-    def __init__(self):
-        with open("prompts/api.txt") as f:
-            api_reference = f.read()
+    def __init__(self, config: str):
+        # Dynamically create the api prompt based on the config
+        config_json = load_json(config)
+        supports = {}
+        for command in ["exists", "find", "segment"]:
+            if command in config_json:
+                supports[command] = list(config_json[command].keys())
+
+        self.api_reference = load_prompt(
+            "prompts/api_dynamic.txt",
+            placeholders=[
+                ("{exists_supports}", str(supports.get("exists", []))),
+                ("{find_supports}", str(supports.get("find", []))),
+                ("{segment_supports}", str(supports.get("segment", []))),
+            ],
+        )
 
         # Set up actions with dynamic prompts
         self.actions = {
@@ -23,7 +45,7 @@ class FactCheXcker:
             ),
             "generate-code": load_prompt(
                 "prompts/generate-code.prompt",
-                placeholders=[("{api_reference}", api_reference)],
+                placeholders=[("{api_reference}", self.api_reference)],
             ),
             "update-report": load_prompt(
                 "prompts/update-report.prompt",
@@ -116,3 +138,20 @@ class FactCheXcker:
             return ("incorrect", "endotracheal tube is in incorrect position.")
         else:
             return ("correct", "endotracheal tube is in stable position.")
+
+    def run_pipeline(self, cxr_image: CXRImage):
+        # Query Generator
+        queries = self.generate_queries(cxr_image.report)
+        results = []
+        for query in queries:
+            # Code Generator
+            code = self.generate_code(query)
+
+            # Execute Code
+            exec(code, globals())
+            result = get_result(cxr_image)
+            results.append(result)
+
+        # Update the report
+        updated = self.update_report(cxr_image.report, results)
+        return updated

@@ -1,0 +1,82 @@
+class CXRObject:
+    """A Python class containing an image object with bounding box information.
+
+    Parameters
+    ----------
+    object_name : str
+        The object name.
+    bbox : Tuple[float, float, float, float]
+        A tuple representing the bounding box in the format (left, lower, right, upper).
+
+    The object is considered a point if left == right and lower == upper.
+    
+    Methods
+    -------
+    is_point() -> bool
+        Returns true if the objects bounding box is a point.
+    get_center() -> Tuple[float, float]
+        Returns the center of the object's bounding box or the point if it's a single point.
+    """
+
+class CXRSegmentation:
+    """A Python class containing an anatomical region.
+
+    Parameters
+    ----------
+    object_name : str
+        The object name.
+    segmentation_map : List[int, int]
+        A binary segmentation map of the anatomical region.
+
+    Methods
+    -------
+    get_pixel_width() -> float
+        Returns the widest pixel width of the segmentation
+    get_pixel_height() -> float
+        Returns the tallest pixel height of the segmentation
+    """
+
+class CXRImage:
+    """A Python class containing an image related to a report as well as relevant information.
+
+    Parameters
+    ----------
+    rid: str
+        Id of CXR Image object
+    report: str
+        Generated model report for the image.
+    image_path: str
+        Full image path.
+    original_size: List[int]
+        The original WxH of the image.
+    pixel_spacing: Tuple[float, float]
+        Pixel spacing (mm) in the x- and y-directions.
+    cache: ModuleCache
+        An instance of ModuleCache to retrieve precomputed segmentation and measurement data.
+
+    Methods
+    -------
+    exists(object_name: str) -> bool
+        Returns True if the object specified by object_name is found in the image, and False otherwise.
+        Currently supports {exists_supports}
+    find(object_name: str) -> List[CXRObject]
+        Returns a list of CXRObjects centered around any objects found in the image matching the object_name.
+        Currently supports {find_supports}
+    segment(region_name: str) -> CXRSegmentation
+        Returns a segmentation map of the image based on the region specified.
+        Currently supports {segment_supports}
+    within(ob: CXRObject, region: CXRSegmentation) -> bool
+        Returns true of if the object center is within the region.
+    distance(obj_a: CXRObject  obj_b: CXRObject) -> float
+        Returns the distance (in cm) between the center of two objects in the image.
+    diameter(obj: CXRObject) -> float
+        Returns the diameter (in cm) of the CXRObject.
+    dimensions(obj: CXRObject) -> Tuple[float, float]
+        Returns the dimensions (in cm) of the CXRObject according to major axis x minor axis.
+    width(segmentation: CXRSegmentation) -> float
+        Returns the greatest width (in cm) of a segmentation.
+    height(segmentation: CXRSegmentation) -> float
+        Returns the greatest height (in cm) of a segmentation.
+    filter(objects: [CXROBject], region: CXRSegmentation) -> List[CXRObject]
+        Returns all objects with their center within the region.
+    """

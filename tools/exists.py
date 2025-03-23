@@ -46,7 +46,7 @@ def preprocess_image_resnet(image_path, target_size=512):
 # ============================ #
 
 
-def exists_ett_resnet(cxr_image: CXRImage):
+def exists_ett_resnet(cxr_image: CXRImage, object_name: str):
     """Check if ETT exists ResNet."""
     tensor_image = preprocess_image_resnet(cxr_image.image_path)
     if torch.cuda.is_available():
