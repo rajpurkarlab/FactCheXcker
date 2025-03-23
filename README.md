@@ -20,6 +20,12 @@ The following command will pull and install the latest commit from this reposito
 git clone git+https://github.com/rajpurkarlab/FactCheXcker
 ```
 
+Create and install the conda environment using the provided `environment.yml` file:
+
+```bash
+conda env create -f environment.yml
+```
+
 ## 🛠️ Tools
 
 Please follow these steps to add, edit, and delete tools to be used in the FactCheXcker pipeline.
