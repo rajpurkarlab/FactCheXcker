@@ -25,7 +25,16 @@ FactCheXcker has three main components: Query Generator, Code Generator, and Rep
 git clone git+https://github.com/rajpurkarlab/FactCheXcker
 ```
 
-**Step 2:** Create and install the conda environment using the provided `environment.yml` file:
+**Step 2:** Create and install the environment using virtual environments and pip or conda.
+
+Virtual env + pip: setup the environment using the provided `requirements.txt` file:
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+Conda: setup the conda environment using the provided `environment.yml` file:
 
 ```bash
 conda env create -f environment.yml
