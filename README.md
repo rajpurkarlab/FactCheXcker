@@ -1,7 +1,7 @@
 
 # 🩻 FactCheXcker
 
-[[CVPR Paper (coming soon!)]]()
+[[CVPR 2025 Paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Heiman_FactCheXcker_Mitigating_Measurement_Hallucinations_in_Chest_X-ray_Report_Generation_Models_CVPR_2025_paper.html)
 [[Arxiv Paper]](https://arxiv.org/abs/2411.18672)
 [[Notebook example]](https://github.com/rajpurkarlab/FactCheXcker/blob/main/factchexcker_examples.ipynb)
 
